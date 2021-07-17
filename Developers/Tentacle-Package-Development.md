@@ -43,7 +43,7 @@ tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/metad
 
 A tentacle package metadata.json contains :
 
-``` {.sourceCode .json}
+``` json
 {
   "version": "YOUR_TP_VERSION",
   "origin_package": "YOUR_TP_ORIGIN_PACKAGE",
@@ -70,7 +70,7 @@ the tentacle
 
 Example *DailyTradingMode/metadata.json* :
 
-``` {.sourceCode .json}
+``` json
 {
   "version": "1.2.0",
   "origin_package": "OctoBot-Default-Tentacles",

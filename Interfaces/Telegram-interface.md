@@ -32,7 +32,7 @@ Configuration
 
 Add in **user/config.json** in the services key :
 
-``` {.sourceCode .json}
+``` json
 "telegram": {
        "chat-id": "YOUR_CHAT_ID",
        "token": "YOUR_BOT_TOKEN"
@@ -41,7 +41,7 @@ Add in **user/config.json** in the services key :
 
 **Exemple:**
 
-``` {.sourceCode .json}
+``` json
 "services": {
    "a service": {
 
@@ -74,7 +74,7 @@ must not be on or you will just receive this message
 
 Search for:
 
-``` {.sourceCode .}
+``` bash
 chat:
     id: XXXXXXXXX
 ```

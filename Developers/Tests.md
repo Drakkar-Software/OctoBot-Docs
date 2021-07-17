@@ -14,7 +14,7 @@ OctoBot engine
 To run OctoBot\'s engine tests, use the *pytest tests* in OctoBot\'s
 root folder :
 
-``` {.sourceCode .bash}
+``` bash
 pytest tests
 ```
 
@@ -26,7 +26,7 @@ Tentacles
 To run OctoBot\'s tentacles tests, use the *pytest tentacles* command in
 OctoBot\'s root folder :
 
-``` {.sourceCode .bash}
+``` bash
 pytest tentacles
 ```
 

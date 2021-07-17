@@ -18,7 +18,7 @@ Installing alpine on Termux
 
 Run the following command to create an alpine file system on Termux
 
-``` {.sourceCode .bash}
+``` bash
 curl -LO https://raw.githubusercontent.com/Hax4us/TermuxAlpine/master/TermuxAlpine.sh
 bash TermuxAlpine.sh
 startalpine
@@ -30,7 +30,7 @@ Installing udocker
 Install udocker to run OctoBot\'s docker container on alpine without
 root
 
-``` {.sourceCode .bash}
+``` bash
 apk update
 apk add python3 curl wget
 wget https://github.com/indigo-dc/udocker/releases/download/devel3_1.2.7/udocker-1.2.7.tar.gz
@@ -46,7 +46,7 @@ Running stable OctoBot
 
 Start OctoBot container
 
-``` {.sourceCode .bash}
+``` bash
 docker run --name OctoBot -p 88888:5001 -v `pwd`/user:/octobot/user -v `pwd`/tentacles:/octobot/tentacles -v `pwd`/logs:/octobot/logs drakkarsoftware/octobot:stable
 ```
 

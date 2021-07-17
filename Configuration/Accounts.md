@@ -13,7 +13,7 @@ Exchanges
 Once you have your own **user/config.json** file, to start using OctoBot
 with real money, you will just need to add your exchange credentials.
 
-``` {.sourceCode .json}
+``` json
 "exchanges": {
     "EXCHANGE_NAME": {
       "api-key": "",
@@ -60,7 +60,7 @@ Alternatively to using the web interface to configure OctoBot
 notifications, you can edit your **user/config.json** file and edit this
 configuration :
 
-``` {.sourceCode .json}
+``` json
 "notification":{
   "global-info": true,
   "price-alerts": false,
@@ -83,7 +83,7 @@ type at the same time, in this case add a \"**,**\" between types.
 
 example:
 
-``` {.sourceCode .json}
+``` json
 "notification-type": ["telegram", "web"]
 ```
 
@@ -95,7 +95,7 @@ configuration docs](Discord-Interface.html)
 Open your **user/config.json** file and set the notification type value
 **TwitterService** :
 
-``` {.sourceCode .json}
+``` json
 "notification-type": ["twitter"]
 ```
 
@@ -107,7 +107,7 @@ configuration docs](Twitter-Interface.html)
 Open your **user/config.json** file and set the notification type value
 **telegram** :
 
-``` {.sourceCode .json}
+``` json
 "notification-type": ["telegram"]
 ```
 
@@ -119,7 +119,7 @@ configuration docs](Telegram-interface.html)
 Open your **user/config.json** file and set the notification type value
 **web** :
 
-``` {.sourceCode .json}
+``` json
 "notification-type": ["web"]
 ```
 

@@ -19,13 +19,13 @@ python3.8-pip installed on your computer.**
 
 Clone the OctoBot repository
 
-``` {.sourceCode .bash}
+``` bash
 $ git clone https://github.com/Drakkar-Software/OctoBot
 ```
 
 Install python packages :
 
-``` {.sourceCode .bash}
+``` bash
 $ cd OctoBot
 $ python3 -m pip install -Ur requirements.txt
 $ python3 start.py tentacles --install --all
@@ -39,13 +39,13 @@ OctoBot but might broken depending on the moment it is being done
 
 Clone the OctoBot repository using the **dev** branch
 
-``` {.sourceCode .bash}
+``` bash
 $ git clone https://github.com/Drakkar-Software/OctoBot -b dev
 ```
 
 *Or if you already have an OctoBot repository*
 
-``` {.sourceCode .bash}
+``` bash
 $ git checkout dev
 $ git pull
 ```
@@ -54,7 +54,7 @@ Install python packages :
 
 On Unix systems
 
-``` {.sourceCode .bash}
+``` bash
 $ cd OctoBot
 $ python3 -m pip install -Ur requirements.txt
 $ export TENTACLES_URL_TAG="latest"
@@ -63,7 +63,7 @@ $ python3 start.py tentacles --install --all
 
 On Windows systems
 
-``` {.sourceCode .bash}
+``` bash
 $ cd OctoBot
 $ python3 -m pip install -Ur requirements.txt
 $ SET TENTACLES_URL_TAG=latest
@@ -75,7 +75,7 @@ Usage
 
 The following command replaces *OctoBot Launcher*:
 
-``` {.sourceCode .bash}
+``` bash
 $ python3 start.py
 ```
 
@@ -97,7 +97,7 @@ With the Linux screen command, you can push running terminal
 applications to the background and pull them forward when you want to
 see them.
 
-``` {.sourceCode .bash}
+``` bash
 $ sudo apt-get install -y screen
 $ screen python3 start.py
 ```
@@ -106,7 +106,7 @@ You need the number from the start of the window name to reattach it. If
 you forget it, you can always use the -ls (list) option, as shown below,
 to get a list of the detached windows:
 
-``` {.sourceCode .bash}
+``` bash
 $ screen -ls
 $ screen -r 23167
 ```

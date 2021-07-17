@@ -29,7 +29,7 @@ github](https://github.com/Drakkar-Software/OctoBot/blob/master/octobot/config/d
 
 Example of **tentacles\_config.json**:
 
-``` {.sourceCode .json}
+``` json
 {
   "RSIMomentumEvaluator": true,
   "DoubleMovingAverageTrendEvaluator": true,

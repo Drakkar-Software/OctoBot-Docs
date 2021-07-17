@@ -12,7 +12,7 @@ Please be careful when manually editing them or OctoBot won\'t be able
 to read them and wont start. Json file are readable and editable using
 any text editor.
 
-``` {.sourceCode .}
+``` bash
 ERROR    root <class 'Exception'>: Error when load config
 ```
 
@@ -76,7 +76,7 @@ available funds.
 
 Examples:
 
-``` {.sourceCode .json}
+``` json
 "crypto-currencies":{
     "Bitcoin": {
       "pairs": ["BTC/USDT"],
@@ -87,7 +87,7 @@ Examples:
 
 OctoBot trading only Bitcoin against USDT
 
-``` {.sourceCode .json}
+``` json
 "crypto-currencies":{
     "Bitcoin": {
       "pairs": ["BTC/USDT"],
@@ -113,7 +113,7 @@ false)
 To tell OctoBot to trade all BTC trading pairs (with BTC as a quote
 asset), use the wildcard \"\*\" instead of a list for \"pairs\":
 
-``` {.sourceCode .json}
+``` json
 "crypto-currencies":{
     "Bitcoin": {
       "pairs": ["*"],
@@ -133,7 +133,7 @@ Exchanges
 Open your **user/profiles/\<profile\_name\>/profile.json** file and edit
 this configuration :
 
-``` {.sourceCode .json}
+``` json
 "trader":{
   "enabled": true,
   "load-trade-history": false
@@ -167,7 +167,7 @@ OctoBot can process two types of trading:
 Or edit the trader key in
 **user/profiles/\<profile\_name\>/profile.json** :
 
-``` {.sourceCode .json}
+``` json
 "trading":{
   "reference-market": "BTC",
   "risk": 0.8

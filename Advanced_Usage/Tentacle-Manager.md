@@ -17,7 +17,7 @@ install OctoBot, you dont need to do this.
 Otherwise, after the [developer installation](For-Developers.html) of
 your OctoBot, you just have to type :
 
-``` {.sourceCode .}
+``` bash
 python start.py tentacles --install --all
 ```
 
@@ -47,6 +47,6 @@ repositories (see above).*
 
 To install a tentacle, type:
 
-``` {.sourceCode .}
+``` bash
 python start.py tentacles --install NAME_OF_YOUR_TENTACLE
 ```

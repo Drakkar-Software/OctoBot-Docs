@@ -20,7 +20,7 @@ Don't forget to run the following command at the end of the
 installation (and logout)
 {% endhint %}
 
-``` {.sourceCode .bash}
+``` bash
 sudo usermod -aG docker $USER
 ```
 
@@ -34,13 +34,13 @@ Running stable OctoBot
 
 1.  Download OctoBot stable
 
-``` {.sourceCode .bash}
+``` bash
 docker pull drakkarsoftware/octobot:stable
 ```
 
 2.  Start OctoBot (for linux x64/x86 and raspberry linux arm64/arm32)
 
-``` {.sourceCode .bash}
+``` bash
 docker run -itd --name OctoBot -p 80:5001 -v $(pwd)/user:/octobot/user -v $(pwd)/tentacles:/octobot/tentacles -v $(pwd)/logs:/octobot/logs drakkarsoftware/octobot:stable
 ```
 
@@ -49,37 +49,37 @@ Running latest OctoBot image build (may be unstable)
 
 1.  Download OctoBot latest
 
-``` {.sourceCode .bash}
+``` bash
 docker pull drakkarsoftware/octobot:latest
 ```
 
 2.  Start OctoBot (for linux x64/x86 and raspberry linux arm64/arm32)
 
-``` {.sourceCode .bash}
+``` bash
 docker run -itd --name OctoBot -p 80:5001 -v $(pwd)/user:/octobot/user -v $(pwd)/tentacles:/octobot/tentacles -v $(pwd)/logs:/octobot/logs drakkarsoftware/octobot:latest
 ```
 
 ### How to look at OctoBot logs ?
 
-``` {.sourceCode .bash}
+``` bash
 docker logs OctoBot -f
 ```
 
 ### How to stop OctoBot ?
 
-``` {.sourceCode .bash}
+``` bash
 docker stop OctoBot
 ```
 
 ### How to restart OctoBot ?
 
-``` {.sourceCode .bash}
+``` bash
 docker restart OctoBot
 ```
 
 ### How to update OctoBot ?
 
-``` {.sourceCode .bash}
+``` bash
 docker pull drakkarsoftware/octobot:stable
 docker stop OctoBot
 docker rm OctoBot
@@ -102,7 +102,7 @@ A simple way to run a docker image is to use docker-compose :
 -   Start OctoBot with docker-compose (with the previous file
     [docker-compose.yml]{.title-ref} in the current folder) :
 
-    ``` {.sourceCode .bash}
+    ``` bash
     docker-compose up -d
     ```
 
@@ -117,7 +117,7 @@ To run a second OctoBot on the same computer :
 2.  Start OctoBot\'s web interface on a new port by changing \"-p\"
     option
 
-``` {.sourceCode .bash}
+``` bash
 docker run -itd --name OctoBot -p 8000:5001 -v $(pwd)/user:/octobot/user -v $(pwd)/tentacles:/octobot/tentacles -v $(pwd)/logs:/octobot/logs drakkarsoftware/octobot:stable
 ```
 
@@ -138,21 +138,21 @@ deleting its files.
 -v arguments can be removed from previous start commands but OctoBot\'s
 local files will then be managed by docker (and not directly visible).
 
-``` {.sourceCode .bash}
+``` bash
 docker run -itd --name OctoBot -p 80:5001 drakkarsoftware/octobot:stable
 ```
 
 Local OctoBot files path are located in /var/lib/docker and can be
 listed with the following command
 
-``` {.sourceCode .bash}
+``` bash
 docker inspect -f '{{ .Mounts }}' OctoBot
 ```
 
 To copy files of a directory outside the OctoBot container, for example
 for logs files :
 
-``` {.sourceCode .bash}
+``` bash
 docker cp OctoBot:/octobot/logs/. .
 ```
 

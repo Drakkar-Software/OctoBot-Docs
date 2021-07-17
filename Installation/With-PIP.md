@@ -14,7 +14,7 @@ Installation
 In a command line (with python in your PATH) type the following command
 :
 
-``` {.sourceCode .}
+``` bash
 $ python3.8 -m pip install OctoBot>=0.4.0b
 ```
 
@@ -24,7 +24,7 @@ to your PATH (for example on linux you may use **python3**)
 Usage
 -----
 
-``` {.sourceCode .}
+``` bash
 $ OctoBot
 ```
 
@@ -41,7 +41,7 @@ To run a second OctoBot on the same computer :
 
 FROM
 
-``` {.sourceCode .json}
+``` json
 "web": {
     "auto-open-in-web-browser": true
 }
@@ -49,7 +49,7 @@ FROM
 
 TO
 
-``` {.sourceCode .json}
+``` json
 "web": {
     "auto-open-in-web-browser": true,
     "port": 8000

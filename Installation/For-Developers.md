@@ -19,7 +19,7 @@ environment var* checkbox.
 
 Open a command line and type :
 
-``` {.sourceCode .bash}
+``` bash
 git clone https://github.com/Drakkar-Software/OctoBot -b dev
 cd OctoBot
 python3 -m pip install -Ur requirements.txt
@@ -42,7 +42,7 @@ Update OctoBot with python only when using OctoBot code directly from dev branch
 setup** cloned from [OctoBot github repository
 \<https://github.com/Drakkar-Software/OctoBot\>]{.title-ref}
 
-``` {.sourceCode .bash}
+``` bash
 $ git pull origin dev
 $ python3 -m pip install -Ur requirements.txt
 $ python3 start.py tentacles --install --all
@@ -68,20 +68,20 @@ following :
 -   Create a directory for the OctoBot environment
 -   Create OctoBot developer environment by running
 
-``` {.sourceCode .bash}
+``` bash
 repo init -u https://github.com/Drakkar-Software/OctoBot-Repo-Manifest.git
 ```
 
 -   Synchronize repositories
 
-``` {.sourceCode .bash}
+``` bash
 repo sync
 ```
 
 All required OctoBot projects are now available in the current directory
 :
 
-``` {.sourceCode .bash}
+``` bash
 Async-Channel
 OctoBot
 OctoBot-Backtesting

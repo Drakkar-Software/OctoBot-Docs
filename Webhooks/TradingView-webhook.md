@@ -68,7 +68,7 @@ Create an alert
 
 OR
 
-``` {.sourceCode .}
+``` bash
 EXCHANGE={{exchange}}
 SYMBOL={{ticker}}
 SIGNAL=SELL
@@ -86,6 +86,6 @@ logs.
 To add your token on the tradingview.com signal: add the following line
 to the alert message:
 
-``` {.sourceCode .}
+``` bash
 TOKEN=YOUR_TOKEN
 ```

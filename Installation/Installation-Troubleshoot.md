@@ -6,7 +6,7 @@ Cannot connect to host www.tentacles.octobot.online:443
 
 [![tentacles url error](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/troubleshoot-tentacles-url-error.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/troubleshoot-tentacles-url-error.png)
 
-``` {.sourceCode .bash}
+``` bash
 octobot_tentacles_manager.api.util.tentacles_management Exception during InstallWorker processing: Cannot connect to host www.tentacles.octobot.online:443 ssl:default [No address associated with hostname] (ClientConnectorError)
 ```
 
@@ -17,21 +17,21 @@ downloading tentacles:
 
 On Unix systems
 
-``` {.sourceCode .bash}
+``` bash
 $ export TENTACLES_URL="https://tentacles.octobot.online/repository/tentacles/officials/packages/full/base/0.4.0b4/any_platform.zip"
 $ python3 start.py tentacles --install --all
 ```
 
 On Windows systems
 
-``` {.sourceCode .bash}
+``` bash
 $ SET TENTACLES_URL=https://tentacles.octobot.online/repository/tentacles/officials/packages/full/base/0.4.0b4/any_platform.zip
 $ python3 start.py tentacles --install --all
 ```
 
 Using Docker
 
-``` {.sourceCode .bash}
+``` bash
 $ docker run -itd --name OctoBot -p 80:5001 -e TENTACLES_URL="https://tentacles.octobot.online/repository/tentacles/officials/packages/full/base/0.4.0b4/any_platform.zip" -v $(pwd)/user:/octobot/user -v $(pwd)/tentacles:/octobot/tentacles -v $(pwd)/logs:/octobot/logs drakkarsoftware/octobot:stable
 ```
 
@@ -47,7 +47,7 @@ This issue happens when error messages such as
 
 Open an administrator terminal (`Win + X` then `A`) and type:
 
-``` {.sourceCode .bash}
+``` bash
 net stop w32time
 net start w32time
 w32tm /resync
@@ -87,7 +87,7 @@ This issue happens when error messages such as
 
 On Debian or Ubuntu, open a terminal and type:
 
-``` {.sourceCode .bash}
+``` bash
 sudo service ntp stop
 sudo ntpd -gq
 sudo service ntp start
@@ -102,6 +102,6 @@ Code from
 
 During pip install if you have SSL problems, open a terminal and type
 
-``` {.sourceCode .bash}
+``` bash
 pip3 install service_identity --force --upgrade
 ```

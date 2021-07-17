@@ -71,7 +71,7 @@ either using docker or python directly.
 
 1.  Install octobot-cli using the following command:
 
-    ``` {.sourceCode .bash}
+    ``` bash
     python -m pip install octobot_cli
     ```
 
@@ -82,13 +82,13 @@ either using docker or python directly.
 
 For a python installation open a terminal and type in:
 
-``` {.sourceCode .bash}
+``` bash
 octobot_cli install --python
 ```
 
 For a docker installation, open a terminal and type in:
 
-``` {.sourceCode .bash}
+``` bash
 octobot_cli install --docker
 ```
 
@@ -98,26 +98,26 @@ Note: if you are on an arm architecture (like on raspberry pie), add the
 1.  Start your OctoBot using the following command: Python
     installations:
 
-    ``` {.sourceCode .bash}
+    ``` bash
     octobot_cli start
     ```
 
     Docker installations:
 
-    ``` {.sourceCode .bash}
+    ``` bash
     octobot_cli start --docker
     ```
 
     \#\#\# OctoBot 0.4 update To update your OctoBot, use the following
     command: Python installations:
 
-    ``` {.sourceCode .bash}
+    ``` bash
     octobot_cli update
     ```
 
     Docker installations:
 
-    ``` {.sourceCode .bash}
+    ``` bash
     octobot_cli update --docker
     ```
 
@@ -137,13 +137,13 @@ tentacles.
 
 1.  Get the latest Octobot 0.4 image:
 
-    ``` {.sourceCode .bash}
+    ``` bash
     docker pull drakkarsoftware/octobot:0.4.0-stable
     ```
 
 2.  Run it via
 
-    ``` {.sourceCode .bash}
+    ``` bash
     docker run -it -d --name Octobot -p 5001:5001 -v $(pwd)/user:/octobot/user -v $(pwd)/tentacles:/octobot/tentacles -v $(pwd)/logs:/octobot/logs drakkarsoftware/octobot:0.4.0-stable
     ```
 
@@ -156,13 +156,13 @@ tentacles.
 1.  Clone the [OctoBot 0.4
     branch](https://github.com/Drakkar-Software/OctoBot/tree/0.4.0)
 
-    ``` {.sourceCode .bash}
+    ``` bash
     git clone -b 0.4.0 https://github.com/Drakkar-Software/OctoBot
     ```
 
 2.  Install the requirements via
 
-    ``` {.sourceCode .bash}
+    ``` bash
     pip install --prefer-binary -Ur requirements.txt
     ```
 
@@ -172,7 +172,7 @@ tentacles.
 
 3.  Start your OctoBot using
 
-    ``` {.sourceCode .bash}
+    ``` bash
     python start.py
     ```
 
@@ -180,7 +180,7 @@ tentacles.
 
 Requirements
 
-``` {.sourceCode .bash}
+``` bash
 yum -y update
 yum install -y git wget sqlite-devel screen
 yum -y groupinstall "Development Tools"
@@ -195,7 +195,7 @@ d Python-3.8*/
 
 OctoBot
 
-``` {.sourceCode .bash}
+``` bash
 git clone https://github.com/Drakkar-Software/OctoBot.git
 cd OctoBot/
 git checkout remotes/origin/0.4.0
@@ -211,7 +211,7 @@ python start.py
 
 To update your OctoBot, use the following commands:
 
-``` {.sourceCode .bash}
+``` bash
 python -m pip install --prefer-binary -Ur requirements.txt
 python start.py tentacles --install --all
 ```

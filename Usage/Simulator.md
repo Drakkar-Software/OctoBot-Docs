@@ -22,7 +22,7 @@ Setup the trader\_simulator
 Find the trader-simulator key in
 **user/profiles/\<profile\_name\>/profile.json** :
 
-``` {.sourceCode .json}
+``` json
 "trader-simulator":{
   "enabled": true,
   "fees": {

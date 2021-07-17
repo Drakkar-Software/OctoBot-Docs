@@ -12,7 +12,7 @@ Discord service configuration
 
 Add in **user/config.json** in the services key :
 
-``` {.sourceCode .json}
+``` json
 "discord": {
        "token": "YOUR_BOT_TOKEN",
        "channel_id": "YOUR_CHANNEL_ID"
@@ -21,7 +21,7 @@ Add in **user/config.json** in the services key :
 
 **Exemple:**
 
-``` {.sourceCode .json}
+``` json
 "services": {
    "a service": {
 

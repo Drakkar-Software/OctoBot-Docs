@@ -13,7 +13,7 @@ Twitter service configuration
 
 Add in **user/config.json** in the services key :
 
-``` {.sourceCode .json}
+``` json
 "twitter": {
        "api-key": "YOUR_TWITTER_API_KEY",
        "api-secret": "YOUR_TWITTER_API_SECRET",
@@ -24,7 +24,7 @@ Add in **user/config.json** in the services key :
 
 **Exemple:**
 
-``` {.sourceCode .json}
+``` json
 "services": {
    "a service": {
 

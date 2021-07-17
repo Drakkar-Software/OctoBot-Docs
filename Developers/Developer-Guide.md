@@ -228,7 +228,7 @@ Requirements:
 
 A script to install these git repo on a unix setup
 
-``` {.sourceCode .bash}
+``` bash
 #!/bin/bash
 
 readonly REMOTE_DEVBRANCH="remotes/origin/dev"

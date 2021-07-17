@@ -10,7 +10,7 @@ Reddit service configuration
 
 Add in **user/config.json** in the services key :
 
-``` {.sourceCode .json}
+``` json
 "reddit": {
        "client-id": "YOUR_CLIENT_ID",
        "client-secret": "YOUR_CLIENT_SECRET",
@@ -21,7 +21,7 @@ Add in **user/config.json** in the services key :
 
 **Exemple:**
 
-``` {.sourceCode .json}
+``` json
 "services": {
    "a service": {
 

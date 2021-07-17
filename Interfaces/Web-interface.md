@@ -14,7 +14,7 @@ Web service configuration
 
 Add in **user/config.json** in the services key :
 
-``` {.sourceCode .json}
+``` json
 "web": {
      "port": 5001
 }
@@ -22,7 +22,7 @@ Add in **user/config.json** in the services key :
 
 **Exemple:**
 
-``` {.sourceCode .json}
+``` json
 "services": {
    "a service": {
 
@@ -71,13 +71,13 @@ accidentally block your IP, you can just restart your OctoBot.
 If you forgot your password, go to your **user/config.json** file and
 change:
 
-``` {.sourceCode .json}
+``` json
 "require-password": true,
 ```
 
 into:
 
-``` {.sourceCode .json}
+``` json
 "require-password": false,
 ```
 

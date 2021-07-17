@@ -19,7 +19,7 @@ Manual configuration
 
 In **user/config.json**, find this lines:
 
-``` {.sourceCode .json}
+``` json
 "exchanges": {
 
 }
@@ -37,7 +37,7 @@ can use the following instructions:
 
 Start the OctoBot with option **\--encrypter** like below :
 
-``` {.sourceCode .bash}
+``` bash
 python start.py --encrypter
 ```
 
@@ -46,7 +46,7 @@ file (see example below).
 
 Example with Binance and Coinbase Pro :
 
-``` {.sourceCode .json}
+``` json
 "exchanges": {
     "binance": {
         "api-key": "YOUR_BINANCE_API_KEY_ENCRYPTED",
