@@ -7,7 +7,7 @@ and automate trades.
 OctoBot configuration
 ---------------------
 
-Simply add the Trading-view service into your OctoBot\'s configuration
+Simply add the Trading-view service into your OctoBot's configuration
 and setup your [webhook service](Using-a-webhook-with-OctoBot.html).
 
 TradingView account
@@ -16,7 +16,7 @@ TradingView account
 -   Create an account at <https://www.tradingview.com> (join for free
     button)
 -   To be able to send signals from tradingview.com, you need a pro
-    account, if you don\'t have one, you can use the pro trial by
+    account, if you don't have one, you can use the pro trial by
     clicking on
 
     [![start-free-trial-button](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/tradingview-go-pro-trial-button.png){width="200px"}](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/tradingview-go-pro-trial-button.png)
@@ -45,8 +45,8 @@ Create an alert
 
     [![set-webhook-url](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/tradingview-alert-webhook-url.png){width="300px"}](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/tradingview-alert-webhook-url.png)
 
-    You can find OctoBot\'s webhook on your OctoBot\'s configuration
-    page or in OctoBot\'s starting logs. It should be an url like
+    You can find OctoBot's webhook on your OctoBot's configuration
+    page or in OctoBot's starting logs. It should be an url like
     <http://XXXXXXXX.ngrok.io/webhook/trading_view>.
 
     WARNING: To improve performances, webhooks are started only when
@@ -64,7 +64,7 @@ Create an alert
         SYMBOL={{ticker}}
         SIGNAL=BUY
 
-    if it\'s a buy signal
+    if it's a buy signal
 
 OR
 
@@ -74,7 +74,7 @@ SYMBOL={{ticker}}
 SIGNAL=SELL
 ```
 
-if it\'s a sell signal
+if it's a sell signal
 
 [![alert-message](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/tradingview-alert-message.png){width="400px"}](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/tradingview-alert-message.png)
 

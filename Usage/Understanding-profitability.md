@@ -20,7 +20,7 @@ Current Portfolio
 Current Portfolio is the profitability (as always evaluated versus
 reference market) of the current holdings. It is the difference in
 percents between the current portfolio value and its value at the
-beginning of the OctoBot session. Since it\'s the current holdings, all
+beginning of the OctoBot session. Since it's the current holdings, all
 trades have been take into account in this value.
 
 Initial Portfolio

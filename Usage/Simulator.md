@@ -12,7 +12,7 @@ is set in the **user/profiles/\<profile\_name\>/profile.json** file.
 Each profile has its own simulated portfolio. This portfolio will be
 managed by OctoBot and simulated orders will be using these available
 cryptocurrencies as a basis. The trader simulator will use the
-exchanges\' last trades to figure out if the current orders would have
+exchanges' last trades to figure out if the current orders would have
 been filled or not. If they would have been filled, simulated orders get
 filled and the current simulated portfolio is updated accordingly.
 

@@ -37,12 +37,12 @@ To create a tentacle improving an existing one, all you need to do, is
 to use the existing tentacle folder as a template (to create a [tentacle
 package](Tentacle-Package-Development.html)) and extend the existing
 tentacle you want to improve and re-implement the methods you want to
-change in the package\'s python file.
+change in the package's python file.
 
 Examples:
 
 **TwitterNewsEvaluator** is a simple Twitter evaluator available by
-default in `tentacles/Evaluator/Social/new_evaluator/news.py`. Let\'s
+default in `tentacles/Evaluator/Social/new_evaluator/news.py`. Let's
 say you want to implement **SuperTwitterNewsEvaluator** which is a
 better Twitter evaluator.
 

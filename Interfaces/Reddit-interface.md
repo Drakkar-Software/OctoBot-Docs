@@ -41,9 +41,9 @@ Add in **user/config.json** in the services key :
 All those information can be found after creating a Reddit App.
 
 -   Login on your Reddit account if you are not already
--   [Generate a Reddit script App to your Reddit account if you don\'t
+-   [Generate a Reddit script App to your Reddit account if you don't
     already have one](https://www.reddit.com/prefs/apps/)
--   **client-id** is the 14 characters identifier under the App\'s name
+-   **client-id** is the 14 characters identifier under the App's name
 -   **client-secret** is the **secret** identifier of the App
 -   **username** and **password** are your usual Reddit username and
     password

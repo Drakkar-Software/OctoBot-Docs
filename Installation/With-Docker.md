@@ -24,40 +24,35 @@ installation (and logout)
 sudo usermod -aG docker $USER
 ```
 
-so you don\'t have this permission denied error each time you use a
+so you don't have this permission denied error each time you use a
 docker command : [permission denied while trying to connect to daemon
 socket]{.title-ref}.
 :::
 
-Running stable OctoBot
+Running OctoBot
 ----------------------
 
-1.  Download OctoBot stable
-
+{% tabs %}
+{% tab title="stable" %}
+1.  Download OctoBot
 ``` bash
 docker pull drakkarsoftware/octobot:stable
 ```
-
 2.  Start OctoBot (for linux x64/x86 and raspberry linux arm64/arm32)
-
 ``` bash
 docker run -itd --name OctoBot -p 80:5001 -v $(pwd)/user:/octobot/user -v $(pwd)/tentacles:/octobot/tentacles -v $(pwd)/logs:/octobot/logs drakkarsoftware/octobot:stable
 ```
-
-Running latest OctoBot image build (may be unstable)
-----------------------------------------------------
-
+{% endtab %}
+{% tab title="latest (may be unstable)" %}
 1.  Download OctoBot latest
-
 ``` bash
 docker pull drakkarsoftware/octobot:latest
 ```
-
 2.  Start OctoBot (for linux x64/x86 and raspberry linux arm64/arm32)
-
 ``` bash
 docker run -itd --name OctoBot -p 80:5001 -v $(pwd)/user:/octobot/user -v $(pwd)/tentacles:/octobot/tentacles -v $(pwd)/logs:/octobot/logs drakkarsoftware/octobot:latest
 ```
+{% endtab %}
 
 ### How to look at OctoBot logs ?
 
@@ -97,7 +92,7 @@ A simple way to run a docker image is to use docker-compose :
 -   Create a [.env]{.title-ref} file in the current folder
 -   Add [HOST=YOUR\_IP\_ADDRESS]{.title-ref} in the newly created
     [.env]{.title-ref} file. (where YOUR\_IP\_ADDRESS is the ip address
-    of the computer, can be replaced by [localhost]{.title-ref} if it\'s
+    of the computer, can be replaced by [localhost]{.title-ref} if it's
     a local computer)
 -   Start OctoBot with docker-compose (with the previous file
     [docker-compose.yml]{.title-ref} in the current folder) :
@@ -114,14 +109,14 @@ Start multiple OctoBots with docker
 To run a second OctoBot on the same computer :
 
 1.  Create a new directory and enter it
-2.  Start OctoBot\'s web interface on a new port by changing \"-p\"
+2.  Start OctoBot's web interface on a new port by changing \"-p\"
     option
 
 ``` bash
 docker run -itd --name OctoBot -p 8000:5001 -v $(pwd)/user:/octobot/user -v $(pwd)/tentacles:/octobot/tentacles -v $(pwd)/logs:/octobot/logs drakkarsoftware/octobot:stable
 ```
 
-In this example, the second OctoBot\'s web interface is accessible at
+In this example, the second OctoBot's web interface is accessible at
 <http://127.0.0.1:8000>.
 
 Any port can be used except those already used by another OctoBot or any
@@ -131,11 +126,11 @@ Start OctoBot with docker managed files
 ---------------------------------------
 
 {% hint style="warning" %}
-It\'s easier to use but it will not be possible to update it without
+It's easier to use but it will not be possible to update it without
 deleting its files.
 {% endhint %}
 
--v arguments can be removed from previous start commands but OctoBot\'s
+-v arguments can be removed from previous start commands but OctoBot's
 local files will then be managed by docker (and not directly visible).
 
 ``` bash

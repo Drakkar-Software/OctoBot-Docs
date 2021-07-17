@@ -6,11 +6,11 @@ one of them is using a webhook. With a webhook, you can automatically
 send messages to your OctoBot from any website supporting this system.
 <https://www.tradingview.com> is one of them.
 
-In order to be able to receive the webhook\'s message, OctoBot has to
+In order to be able to receive the webhook's message, OctoBot has to
 expose an API to the web, for this it uses <https://ngrok.com/> that
 acts as a secure intermediary between the internet and your OctoBot.
 
-Setting up your OctoBot\'s webhook
+Setting up your OctoBot's webhook
 ----------------------------------
 
 1.  In OctoBot configuration, add the webhook service.
@@ -20,7 +20,7 @@ Setting up your OctoBot\'s webhook
 
     :   -   enable ngrok
         -   create an account on <https://ngrok.com/>
-        -   enter your ngrok token into your OctoBot\'s webhook service
+        -   enter your ngrok token into your OctoBot's webhook service
             configuration.
 
     -   Option 2: If your OctoBot is exposed to the Internet you can

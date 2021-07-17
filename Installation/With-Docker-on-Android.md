@@ -27,7 +27,7 @@ startalpine
 Installing udocker
 ------------------
 
-Install udocker to run OctoBot\'s docker container on alpine without
+Install udocker to run OctoBot's docker container on alpine without
 root
 
 ``` bash
@@ -56,5 +56,5 @@ on Android, the latest compatible container tag is 0.4.0beta2
 (drakkarsoftware/octobot:0.4.0beta2).
 {% endhint %}
 
-Open <http://127.0.0.1:88888> with your phone browser to open OctoBot\'s
+Open <http://127.0.0.1:88888> with your phone browser to open OctoBot's
 web interface.

@@ -80,7 +80,7 @@ to learn how to add elements to your OctoBot.
 
 This is valid for any evaluator and strategy.
 
-Please note that any evaluator or strategy that doesn\'t extend an
+Please note that any evaluator or strategy that doesn't extend an
 element in **tentacles\_config.json** has to be added to this file
 otherwise will be ignored by OctoBot. When using the [Tentacle
 Manager](Tentacle-Manager.html) to install tentacles, this is done

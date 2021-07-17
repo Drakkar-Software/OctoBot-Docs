@@ -10,7 +10,7 @@ Contact Us
 Ecosystem
 ---------
 
--   OctoBot\'s ecosystem status is available at
+-   OctoBot's ecosystem status is available at
     [status.octobot.online](https://status.octobot.online)
 
 Thanks

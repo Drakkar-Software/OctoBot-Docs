@@ -4,7 +4,7 @@ OctoBot 0.4
 About OctoBot 0.4
 -----------------
 
-OctoBot 0.4 is a complete rework of OctoBot, while it doesn\'t change a
+OctoBot 0.4 is a complete rework of OctoBot, while it doesn't change a
 lot on the appearance (for now), its core engine is completely
 different.
 
@@ -18,7 +18,7 @@ To go even further on the optimization path, OctoBot is now using
 [Cython](https://cython.org/) to compile its CPU intensive processes
 into efficient C code and increase its performances.
 
-What\'s new on OctoBot 0.4 ?
+What's new on OctoBot 0.4 ?
 ----------------------------
 
 ### High speed trading
@@ -47,7 +47,7 @@ is also possible and accurate.
 
 ### Improved web interface
 
-OctoBot\'s web interface now has a much stronger server side, this
+OctoBot's web interface now has a much stronger server side, this
 enabled more reactivity and a smoother user experience.
 
 From Octobot 0.3 to 0.4

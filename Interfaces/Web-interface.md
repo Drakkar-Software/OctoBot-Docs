@@ -5,7 +5,7 @@ Web interface
 
 OctoBot provides a web interface for the following purposes:
 
--   Checking OctoBot\'s status and moves
+-   Checking OctoBot's status and moves
 -   Interacting with OctoBot
 -   Configure OctoBot
 
@@ -86,8 +86,8 @@ OctoBot without a password and then change it.
 
 ### About the web interface authentication
 
--   OctoBot\'s web interface authentication works on the assumption that
-    you are the only person being able to access your OctoBot\'s file
+-   OctoBot's web interface authentication works on the assumption that
+    you are the only person being able to access your OctoBot's file
     system and the associated processes. This authentication can be
     deactivated by anyone being able to edit your **user/config.json**
     and restart your OctoBot process.

@@ -8,9 +8,9 @@ OctoBot can:
 -   Display the current portfolio
 -   Display the current open orders
 -   Display the profitability since OctoBot started
--   Display OctoBot\'s understanding of the market and its risk
+-   Display OctoBot's understanding of the market and its risk
     parameter
--   Changes OctoBot\'s current risk
+-   Changes OctoBot's current risk
 -   Stop OctoBot
 -   Trigger emergency trades
 
@@ -65,7 +65,7 @@ config
 
 Send a message to your bot and go to this url
 <https://api.telegram.org/botXXX:YYYY/getUpdates> with XXX:YYYY replaced
-by your bot\'s token.
+by your bot's token.
 
 Warning: To get your chat id from this url, your telegram bot must have
 a pending message (the one you just sent). This means that your OctoBot
@@ -98,7 +98,7 @@ its **privacy mode** **disabled**. To disable it:
 -   **botfather** replies: *Choose a bot to change group messages
     settings.*
 -   enter the name of your bot
--   **botfather** gives information about privacy mode and your bot\'s
+-   **botfather** gives information about privacy mode and your bot's
     privacy setting
 -   enter `Disable`
 
@@ -111,7 +111,7 @@ Troubleshooting
 
 If OctoBot is producing this you get this error, it means that your
 [chat-id](#chat-id) is not set correctly. With an incorrect chat-id,
-OctoBot is able to read and reply commands but can\'t push messages by
+OctoBot is able to read and reply commands but can't push messages by
 itself.
 
 ### TelegramSignalEvaluator is not receiving telegram messages

@@ -56,7 +56,7 @@ TO
 }
 ```
 
-In this example, the second OctoBot\'s web interface is accessible at
+In this example, the second OctoBot's web interface is accessible at
 <http://127.0.0.1:8000>.
 
 Any port can be used except those already used by another OctoBot or any

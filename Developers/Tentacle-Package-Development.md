@@ -27,14 +27,14 @@ TP is for tentacle package
 -   **YOUR\_TP\_SUB\_CATEGORY** should be a sub category of
     **YOUR\_TP\_CATEGORY** in the existing tentacle architecture
 -   **YOUR\_TENTACLE\_PACKAGE\_NAME** is the name of your tentacle
-    package, shouldn\'t use an existing tentacle package name
+    package, shouldn't use an existing tentacle package name
 
 Description file
 ----------------
 
 A tentacle package contains metadata described in metadata.json file.
 This file is used to properly install the tentacle and should be
-carefully written. It\'s located at the root path of the tentacle
+carefully written. It's located at the root path of the tentacle
 package :
 
 ``` {.sourceCode .shell}
@@ -95,7 +95,7 @@ tentacles/Evaluator/TA/momentum_evaluator/momentum.py
 Every tentacle classes should be imported in the root
 **\_\_init\_\_.py** file.
 
-Example with *momentum\_evaluator*\'s \_\_init\_\_.py :
+Example with *momentum\_evaluator*'s \_\_init\_\_.py :
 
 ``` {.sourceCode .python}
 from .momentum import RSIMomentumEvaluator, ADXMomentumEvaluator, RSIWeightMomentumEvaluator, \

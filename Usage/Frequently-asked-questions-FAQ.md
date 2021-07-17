@@ -26,20 +26,20 @@ It can be once in a week or 5 times a minute, this depends on the
 strategy your OctoBot is using.
 
 For example: when using the default settings, the simple mixed strategy
-evaluator is using the 1 hour timeframe as the shortest one. Since it\'s
+evaluator is using the 1 hour timeframe as the shortest one. Since it's
 a technical evaluator based strategy, it will update every hour. In this
 setup, your OctoBot will create new trades every hour it sees an
 opportunity. There might be hours with no opportunity and no order
 creation.
 
-I updated my OctoBot and now it\'s not starting anymore.
+I updated my OctoBot and now it's not starting anymore.
 --------------------------------------------------------
 
 This is probably due to an issue in your **tentacles** folder. Try
 removing it and restarting your OctoBot, it will download the latest
 versions of each tentacle and should fix the problem.
 
-How to follow my OctoBot\'s trading activity ?
+How to follow my OctoBot's trading activity ?
 ----------------------------------------------
 
 When your OctoBot places an order or has a order that is filled, it will
@@ -59,7 +59,7 @@ However how this funds will be used (size of orders, orders frequency,
 How to change the backtesting starting portfolio ?
 --------------------------------------------------
 
-Each backtesting run is using the [simulator\'s starting
+Each backtesting run is using the [simulator's starting
 portfolio](Simulator.html#starting-portfolio) as a base.
 
 Note: In 0.3.X, when the reference market is changed during a
@@ -78,7 +78,7 @@ reference market for this backtesting.
 How much of my exchange funds will be traded by OctoBot ?
 ---------------------------------------------------------
 
-For now, OctoBot uses all the available funds to trade. Therefore it\'s
+For now, OctoBot uses all the available funds to trade. Therefore it's
 possible that 100% of the exchange funds on an account will be traded.
 
 Why is backtesting not using all available data ?

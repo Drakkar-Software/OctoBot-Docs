@@ -6,9 +6,9 @@ OctoBot configuration is located in the **user** folder:
 -   **user/profiles/** contains all the [profiles](Profiles.html)
     created and imported in your OctoBot.
 
-OctoBot\'s web interface allows to easily edit the configuration,
+OctoBot's web interface allows to easily edit the configuration,
 however, it is also possible to manually edit configuration files.
-Please be careful when manually editing them or OctoBot won\'t be able
+Please be careful when manually editing them or OctoBot won't be able
 to read them and wont start. Json file are readable and editable using
 any text editor.
 
@@ -31,7 +31,7 @@ it will automatically be created or completed with default values.
 Strategies
 ----------
 
-Default profiles can\'t be edited, you can duplicate them to be able to
+Default profiles can't be edited, you can duplicate them to be able to
 customize them. On default profiles strategy and trading mode
 description are displayed instead of selectors to customize the profile.
 
@@ -44,7 +44,7 @@ When the configured profile is a custom profile, it can be configured,
 
 Some evaluators and trading modes can be configured.
 
-If it is the case, configuration is possible through OctoBot\'s web
+If it is the case, configuration is possible through OctoBot's web
 interface.
 
 [![evaluators\_config](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/specific_eval_config.jpg)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/specific_eval_config.jpg)
@@ -143,14 +143,14 @@ this configuration :
 ### Enabled
 
 When the **Enabled** parameter is set at **true**, OctoBot will trade
-using your real funds from your exchange\'s accounts. When **false**
+using your real funds from your exchange's accounts. When **false**
 OctoBot will never any create a real trade.
 
 ### Load trade history
 
 When the **load-trade-history** parameter is set at **true**, OctoBot
-will load the account\'s recent trades for the enabled traded pairs at
-startup. This allows to have a view on your account\'s trade history.
+will load the account's recent trades for the enabled traded pairs at
+startup. This allows to have a view on your account's trade history.
 When **false**, OctoBot will only historize trades that happen after the
 bot startup.
 
@@ -159,7 +159,7 @@ Trading
 
 OctoBot can process two types of trading:
 
--   Real trading using your exchanges\' portfolio.
+-   Real trading using your exchanges' portfolio.
 -   Simulated trading using any imaginary portfolio.
 
 [![trading](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_trading.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_trading.png)

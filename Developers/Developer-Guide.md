@@ -67,7 +67,7 @@ Note: Inside the OctoBot part, each arrow is an async channel.
 
 ### OctoBot tentacles
 
-Tentacles are OctoBot\'s extensions, they are meant to be easily
+Tentacles are OctoBot's extensions, they are meant to be easily
 customizable, can be activated or not and do any specific action within
 OctoBot.
 
@@ -79,7 +79,7 @@ and trading modes.
 
 #### Utility tentacles
 
-These are OctoBot\'s interfaces (web, telegram), notification systems,
+These are OctoBot's interfaces (web, telegram), notification systems,
 social news feeds and backtesting data collectors. They implement
 abstract interfaces, services, service feeds, notifiers and data
 collectors
@@ -101,7 +101,7 @@ Strategies are more complex elements, they can read all the evaluators
 evaluations on every time frame and are considering these evaluations to
 set their `self.eval_note` and call `await self.strategy_completed`. As
 a comparison if evaluators are human senses, strategies are the brain
-that will take these senses\' signals and decide to do something or not.
+that will take these senses' signals and decide to do something or not.
 Strategies can be generic like SimpleStrategyEvaluator that will take
 any standard evaluator and time frame into account or using specific
 evaluators only like MoveSignalsStrategyEvaluator.
@@ -168,7 +168,7 @@ OctoBot code is split in multiple repositories:
     collection unified storage management.
 -   <https://github.com/Drakkar-Software/OctoBot-Tentacles-Manager> for
     tentacles installation, updates and interactions: get a tentacle
-    documentation, configuration or it\'s dependencies.
+    documentation, configuration or it's dependencies.
 -   <https://github.com/Drakkar-Software/OctoBot-Commons> for common
     tools and constants used across each above repository.
 -   <https://github.com/Drakkar-Software/Async-Channel> which is used by
@@ -183,7 +183,7 @@ Requirements:
 -   IDE: [PyCharm](https://www.jetbrains.com/pycharm/)
 -   SCM: [Git](https://git-scm.com/downloads), we also use
     [GitKraken](https://www.gitkraken.com/git-client) to easily manage
-    OctoBot\'s multiple repos, this is just a quality of life
+    OctoBot's multiple repos, this is just a quality of life
     improvement and is not necessary.
 -   Language: [Python 3.8](https://www.python.org/downloads/)
 
@@ -205,12 +205,12 @@ Requirements:
     file in any repo and it will be taken into account in your other
     PyCharm run profiles runners from other open OctoBot repo. This is
     useful when running tests. If you skip this, you will need to
-    install every OctoBot module with pip and won\'t be able to edit
+    install every OctoBot module with pip and won't be able to edit
     their code.
 
     [![python dependencies](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/python_dependencies.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/python_dependencies.png)
 
-6.  For each OctoBot\'s repository: install missing dependencies in
+6.  For each OctoBot's repository: install missing dependencies in
     requirements.txt and dev\_requirements.txt. **Warning** do not
     install the requirements related to the previously downloaded
     repositories or your python runner will use them instead of your
