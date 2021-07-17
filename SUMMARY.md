@@ -1,44 +1,12 @@
 # Table of contents
 
 * [Getting Started](README.md)
+* [Users documentation](https://docs.octobot.online)
 * [For Developers](https://developer.docs.octobot.online)
 
-## Installation <a id="installation"></a>
+## Partners <a id="partners"></a>
 
-* [With Docker](Installation/With-Docker.md)
-* [With Python index package (pip)](Installation/With-PIP.md)
-* [With Python only](Installation/With-Python-only.md)
-* [Troubleshoot](Installation/Installation-Troubleshoot.md)
+* [Binance](partners/binance.md)
 
-## Configuration <a id="configuration"></a>
+## Community tested <a id="community_tested"></a>
 
-* [Profiles](Configuration/Profiles.md)
-* [Profile configuration](Configuration/Profile-Configuration.md)
-* [Accounts](Configuration/Accounts.md)
-* [Custom Profile](Configuration/Custom-Profile.md)
-
-## Usage <a id="usage"></a>
-
-* [Simulator](Usage/Simulator.md)
-* [Exchanges](Usage/Exchanges.md)
-* [Profitability in OctoBot](Usage/Understanding-profitability.md)
-* [Frequently Asked Questions (FAQ)](Usage/Frequently-asked-questions-FAQ.md)
-
-## Interfaces <a id="interfaces"></a>
-
-* [Web interface](Interfaces/Web-interface.md)
-* [Discord interface](Interfaces/Discord-interface.md)
-* [Reddit interface](Interfaces/Reddit-interface.md)
-* [Twitter interface](Interfaces/Twitter-interface.md)
-* [Telegram interface](Interfaces/Telegram-interface.md)
-
-## Advanced usage <a id="advanced_usage"></a>
-
-* [Tentacle Manager](Advanced_Usage/Tentacle-Manager.md)
-* [Backtesting](Advanced_Usage/Backtesting-and-strategy-optimization.md)
-* [OctoBot 0.4](Advanced_Usage/OctoBot-0.4.md)
-
-## Webhooks <a id="webhooks"></a>
-
-* [TradingView webhook](Webhooks/TradingView-webhook.md)
-* [Using a webhook with OctoBot](Webhooks/Using-a-webhook-with-OctoBot.md)

@@ -1,1 +1,1 @@
-# OctoBot-Docs
+# OctoBot-Exchange-Docs
