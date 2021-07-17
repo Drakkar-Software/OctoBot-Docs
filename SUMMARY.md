@@ -6,8 +6,8 @@
 
 ## Partners
 
-* [Binance](partners/binance.md)
-    * [Account setup](partners/binance-setup.md)
+* [Binance](partners/binance/README.md)
+  * [Account setup](partners/binance/binance-setup.md)
 * [Bybit](partners/bybit.md)
 * [Ascendex](partners/ascendex.md)
 

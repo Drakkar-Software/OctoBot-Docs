@@ -10,7 +10,7 @@ If an account you are using is not meeting a partner exchange requirement, you w
 
 Here are the current partners:
 
-* [Binance](partners/binance.md)
+* [Binance](partners/binance/)
 * [Bybit](partners/bybit.md)
 * [Ascendex](partners/ascendex.md)
 
@@ -48,3 +48,4 @@ If you want use any exchange that is available [here](https://github.com/ccxt/cc
 ### Websocket
 
 **high speed** and **no limit**
+
