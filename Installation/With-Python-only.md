@@ -52,23 +52,24 @@ $ git pull
 
 Install python packages :
 
-On Unix systems
-
+{% tabs %}
+{% tab title="On Unix" %}
 ``` bash
 $ cd OctoBot
 $ python3 -m pip install -Ur requirements.txt
 $ export TENTACLES_URL_TAG="latest"
 $ python3 start.py tentacles --install --all
 ```
-
-On Windows systems
-
+{% endtab %}
+{% tab title="On Windows" %}
 ``` bash
 $ cd OctoBot
 $ python3 -m pip install -Ur requirements.txt
 $ SET TENTACLES_URL_TAG=latest
 $ python3 start.py tentacles --install --all
 ```
+{% endtab %}
+{% endtabs %}
 
 Usage
 -----

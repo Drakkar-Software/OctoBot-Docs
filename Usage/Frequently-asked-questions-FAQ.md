@@ -54,7 +54,7 @@ What part of my portoflio will be traded by OctoBot ?
 
 OctoBot will consider it can trade 100% of the portfolio you give it.
 However how this funds will be used (size of orders, orders frequency,
-\...) depends on your risk setting and the trading mode you are using.
+...) depends on your risk setting and the trading mode you are using.
 
 How to change the backtesting starting portfolio ?
 --------------------------------------------------

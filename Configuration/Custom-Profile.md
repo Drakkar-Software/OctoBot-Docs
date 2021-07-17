@@ -8,14 +8,14 @@ To create a custom profile :
 -   Open an existing profile page
 -   Click on duplicate button
 
-[![trading\_modes](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_create_custom.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_create_custom.png)
+[![trading_modes](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_create_custom.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_create_custom.png)
 
 Evaluator and trading configuration
 -----------------------------------
 
-[![trading\_modes](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_strategies_select.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_strategies_select.png)
+[![trading_modes](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_strategies_select.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_strategies_select.png)
 
-**user/profiles/\<profile\_name\>/tentacles\_config.json** is a
+**user/profiles/<profile_name>/tentacles\_config.json** is a
 configuration file telling OctoBot which evaluators, strategies and
 trading modes to use. It is kept up to date after each [Tentacle
 Manager](Tentacle-Manager.html) usage (when new elements become

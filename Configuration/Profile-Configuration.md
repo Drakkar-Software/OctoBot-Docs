@@ -35,7 +35,7 @@ Default profiles can't be edited, you can duplicate them to be able to
 customize them. On default profiles strategy and trading mode
 description are displayed instead of selectors to customize the profile.
 
-[![profile\_strategies](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_strategies.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_strategies.png)
+[![profile_strategies](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_strategies.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_strategies.png)
 
 When the configured profile is a custom profile, it can be configured,
 [see custom profile page](Custom-Profile.html)
@@ -47,17 +47,17 @@ Some evaluators and trading modes can be configured.
 If it is the case, configuration is possible through OctoBot's web
 interface.
 
-[![evaluators\_config](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/specific_eval_config.jpg)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/specific_eval_config.jpg)
+[![evaluators_config](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/specific_eval_config.jpg)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/specific_eval_config.jpg)
 
 This edition interface is generated according to the
-**NameOfTheRelatedClass\_schema.json** [json
+**NameOfTheRelatedClass_schema.json** [json
 schema](https://json-schema.org/understanding-json-schema/) file of the
 evaluator or trading mode to configure.
 
 It is also possible to manually edit each configuration file using a
 text editor for JSON. When configurable, each evaluator or trading mode
 has a **NameOfTheRelatedClass.json** file in
-**user/profiles/\<profile\_name\>/specific\_config**.
+**user/profiles/<profile_name>/specific_config**.
 
 Currencies
 ----------
@@ -67,7 +67,7 @@ Currencies
 OctoBot will trade all the cryptocurrencies listed in its configuration.
 To tell which cryptocurrencies to trade, add the currency in the
 **crypto-currencies** section in
-**user/profiles/\<profile\_name\>/profile.json**.
+**user/profiles/<profile_name>/profile.json**.
 
 In order to keep OctoBot working at its full potential, we recommend to
 trade **between 1 and 5** different assets **not to use more than 10 to
@@ -105,13 +105,13 @@ OctoBot trading only Bitcoin against USDT
 ```
 
 OctoBot trading Bitcoin against USDT as well as NEO against BTC and ETH
-but not Ethereum against USDT because Ethereum is disabled (\"enabled\":
+but not Ethereum against USDT because Ethereum is disabled ("enabled":
 false)
 
 ### Wildcard
 
 To tell OctoBot to trade all BTC trading pairs (with BTC as a quote
-asset), use the wildcard \"\*\" instead of a list for \"pairs\":
+asset), use the wildcard "*" instead of a list for "pairs":
 
 ``` json
 "crypto-currencies":{
@@ -122,7 +122,7 @@ asset), use the wildcard \"\*\" instead of a list for \"pairs\":
 }
 ```
 
-A \"quote\" is required to specify the name of the currency to trade
+A "quote" is required to specify the name of the currency to trade
 with.
 
 Exchanges
@@ -130,7 +130,7 @@ Exchanges
 
 [![trading](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_exchanges.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_exchanges.png)
 
-Open your **user/profiles/\<profile\_name\>/profile.json** file and edit
+Open your **user/profiles/<profile_name>/profile.json** file and edit
 this configuration :
 
 ``` json
@@ -165,7 +165,7 @@ OctoBot can process two types of trading:
 [![trading](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_trading.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_trading.png)
 
 Or edit the trader key in
-**user/profiles/\<profile\_name\>/profile.json** :
+**user/profiles/<profile\_name\>/profile.json** :
 
 ``` json
 "trading":{

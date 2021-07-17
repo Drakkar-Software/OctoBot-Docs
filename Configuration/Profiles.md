@@ -15,7 +15,7 @@ Profiles include:
 -   Enabled exchanges
 -   Trading configuration
 
-Login related data (exchange api keys, telegram settings, \...) are not
+Login related data (exchange api keys, telegram settings, ...) are not
 stored in profiles.
 
 Profiles can also be shared and imported between OctoBot's users.

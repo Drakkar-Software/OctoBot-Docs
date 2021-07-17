@@ -32,7 +32,7 @@ Add new tentacles packages to your OctoBot
 
 ### Using the web interface
 
-[![tentacles\_packages](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/tentacles_packages.jpg)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/tentacles_packages.jpg)
+[![tentacles_packages](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/tentacles_packages.jpg)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/tentacles_packages.jpg)
 
 Got to the **Tentacles** section on the navigation bar, then go to
 **INSTALL TENTACLES PACKAGES** and register the address (local or url)

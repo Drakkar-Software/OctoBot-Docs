@@ -4,9 +4,9 @@ OctoBot is customizable !
 You can easily create or add existing tentacles to your OctoBot.
 
 Tentacles are evaluators (using social media, trend analysis, news,
-\...), strategies (interpretations of evaluator's evaluations),
+...), strategies (interpretations of evaluator's evaluations),
 analysis tools (implementation of a bollinger bands in depth analysis,
-twitter posts reader, \...) and trading modes.
+twitter posts reader, ...) and trading modes.
 
 [![tentacles](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/tentacles.jpg)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/tentacles.jpg)
 

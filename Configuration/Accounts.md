@@ -69,7 +69,7 @@ configuration :
 }
 ```
 
--   Set **global\_info** to **true** to tell OctoBot to send general
+-   Set **global_info** to **true** to tell OctoBot to send general
     notifications like a startup message or a shutdown message.
 -   Set **price\_alerts** to **true** to tell OctoBot to send
     notifications when a price movement is detected and is triggering a

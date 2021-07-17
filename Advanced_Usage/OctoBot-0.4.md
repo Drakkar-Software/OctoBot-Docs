@@ -108,7 +108,7 @@ Note: if you are on an arm architecture (like on raspberry pie), add the
     octobot_cli start --docker
     ```
 
-    \#\#\# OctoBot 0.4 update To update your OctoBot, use the following
+    ### OctoBot 0.4 update To update your OctoBot, use the following
     command: Python installations:
 
     ``` bash

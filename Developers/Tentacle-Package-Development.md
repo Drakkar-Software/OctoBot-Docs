@@ -22,11 +22,11 @@ tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/
 TP is for tentacle package
 {% endhint %}
 
--   **YOUR\_TP\_CATEGORY** can be Backtesting, Evaluator, Services or
+-   **YOUR_TP_CATEGORY** can be Backtesting, Evaluator, Services or
     Trading
--   **YOUR\_TP\_SUB\_CATEGORY** should be a sub category of
-    **YOUR\_TP\_CATEGORY** in the existing tentacle architecture
--   **YOUR\_TENTACLE\_PACKAGE\_NAME** is the name of your tentacle
+-   **YOUR_TP_SUB_CATEGORY** should be a sub category of
+    **YOUR_TP_CATEGORY** in the existing tentacle architecture
+-   **YOUR_TENTACLE_PACKAGE_NAME** is the name of your tentacle
     package, shouldn't use an existing tentacle package name
 
 Description file
@@ -52,13 +52,13 @@ A tentacle package metadata.json contains :
 }
 ```
 
--   **YOUR\_TP\_VERSION** is your tentacle package version
--   **YOUR\_TP\_ORIGIN\_PACKAGE** is the author or the origin repository
+-   **YOUR_TP_VERSION** is your tentacle package version
+-   **YOUR_TP_ORIGIN_PACKAGE** is the author or the origin repository
     of the tentacle package
--   **YOUR\_TP\_TENTACLE\_1** and **YOUR\_TP\_TENTACLE\_2** are names of
+-   **YOUR_TP_TENTACLE_1** and **YOUR_TP_TENTACLE_2** are names of
     your tentacle package tentacles (can have 1 or more).
--   **YOUR\_TP\_TP\_REQUIREMENT\_1** and
-    **YOUR\_TP\_TP\_REQUIREMENT\_2** are the names of required tentacle
+-   **YOUR_TP_TP_REQUIREMENT_1** and
+    **YOUR_TP_TP_REQUIREMENT\_2** are the names of required tentacle
     packages to have installed to run your tentacle package (can have 0
     or more)
 

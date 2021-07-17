@@ -10,7 +10,7 @@ Cannot connect to host www.tentacles.octobot.online:443
 octobot_tentacles_manager.api.util.tentacles_management Exception during InstallWorker processing: Cannot connect to host www.tentacles.octobot.online:443 ssl:default [No address associated with hostname] (ClientConnectorError)
 ```
 
-The tentacles server URL has changed, there is no more leading \"www\".
+The tentacles server URL has changed, there is no more leading "www".
 Starting from 0.4.0b6, OctoBot uses the latest URL. To use OctoBot
 previous versions, please first set this environment variable before
 downloading tentacles:
@@ -57,7 +57,7 @@ w32tm /query /status
 Code from
 [serverfault.com](https://serverfault.com/questions/294787/how-do-i-force-sync-the-time-on-windows-workstation-or-server)
 
-Another solution found by \@alpi on discord channel :
+Another solution found by @alpi on discord channel :
 [timesynctool.com](http://www.timesynctool.com)
 
 ### OctoBot freeze
@@ -67,7 +67,7 @@ When running OctoBot on Windows, clicking into the OctoBot terminal
 OctoBot execution (OctoBot will be waiting for the log to be published
 to continue).
 
-To fix this issue, untick the \"QuickEdit Mode\" in your terminal
+To fix this issue, untick the "QuickEdit Mode" in your terminal
 properties and restart it.
 
 [![Powershell](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/powerShellEditMode.jpg){width="400px"}](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/powerShellEditMode.jpg)
@@ -75,7 +75,7 @@ properties and restart it.
 [![Cmd](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/cmdQuickEdit.jpg){width="400px"}](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/cmdQuickEdit.jpg)
 
 To open the properties menu, right click on the terminal window header
-and select \"properties\".
+and select "properties".
 
 Linux
 -----

@@ -40,7 +40,7 @@ Update OctoBot with python only when using OctoBot code directly from dev branch
 
 **Python3.8.X**, **git** and an installed and **functional OctoBot
 setup** cloned from [OctoBot github repository
-\<https://github.com/Drakkar-Software/OctoBot\>]{.title-ref}
+<https://github.com/Drakkar-Software/OctoBot>]{.title-ref}
 
 ``` bash
 $ git pull origin dev

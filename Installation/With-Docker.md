@@ -53,6 +53,7 @@ docker pull drakkarsoftware/octobot:latest
 docker run -itd --name OctoBot -p 80:5001 -v $(pwd)/user:/octobot/user -v $(pwd)/tentacles:/octobot/tentacles -v $(pwd)/logs:/octobot/logs drakkarsoftware/octobot:latest
 ```
 {% endtab %}
+{% endtabs %}
 
 ### How to look at OctoBot logs ?
 
@@ -90,8 +91,8 @@ A simple way to run a docker image is to use docker-compose :
 -   Download the [docker-compose.yml
     file](https://github.com/Drakkar-Software/OctoBot/blob/master/docker-compose.yml)
 -   Create a [.env]{.title-ref} file in the current folder
--   Add [HOST=YOUR\_IP\_ADDRESS]{.title-ref} in the newly created
-    [.env]{.title-ref} file. (where YOUR\_IP\_ADDRESS is the ip address
+-   Add [HOST=YOUR_IP_ADDRESS]{.title-ref} in the newly created
+    [.env]{.title-ref} file. (where YOUR_IP_ADDRESS is the ip address
     of the computer, can be replaced by [localhost]{.title-ref} if it's
     a local computer)
 -   Start OctoBot with docker-compose (with the previous file
@@ -109,7 +110,7 @@ Start multiple OctoBots with docker
 To run a second OctoBot on the same computer :
 
 1.  Create a new directory and enter it
-2.  Start OctoBot's web interface on a new port by changing \"-p\"
+2.  Start OctoBot's web interface on a new port by changing "-p"
     option
 
 ``` bash
@@ -151,4 +152,4 @@ for logs files :
 docker cp OctoBot:/octobot/logs/. .
 ```
 
-Wherer \"OctoBot\" is your container name
+Wherer "OctoBot" is your container name

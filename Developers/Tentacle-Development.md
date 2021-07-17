@@ -13,7 +13,7 @@ create grid-like orders.
 
 OctoBot uses tentacles to handle:
 
--   Price technical analysis (moving averages, RSI, MACD, \...)
+-   Price technical analysis (moving averages, RSI, MACD, ...)
 -   Social analysis (Twitter, Telegram, Reddit and Google)
 -   Evaluator signals interpretations (strategies)
 -   Orders creation and followup (trading modes)
