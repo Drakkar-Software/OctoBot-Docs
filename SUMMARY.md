@@ -4,10 +4,10 @@
 * [Users documentation](https://docs.octobot.online)
 * [Developers documentation](https://developer.docs.octobot.online)
 
-## Partners <a id="partners"></a>
+## Partners
 
-* [Binance](partners/binance.md)
-* [Bybit](partners/bybit.md)
+* [Bybit](partners/bybit%20%281%29.md)
+* [Bybit](partners/bybit%20%281%29.md)
 * [Ascendex](partners/ascendex.md)
 
 ## Officially supported <a id="officially_supported"></a>
@@ -32,3 +32,4 @@
 * [Crex24](community_tested/crex24.md)
 * [Wavesexchange](community_tested/wavesexchange.md)
 * [Cryptopia](community_tested/cryptopia.md)
+
