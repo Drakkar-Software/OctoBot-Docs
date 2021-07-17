@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Getting Started](README.md)
-* [For Developers](https://developer.docs.octobot.online)
+* [Developers documentation](https://developer.docs.octobot.online)
+* [Exchanges support](https://exchanges.docs.octobot.online)
 
 ## Installation <a id="installation"></a>
 
@@ -16,11 +17,11 @@
 * [Profile configuration](Configuration/Profile-Configuration.md)
 * [Accounts](Configuration/Accounts.md)
 * [Custom Profile](Configuration/Custom-Profile.md)
+* [Exchanges](Configuration/Exchanges.md)
 
 ## Usage <a id="usage"></a>
 
 * [Simulator](Usage/Simulator.md)
-* [Exchanges](Usage/Exchanges.md)
 * [Profitability in OctoBot](Usage/Understanding-profitability.md)
 * [Frequently Asked Questions (FAQ)](Usage/Frequently-asked-questions-FAQ.md)
 
