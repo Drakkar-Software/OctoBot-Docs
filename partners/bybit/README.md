@@ -9,5 +9,5 @@
 | Websocket | ❌ |
 | Testnet | ❌ |
 
-## Partnership details
+❌ Spot trading is not yet supported by Bybit
 

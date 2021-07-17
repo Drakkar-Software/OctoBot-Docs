@@ -7,7 +7,7 @@
 | Simulation |  ✅ |
 | REST |  ✅ |
 | Websocket | 🚧 |
-| Testnet | 🚧  |
+| Testnet | 🚧 |
 
-## Partnership details
+⚠ Ascendex websocket is under development
 
