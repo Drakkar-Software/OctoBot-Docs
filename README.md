@@ -1,1 +1,2 @@
-# OctoBot-Developer-Docs
+# Getting Started
+

@@ -1,27 +1,25 @@
 # Table of contents
 
 * [Getting Started](README.md)
-* [User documentation](https://docs.octobot.online)
+* [Users documentation](https://docs.octobot.online)
 
-## Installation <a id="installation"></a>
+## Installation
 
-* [Developer installation](Installation/For-Developers.md)
+* [Developer installation](installation/for-developers.md)
 
-## Guides <a id="guides"></a>
+## Guides
 
-* [OctoBot is customizable !](Guides/Customize-your-OctoBot.md)
-* [Developer startup guide](Guides/Developer-Guide.md)
-* [Contribution](Guides/Contribution.md)
+* [OctoBot is customizable !](guides/customize-your-octobot.md)
+* [Developer startup guide](guides/developer-guide.md)
+* [Contribution](guides/contribution.md)
 
-## Coding <a id="coding"></a>
+## Coding
 
-* [Developer tips](Coding/Developers-tips.md)
-* [Tests](Coding/Tests.md)
+* [Developer tips](coding/developers-tips.md)
+* [Tests](coding/tests.md)
 
-## Tentacles <a id="coding"></a>
+## Tentacles <a id="coding-1"></a>
 
-* [Tentacle package development](Tentacles/Tentacle-Package-Development.md)
-* [Tentacle development](Tentacles/Tentacle-Development.md)
-
-
+* [Tentacle package development](coding-1/tentacle-package-development.md)
+* [Tentacle development](coding-1/tentacle-development.md)
 
