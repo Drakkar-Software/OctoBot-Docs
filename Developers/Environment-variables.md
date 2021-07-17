@@ -1,4 +1,4 @@
-OctoBot\'s environment variables
+OctoBot's environment variables
 ================================
 
 Global variables
