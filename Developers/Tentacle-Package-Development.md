@@ -18,13 +18,9 @@ A tentacle package is defined by a folder placed at :
 tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/
 ```
 
-::: {.note}
-::: {.admonition-title}
-Note
-:::
-
+{% hint style="note" %}
 TP is for tentacle package
-:::
+{% endhint %}
 
 -   **YOUR\_TP\_CATEGORY** can be Backtesting, Evaluator, Services or
     Trading
@@ -66,14 +62,11 @@ A tentacle package metadata.json contains :
     packages to have installed to run your tentacle package (can have 0
     or more)
 
-::: {.note}
-::: {.admonition-title}
-Note
-:::
+{% hint style="note" %}
 
 **YOUR\_TP\_TENTACLE\_X** should match python classes to be exposed in
 the tentacle
-:::
+{% endhint %}
 
 Example *DailyTradingMode/metadata.json* :
 

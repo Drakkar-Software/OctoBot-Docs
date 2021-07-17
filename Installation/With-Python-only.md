@@ -89,13 +89,9 @@ python, python3, python3.8, etc: it depends on your environment).
 Start in background
 -------------------
 
-::: {.warning}
-::: {.admonition-title}
-Warning
-:::
-
+{% hint style="warning" %}
 For unix distribution only
-:::
+{% endhint %}
 
 With the Linux screen command, you can push running terminal
 applications to the background and pull them forward when you want to

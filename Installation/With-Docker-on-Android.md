@@ -1,13 +1,9 @@
 With Docker on Android
 ======================
 
-::: {.warning}
-::: {.admonition-title}
-Warning
-:::
-
+{% hint style="warning" %}
 Experimental installation
-:::
+{% endhint %}
 
 Install Termux
 --------------
@@ -54,15 +50,11 @@ Start OctoBot container
 docker run --name OctoBot -p 88888:5001 -v `pwd`/user:/octobot/user -v `pwd`/tentacles:/octobot/tentacles -v `pwd`/logs:/octobot/logs drakkarsoftware/octobot:stable
 ```
 
-::: {.warning}
-::: {.admonition-title}
-Warning
-:::
-
+{% hint style="warning" %}
 Stable is not currently supporting arm64 needed to run octobot container
 on Android, the latest compatible container tag is 0.4.0beta2
 (drakkarsoftware/octobot:0.4.0beta2).
-:::
+{% endhint %}
 
 Open <http://127.0.0.1:88888> with your phone browser to open OctoBot\'s
 web interface.

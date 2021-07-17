@@ -1,13 +1,9 @@
 Discord interface
 =================
 
-::: {.warning}
-::: {.admonition-title}
-Warning
-:::
-
+{% hint style="warning" %}
 **CURRENTLY ON DEVELOPMENT**
-:::
+{% endhint %}
 
 OctoBot uses the Discord interface to post alerts in a discord chat.
 

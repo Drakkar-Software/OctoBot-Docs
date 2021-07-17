@@ -1,13 +1,9 @@
 With Docker
 ===========
 
-::: {.warning}
-::: {.admonition-title}
-Warning
-:::
-
+{% hint style="warning" %}
 For unix distribution only
-:::
+{% endhint %}
 
 Installing docker
 -----------------
@@ -19,13 +15,10 @@ debian computer.
 For a raspberry installation please follow [this
 guide](https://phoenixnap.com/kb/docker-on-raspberry-pi).
 
-::: {.note}
-::: {.admonition-title}
-Note
-:::
-
-Don\'t forget to run the following command at the end of the
+{% hint style="note" %}
+Don't forget to run the following command at the end of the
 installation (and logout)
+{% endhint %}
 
 ``` {.sourceCode .bash}
 sudo usermod -aG docker $USER
@@ -137,14 +130,10 @@ software on your system.
 Start OctoBot with docker managed files
 ---------------------------------------
 
-::: {.warning}
-::: {.admonition-title}
-Warning
-:::
-
+{% hint style="warning" %}
 It\'s easier to use but it will not be possible to update it without
 deleting its files.
-:::
+{% endhint %}
 
 -v arguments can be removed from previous start commands but OctoBot\'s
 local files will then be managed by docker (and not directly visible).
