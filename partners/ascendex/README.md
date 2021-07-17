@@ -4,15 +4,15 @@
 
 | Spot trading | ⚠ |
 | :--- | :--- |
-| Simulation |  ✅ |
-| REST |  ✅ |
+| Simulation | ✅ |
+| REST | ✅ |
 | Websocket | 🚧 |
 | Testnet | 🚧 |
 
 | Future trading | 🚧 |
 | :--- | :--- |
-| Simulation |  🚧 |
-| REST |  🚧 |
+| Simulation | 🚧 |
+| REST | 🚧 |
 | Websocket | 🚧 |
 | Testnet | 🚧 |
 

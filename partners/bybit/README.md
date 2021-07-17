@@ -2,7 +2,7 @@
 
 ## OctoBot support
 
-| Spot trading | ❌  |
+| Spot trading | ❌ |
 | :--- | :--- |
 | Simulation | ❌ |
 | REST | ❌ |
@@ -11,8 +11,8 @@
 
 | Future trading | 🚧 |
 | :--- | :--- |
-| Simulation |  🚧 |
-| REST |  🚧 |
+| Simulation | 🚧 |
+| REST | 🚧 |
 | Websocket | 🚧 |
 | Testnet | 🚧 |
 
