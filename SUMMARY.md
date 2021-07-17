@@ -7,9 +7,11 @@
 ## Partners
 
 * [Binance](partners/binance/README.md)
-  * [Account setup](partners/binance/binance-setup.md)
-* [Bybit](partners/bybit.md)
-* [Ascendex](partners/ascendex.md)
+  * [Account setup](partners/binance/setup.md)
+* [Bybit](partners/bybit/README.md)
+  * [Account setup](partners/bybit/setup.md)
+* [Ascendex](partners/ascendex/README.md)
+  * [Account setup](partners/ascendex/setup.md)
 
 ## Officially supported <a id="officially_supported"></a>
 

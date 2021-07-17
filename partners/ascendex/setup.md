@@ -1,6 +1,6 @@
-# Account setup
+# Ascendex account setup
 
-## Create an account on Binance
+## Create an account
 
 TODO
 
