@@ -12,10 +12,10 @@
 
 ## Officially supported <a id="officially_supported"></a>
 
-* [Coinbase Pro](community_tested/coinbase_pro.md)
-* [Kucoin](community_tested/kucoin.md)
-* [Kraken](community_tested/kraken.md)
-* [FTX](community_tested/ftx.md)
+* [Coinbase Pro](officially_supported/coinbase_pro.md)
+* [Kucoin](officially_supported/kucoin.md)
+* [Kraken](officially_supported/kraken.md)
+* [FTX](officially_supported/ftx.md)
 
 ## Community tested <a id="community_tested"></a>
 
