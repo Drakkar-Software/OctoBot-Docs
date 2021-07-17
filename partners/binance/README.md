@@ -9,6 +9,12 @@
 | Websocket | ✅ |
 | Testnet | ✅ |
 
+| Future trading | 🚧 |
+| :--- | :--- |
+| Simulation |  🚧 |
+| REST |  🚧 |
+| Websocket | 🚧 |
+| Testnet | 🚧 |
 ### Partnership details
 
 Binance has 2 accounts requirements to support OctoBot:
