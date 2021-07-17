@@ -1,4 +1,4 @@
-# Binance Account setup
+# Account setup
 
 ## Create an account
 
@@ -11,3 +11,4 @@ TODO
 ## Add the API key to OctoBot
 
 TODO
+

@@ -1,4 +1,4 @@
-# Ascendex account setup
+# Account setup
 
 ## Create an account
 

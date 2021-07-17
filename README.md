@@ -11,18 +11,18 @@ If an account you are using is not meeting a partner exchange requirement, you w
 Here are the current partners:
 
 * [Binance](partners/binance/)
-* [Bybit](partners/bybit.md)
-* [Ascendex](partners/ascendex.md)
+* [Bybit](partners/bybit/)
+* [Ascendex](partners/ascendex/)
 
 ## Officially supported exchanges
 
 * [Coinbase Pro](officially_supported/coinbase_pro.md)
 * [Kucoin](officially_supported/kucoin.md)
-* [Kraken](officially_supported/kraken.md)
 * [FTX](officially_supported/ftx.md)
 
 ## Community tested exchanges
 
+* [Kraken](community_tested/kraken.md)
 * [HitBTC](community_tested/hitbtc.md)
 * [Bitfinex](community_tested/bitfinex.md)
 * [Bittrex](community_tested/bittrex.md)

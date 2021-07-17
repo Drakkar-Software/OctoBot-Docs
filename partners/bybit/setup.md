@@ -1,4 +1,4 @@
-# Bybit account setup
+# Account setup
 
 ## Create an account
 

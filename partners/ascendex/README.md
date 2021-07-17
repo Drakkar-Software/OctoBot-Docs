@@ -1,12 +1,13 @@
 # Ascendex
 
-### OctoBot support
+## OctoBot support
 
-| Spot trading | ✅ |
+| Spot trading | ⚠ |
 | :--- | :--- |
-| Simulation | ✅ |
-| REST | ✅ |
-| Websocket | ✅ |
-| Testnet | ✅ |
+| Simulation |  ✅ |
+| REST |  ✅ |
+| Websocket | 🚧 |
+| Testnet | 🚧  |
 
-### Partnership details
+## Partnership details
+

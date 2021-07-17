@@ -1,12 +1,12 @@
-# Kucoin
+# Kraken
 
 ### OctoBot support
 
-| Spot trading | ✅ |
+| Spot trading | ⚠  |
 | :--- | :--- |
 | Simulation | ✅ |
-| REST | ✅ |
-| Websocket | ⚠  |
+| REST | ⚠  |
+| Websocket | 🚧  |
 | Testnet | ❌  |
 
 ### 
