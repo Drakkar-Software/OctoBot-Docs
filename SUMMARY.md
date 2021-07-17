@@ -1,13 +1,13 @@
 # Table of contents
 
 * [Getting Started](README.md)
+* [For Developers](https://developer.docs.octobot.online)
 
 ## Installation <a id="installation"></a>
 
 * [With Docker](Installation/With-Docker.md)
 * [With Python index package (pip)](Installation/With-PIP.md)
 * [With Python only](Installation/With-Python-only.md)
-* [Developer installation](Installation/For-Developers.md)
 * [Troubleshoot](Installation/Installation-Troubleshoot.md)
 
 ## Configuration <a id="configuration"></a>
@@ -42,13 +42,3 @@
 
 * [TradingView webhook](Webhooks/TradingView-webhook.md)
 * [Using a webhook with OctoBot](Webhooks/Using-a-webhook-with-OctoBot.md)
-
-## Developers <a id="developers"></a>
-
-* [OctoBot is customizable !](Developers/Customize-your-OctoBot.md)
-* [Developer startup guide](Developers/Developer-Guide.md)
-* [Tentacle package development](Developers/Tentacle-Package-Development.md)
-* [Tentacle development](Developers/Tentacle-Development.md)
-* [Tests](Developers/Tests.md)
-* [Developer tips](Developers/Developers-tips.md)
-* [Contribution](Developers/Contribution.md)

@@ -1,12 +1,1 @@
 .idea
-
-# Old doc
-*.rst
-
-# Scripts
-*.sh
-
-# Images
-*.ico
-*.png
-*.svg
