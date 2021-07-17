@@ -6,8 +6,9 @@
 
 ## Partners
 
-* [Bybit](partners/bybit%20%281%29.md)
-* [Bybit](partners/bybit%20%281%29.md)
+* [Binance](partners/binance.md)
+    * [Account setup](partners/binance-setup.md)
+* [Bybit](partners/bybit.md)
 * [Ascendex](partners/ascendex.md)
 
 ## Officially supported <a id="officially_supported"></a>

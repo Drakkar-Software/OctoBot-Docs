@@ -10,21 +10,41 @@ If an account you are using is not meeting a partner exchange requirement, you w
 
 Here are the current partners:
 
+* [Binance](partners/binance.md)
+* [Bybit](partners/bybit.md)
+* [Ascendex](partners/ascendex.md)
+
 ## Officially supported exchanges
 
-TODO
+* [Coinbase Pro](officially_supported/coinbase_pro.md)
+* [Kucoin](officially_supported/kucoin.md)
+* [Kraken](officially_supported/kraken.md)
+* [FTX](officially_supported/ftx.md)
 
 ## Community tested exchanges
 
-TODO
+* [HitBTC](community_tested/hitbtc.md)
+* [Bitfinex](community_tested/bitfinex.md)
+* [Bittrex](community_tested/bittrex.md)
+* [COSS](community_tested/coss.md)
+* [Huobi & Huobi Pro](community_tested/huobi.md)
+* [Bitstamp](community_tested/bitstamp.md)
+* [OKEX](community_tested/okex.md)
+* [Poloniex](community_tested/poloniex.md)
+* [Bithumb](community_tested/bithumb.md)
+* [Upbit](community_tested/upbit.md)
+* [Crex24](community_tested/crex24.md)
+* [Wavesexchange](community_tested/wavesexchange.md)
+* [Cryptopia](community_tested/cryptopia.md)
 
 ## Exchanges supported technologies
 
-_REST_ : **slow** and **limited** requests
-
-_Websocket_ : **high speed** and **no limit**
-
 If you want use any exchange that is available [here](https://github.com/ccxt/ccxt/wiki/Exchange-Markets), the REST interface should work but **it's at your own risk** since we did not test it yet.
 
-For simulated only exchanges, see the \"Simulated exchange\" section below.
+### REST
 
+**slow** and **limited** requests
+
+### Websocket
+
+**high speed** and **no limit**
