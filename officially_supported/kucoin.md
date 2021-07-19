@@ -9,5 +9,5 @@
 | Websocket | ⚠  |
 | Testnet | ❌  |
 
-### 
+### ⚠ Kucoin websocket is limited until they become partner of OctoBot.
 
