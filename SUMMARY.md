@@ -35,4 +35,7 @@
 * [Crex24](community_tested/crex24.md)
 * [Wavesexchange](community_tested/wavesexchange.md)
 * [Cryptopia](community_tested/cryptopia.md)
+* [Bitvavo](community_tested/bitvavo.md)
+* [Phemex](community_tested/phemex.md)
+* [GateIO](community_tested/gateio.md)
 
