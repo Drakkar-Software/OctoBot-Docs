@@ -1,4 +1,4 @@
-# Bittrex
+# Bitvavo
 
 ### OctoBot support
 

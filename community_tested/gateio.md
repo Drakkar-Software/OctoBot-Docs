@@ -1,4 +1,4 @@
-# Bittrex
+# GateIO
 
 ### OctoBot support
 

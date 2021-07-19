@@ -1,4 +1,4 @@
-# Bittrex
+# Phemex
 
 ### OctoBot support
 
