@@ -2,8 +2,8 @@
 
 ## Requirements
 
-* Python 3.8 \([download](https://www.python.org/downloads/)\)
-* Git \([Download](https://git-scm.com/downloads)\)
+* Python 3.8 ([download](https://www.python.org/downloads/))
+* Git ([Download](https://git-scm.com/downloads))
 
 ## Instructions
 
@@ -22,7 +22,7 @@ python3 -m pip install -Ur requirements.txt
 python3 start.py tentacles --install --all
 ```
 
-There **python3** is refering to your **Python3.8.X** installation, just adapt the commands to match your setup if any different \(might be python, python3, python3.8, etc: it depends on your environment\).
+There **python3** is refering to your **Python3.8.X** installation, just adapt the commands to match your setup if any different (might be python, python3, python3.8, etc: it depends on your environment).
 
 Note that python3.8 might be available under the name **python3.8** after this installation.
 
@@ -30,7 +30,7 @@ Note that python3.8 might be available under the name **python3.8** after this i
 
 ### Requirements
 
-**Python3.8.X**, **git** and an installed and **functional OctoBot setup** cloned from \[OctoBot github repository [https://github.com/Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot)\]{.title-ref}
+**Python3.8.X**, **git** and an installed and **functional OctoBot setup** cloned from [OctoBot github repository [https://github.com/Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot)]
 
 ```bash
 $ git pull origin dev
@@ -40,7 +40,7 @@ $ python3 start.py tentacles --install --all
 
 ### Python3
 
-There **python3** is refering to your **Python3.8.X** installation, just adapt the commands to match your setup if any different \(might be python, python3, python3.8, etc: it depends on your environment\).
+There **python3** is refering to your **Python3.8.X** installation, just adapt the commands to match your setup if any different (might be python, python3, python3.8, etc: it depends on your environment).
 
 ## With Repo
 
@@ -48,10 +48,7 @@ Repo is a tool built on top of Git. Repo helps manage many Git repositories.
 
 To create a development OctoBot environment, repo can be used as following :
 
-* \[Install
-
-  repo\]\([https://source.android.com/setup/build/downloading\#installing-repo](https://source.android.com/setup/build/downloading#installing-repo)\)
-
+* [Install repo]([https://source.android.com/setup/build/downloading#installing-repo](https://source.android.com/setup/build/downloading#installing-repo))
 * Create a directory for the OctoBot environment
 * Create OctoBot developer environment by running
 

@@ -20,6 +20,6 @@
 
 ## Tentacles <a id="coding-1"></a>
 
-* [Tentacle package development](coding-1/tentacle-package-development.md)
-* [Tentacle development](coding-1/tentacle-development.md)
+* [Tentacle package development](coding/tentacle-package-development.md)
+* [Tentacle development](coding/tentacle-development.md)
 
