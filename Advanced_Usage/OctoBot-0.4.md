@@ -148,7 +148,7 @@ tentacles.
     ```
 
 3.  Follow the [docker help
-    docs](With-Docker.html#how-to-look-at-octobot-logs-) if you need
+    docs](../Installation/With-Docker.md#how-to-look-at-octobot-logs) if you need
     more details about how to use OctoBot with Docker.
 
 **With Python**
@@ -166,7 +166,7 @@ tentacles.
     pip install --prefer-binary -Ur requirements.txt
     ```
 
-    **\--prefer-binary** is important here otherwise you will have to
+    **--prefer-binary** is important here otherwise you will have to
     recompile every module: it requires a c++ compiler and can be very
     slow.
 

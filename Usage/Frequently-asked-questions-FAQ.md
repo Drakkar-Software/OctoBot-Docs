@@ -7,7 +7,7 @@ Why is my OctoBot not creating orders ?
 Before creating any order (using trading simulator or real trading),
 OctoBot asks the exchange for its minimal (and maximal) requirements for
 any order. When creating an order (following a buy or sell signal),
-these order requirements are checked. If the order is not complient, it
+these order requirements are checked. If the order is not compliant, it
 will not be pushed to the exchange.
 
 The most common case of signals without created orders is when there is
@@ -15,9 +15,9 @@ The most common case of signals without created orders is when there is
 
 Example: not enough **USD** to buy BTC for a BTC/**USD** **buy** signal.
 
-Note: In trading simulator and backtesting modes, OctoBot uses a
-simulated portfolio called `"starting-portfolio"` that is defined in the
-[trading simulator configuration](Simulator.html#starting-portfolio).
+{% hint style="note" %}
+In trading simulator and backtesting modes, OctoBot uses a simulated portfolio called `"starting-portfolio"` that is defined in the [trading simulator configuration](../Usage/Simulator.md#starting-portfolio).
+{% endhint %}
 
 How often will my OctoBot trade ?
 ---------------------------------
@@ -84,8 +84,7 @@ possible that 100% of the exchange funds on an account will be traded.
 Why is backtesting not using all available data ?
 -------------------------------------------------
 
-OctoBot backtesting is always using the **maximum available data
-allowing to keep a realistic simulation**.
+OctoBot backtesting is always using the **maximum available data allowing to keep a realistic simulation**.
 
 However exchange are usually not giving all of their data: they give the
 last X candles (500 for binance). Therefore a regular backtesting data

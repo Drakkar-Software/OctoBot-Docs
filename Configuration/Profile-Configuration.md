@@ -3,7 +3,7 @@ OctoBot configuration is located in the **user** folder:
 -   **user/config.json** is the global configuration file, mostly used
     to setup the bot exchanges credentials, interfaces and notification
     settings.
--   **user/profiles/** contains all the [profiles](Profiles.html)
+-   **user/profiles/** contains all the [profiles](Profiles.md)
     created and imported in your OctoBot.
 
 OctoBot's web interface allows to easily edit the configuration,
@@ -38,7 +38,7 @@ description are displayed instead of selectors to customize the profile.
 [![profile_strategies](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_strategies.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_strategies.png)
 
 When the configured profile is a custom profile, it can be configured,
-[see custom profile page](Custom-Profile.html)
+[see custom profile page](Custom-Profile.md)
 
 ### Specific evaluator configuration
 
@@ -164,8 +164,7 @@ OctoBot can process two types of trading:
 
 [![trading](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_trading.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_trading.png)
 
-Or edit the trader key in
-**user/profiles/<profile\_name\>/profile.json** :
+Or edit the trader key in **user/profiles/<profile_name>/profile.json** :
 
 ``` json
 "trading":{
@@ -196,7 +195,7 @@ It is a value between 0 and 1:
     market moves.
 -   A high risk (closer to 1) will make OctoBot a very active and heavy
     trader. A 1 risk bot is very optimistic (regarding its orders
-    creation) and is expecting significative market moves.
+    creation) and is expecting significant market moves.
 
 ### Trader simulator
 
@@ -204,4 +203,4 @@ Additionally to the real trading system, a trading simulator is
 available in OctoBot.
 
 [Here is the article describing the simulator feature of
-OctoBot](Simulator.html)
+OctoBot](../Usage/Simulator.md)
