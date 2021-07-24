@@ -8,7 +8,7 @@ OctoBot configuration
 ---------------------
 
 Simply add the Trading-view service into your OctoBot's configuration
-and setup your [webhook service](Using-a-webhook-with-OctoBot.html).
+and setup your [webhook service](../Webhooks/Using-a-webhook-with-OctoBot.md).
 
 TradingView account
 -------------------

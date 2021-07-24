@@ -6,15 +6,11 @@ To know more about an exchange support in OctoBot, please have a look at [exchan
 Web interface configuration
 ---------------------------
 
-Octobot reads trading data (prices, volumes, trades, etc) from
-exchanges. At least one exchange is required for OctoBot to perform
-trades. In [simulation mode](Simulator.html#simulator), exchange API
-keys configuration is not necessary.
+Octobot reads trading data (prices, volumes, trades, etc) from exchanges. At least one exchange is required for OctoBot to perform trades. In [simulation mode](../Usage/Simulator.md), exchange API keys configuration is not necessary.
 
 [![exchanges](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/exchanges.jpg)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/exchanges.jpg)
 
-You can configure OctoBot's exchanges using the [web
-interface](Web-interface.html) **configuration** tab.
+You can configure OctoBot's exchanges using the [web interface](../Interfaces/Web-interface.md) **configuration** tab.
 
 Manual configuration
 --------------------
@@ -29,10 +25,7 @@ In **user/config.json**, find this lines:
 
 Edit this lines and add the exchange(s) you want to use.
 
-In OctoBot configuration, exchange connection info are encrypted. To
-manually add exchange configuration, you can add your info directly into
-your **user/config.json** file, OctoBot will then take care of the
-encryption for you.
+In OctoBot configuration, exchange connection info are encrypted. To manually add exchange configuration, you can add your info directly into your **user/config.json** file, OctoBot will then take care of the encryption for you.
 
 If you want to encrypt your exchange keys before starting OctoBot, you
 can use the following instructions:
@@ -43,8 +36,7 @@ Start the OctoBot with option **--encrypter** like below :
 python start.py --encrypter
 ```
 
-And copy and paste your api-key and api-secret to your configuration
-file (see example below).
+And copy and paste your api-key and api-secret to your configuration file (see example below).
 
 Example with Binance and Coinbase Pro :
 
@@ -64,14 +56,9 @@ Example with Binance and Coinbase Pro :
 
 -   **api-key** is your exchange account API key
 -   **api-secret** is your exchange account API secret
--   **api-password** is your exchange account API password if this
-    exchange is requiring a password. Leave empty otherwise
+-   **api-password** is your exchange account API password if this exchange is requiring a password. Leave empty otherwise
 
 Simulated exchange
 ------------------
 
-To use the Simulated exchange feature of the Octobot, you have to
-specifiy a [trader simulator](Simulator.html) configuration. To use an
-exchange in simulation only, you also have to specify its configuration
-as described above. For most exchanges, API credentials are not required
-in simulation mode, adding the exchange with default values is enough.
+To use the Simulated exchange feature of the Octobot, you have to specify a [trader simulator](../Usage/Simulator.md) configuration. To use an exchange in simulation only, you also have to specify its configuration as described above. For most exchanges, API credentials are not required in simulation mode, adding the exchange with default values is enough.

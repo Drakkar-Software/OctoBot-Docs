@@ -38,8 +38,7 @@ Find the trader-simulator key in
 
 ### Enabled
 
-Set **enabled** to true to start a trader simulator when starting
-OctoBot.
+Set **enabled** to true to start a trader simulator when starting OctoBot.
 
 ### Fees
 
@@ -57,13 +56,9 @@ The starting portfolio is also **used for backtesting**.
 Mode, Reference-market and Risk
 -------------------------------
 
-These parameters are defined in the **trading** section, which is used
-by the trader simulator as well as the real trader. This **trading**
-section is described on the [real trader
-page](Trader.html#trading-settings)
+These parameters are defined in the **trading** section, which is used by the trader simulator as well as the real trader. This **trading** section is described on the [real trader page](../Configuration/Profile-Configuration.md#trading)
 
 Real trader
 -----------
 
-Additionally to the simulated trading system, a real trader is available
-in OctoBot.
+Additionally to the simulated trading system, a real trader is available in OctoBot.
