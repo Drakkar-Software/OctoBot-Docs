@@ -18,15 +18,15 @@ tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/
 TP is for tentacle package
 {% endhint %}
 
-* **YOUR\_TP\_CATEGORY** can be Backtesting, Evaluator, Services or
+* **YOUR_TP_CATEGORY** can be Backtesting, Evaluator, Services or
 
   Trading
 
-* **YOUR\_TP\_SUB\_CATEGORY** should be a sub category of
+* **YOUR_TP_SUB_CATEGORY** should be a sub category of
 
-  **YOUR\_TP\_CATEGORY** in the existing tentacle architecture
+  **YOUR_TP_CATEGORY** in the existing tentacle architecture
 
-* **YOUR\_TENTACLE\_PACKAGE\_NAME** is the name of your tentacle
+* **YOUR_TENTACLE_PACKAGE_NAME** is the name of your tentacle
 
   package, shouldn't use an existing tentacle package name
 
@@ -49,25 +49,25 @@ A tentacle package metadata.json contains :
 }
 ```
 
-* **YOUR\_TP\_VERSION** is your tentacle package version
-* **YOUR\_TP\_ORIGIN\_PACKAGE** is the author or the origin repository
+* **YOUR_TP_VERSION** is your tentacle package version
+* **YOUR_TP_ORIGIN_PACKAGE** is the author or the origin repository
 
   of the tentacle package
 
-* **YOUR\_TP\_TENTACLE\_1** and **YOUR\_TP\_TENTACLE\_2** are names of
+* **YOUR_TP_TENTACLE_1** and **YOUR_TP_TENTACLE_2** are names of
 
-  your tentacle package tentacles \(can have 1 or more\).
+  your tentacle package tentacles (can have 1 or more).
 
-* **YOUR\_TP\_TP\_REQUIREMENT\_1** and
+* **YOUR_TP_TP_REQUIREMENT_1** and
 
-  **YOUR\_TP\_TP\_REQUIREMENT\_2** are the names of required tentacle
+  **YOUR_TP_TP_REQUIREMENT_2** are the names of required tentacle
 
-  packages to have installed to run your tentacle package \(can have 0
+  packages to have installed to run your tentacle package (can have 0
 
-  or more\)
+  or more)
 
 {% hint style="info" %}
-**YOUR\_TP\_TENTACLE\_X** should match python classes to be exposed in the tentacle
+**YOUR_TP_TENTACLE_X** should match python classes to be exposed in the tentacle
 {% endhint %}
 
 Example _DailyTradingMode/metadata.json_ :
@@ -83,9 +83,9 @@ Example _DailyTradingMode/metadata.json_ :
 
 ## Tentacle modules
 
-[Tentacle](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Tentacles/Tentacle-Development.html) python modules should be placed at the root path of the tentacle package \(can be 1 or more\).
+[Tentacle](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Tentacles/Tentacle-Development.html) python modules should be placed at the root path of the tentacle package (can be 1 or more).
 
-Example with _momentum\_evaluator_ : The main python module that contains multiple tentacles is located at
+Example with _momentum_evaluator_ : The main python module that contains multiple tentacles is located at
 
 ```bash
 tentacles/Evaluator/TA/momentum_evaluator/momentum.py
@@ -93,11 +93,11 @@ tentacles/Evaluator/TA/momentum_evaluator/momentum.py
 
 Every tentacle classes should be imported in the root **init.py** file.
 
-Example with _momentum\_evaluator_'s \_\_init\_\_.py :
+Example with _momentum_evaluator_'s __init__.py :
 
 ```python
-from .momentum import RSIMomentumEvaluator, ADXMomentumEvaluator, RSIWeightMomentumEvaluator, \
-BBMomentumEvaluator, MACDMomentumEvaluator, KlingerOscillatorMomentumEvaluator, \
+from .momentum import RSIMomentumEvaluator, ADXMomentumEvaluator, RSIWeightMomentumEvaluator, 
+BBMomentumEvaluator, MACDMomentumEvaluator, KlingerOscillatorMomentumEvaluator, 
 KlingerOscillatorReversalConfirmationMomentumEvaluator
 ```
 
@@ -109,7 +109,7 @@ A tentacle package can contain tentacle config. Config files are located in _con
 tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/config/
 ```
 
-Each tentacles config file should be named with the exact case and name as the exposed tentacle class\(es\). Below an example for _MyAwesomeTentacle_ :
+Each tentacles config file should be named with the exact case and name as the exposed tentacle class(es). Below an example for _MyAwesomeTentacle_ :
 
 ```bash
 tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/config/MyAwesomeTentacle.json
@@ -123,9 +123,9 @@ tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/confi
 
 ## Resources
 
-Tentacle package resources are located in the \[resources\]{.title-ref} folder of your tentacle package.
+Tentacle package resources are located in the folder of your tentacle package.
 
-Tentacles guides can be created for each tentacle in resources/YOUR\_TP\_TENTACLE\_1.md, resources/YOUR\_TP\_TENTACLE\_2.md \(the file name should match the tentacle class name\)
+Tentacles guides can be created for each tentacle in `resources/YOUR_TP_TENTACLE_1.md`, `resources/YOUR_TP_TENTACLE_2.md` (the file name should match the tentacle class name)
 
 A tentacle package can also contain many resources that can be binary files, images...
 
@@ -144,7 +144,7 @@ each state.
 
 ## Tests
 
-Tentacle should be tested. Tests file are usually located in the \[tests\]{.title-ref} folder of the tentacle package.
+Tentacle should be tested. Tests file are usually located in the [tests]{.title-ref} folder of the tentacle package.
 
 ## Installation
 
