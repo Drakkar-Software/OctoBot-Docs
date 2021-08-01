@@ -2,7 +2,7 @@
 
 ## Requirements
 
-To run OctoBot's tests, an OctoBot development environment is necessary, development environment setup is described [here](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Coding/Developer-Guide.html#environment-setup)
+To run OctoBot's tests, an OctoBot development environment is necessary, development environment setup is described [here](../guides/developer-guide.md)
 
 ## OctoBot engine
 
@@ -22,5 +22,5 @@ To run OctoBot's tentacles tests, use the _pytest tentacles_ command in OctoBot'
 pytest tentacles
 ```
 
-This will run all tests in the **tentacles** folder. Testing tentacles works only if tentacles are installed on the tested OctoBot. See [OctoBot's tentacle manager](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Coding/Tentacle-Manager.html) to install tentacles.
+This will run all tests in the **tentacles** folder. Testing tentacles works only if tentacles are installed on the tested OctoBot. See [OctoBot's tentacle manager](https://docs.octobot.online/advanced_usage/tentacle-manager) to install tentacles.
 

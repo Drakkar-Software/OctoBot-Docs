@@ -48,7 +48,7 @@ Repo is a tool built on top of Git. Repo helps manage many Git repositories.
 
 To create a development OctoBot environment, repo can be used as following :
 
-* [Install repo]([https://source.android.com/setup/build/downloading#installing-repo](https://source.android.com/setup/build/downloading#installing-repo))
+* [Install repo](https://source.android.com/setup/build/downloading#installing-repo)
 * Create a directory for the OctoBot environment
 * Create OctoBot developer environment by running
 

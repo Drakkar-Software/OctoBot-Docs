@@ -4,7 +4,7 @@
 
 This page covers tentacle development.
 
-A tentacle is part of a [tentacle package](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Tentacles/Tentacle-Package-Development.html) and defines a tool for OctoBot such as a way to analyse moving averages, listen to twitter for create grid-like orders.
+A tentacle is part of a [tentacle package](tentacle-package-development.md) and defines a tool for OctoBot such as a way to analyse moving averages, listen to twitter for create grid-like orders.
 
 OctoBot uses tentacles to handle:
 
@@ -22,13 +22,13 @@ There is no limit to the things OctoBot can handle: everything that can be coded
 
 The most efficient way to create a new tentacle si to build on top of an existing one to add features to it. It is of course also possible to create a new completely new tentacle, in this case please have a look at similar tentacles.
 
-To create a tentacle improving an existing one, all you need to do, is to use the existing tentacle folder as a template \(to create a [tentacle package](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Tentacles/Tentacle-Package-Development.html)\) and extend the existing tentacle you want to improve and re-implement the methods you want to change in the package's python file.
+To create a tentacle improving an existing one, all you need to do, is to use the existing tentacle folder as a template \(to create a [tentacle package](tentacle-package-development.md)\) and extend the existing tentacle you want to improve and re-implement the methods you want to change in the package's python file.
 
 Examples:
 
 **TwitterNewsEvaluator** is a simple Twitter evaluator available by default in `tentacles/Evaluator/Social/new_evaluator/news.py`. Let's say you want to implement **SuperTwitterNewsEvaluator** which is a better Twitter evaluator.
 
-Create the `tentacles/Evaluator/Social/super_new_evaluator/` [tentacle package](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Tentacles/Tentacle-Package-Development.html) based on `tentacles/Evaluator/Social/new_evaluator` and start coding the the python file.
+Create the `tentacles/Evaluator/Social/super_new_evaluator/` [tentacle package](tentacle-package-development.md) based on `tentacles/Evaluator/Social/new_evaluator` and start coding the the python file.
 
 ```python
 import tentacles.Evaluator.Social as Socials
@@ -44,7 +44,7 @@ class SuperTwitterNewsEvaluator(Socials.TwitterNewsEvaluator):
        return sentiment
 ```
 
-**SimpleStrategyEvaluator** is a strategy available by default in `tentacles/Evaluator/Strategies/mixed_strategies_evaluator/mixed_strategies.py`. Create the `tentacles/Evaluator/Social/super_simple_strategy_evaluator/` [tentacle package](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Tentacles/Tentacle-Package-Development.html) based on `tentacles/Evaluator/Strategies/mixed_strategies_evaluator` and start coding the the python file.
+**SimpleStrategyEvaluator** is a strategy available by default in `tentacles/Evaluator/Strategies/mixed_strategies_evaluator/mixed_strategies.py`. Create the `tentacles/Evaluator/Social/super_simple_strategy_evaluator/` [tentacle package](tentacle-package-development.md) based on `tentacles/Evaluator/Strategies/mixed_strategies_evaluator` and start coding the the python file.
 
 ```python
 import tentacles.Evaluator.Strategies as Strategies
