@@ -37,7 +37,6 @@
 
 * [Tentacle Manager](Advanced_Usage/Tentacle-Manager.md)
 * [Backtesting](Advanced_Usage/Backtesting-and-strategy-optimization.md)
-* [OctoBot 0.4](Advanced_Usage/OctoBot-0.4.md)
 
 ## Webhooks <a id="webhooks"></a>
 
