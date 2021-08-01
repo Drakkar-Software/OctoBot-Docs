@@ -58,7 +58,7 @@ From Octobot 0.3 to 0.4
 #### OctoBot executable
 
 Download and start the OctoBot 0.4.0 executable for your computer from
-<https://github.com/Drakkar-Software/OctoBot-Binary/releases>.
+<https://github.com/Drakkar-Software/OctoBot/releases>.
 
 The first start will setup your OctoBot environment and download
 tentacles.
@@ -128,7 +128,7 @@ Note: if you are on an arm architecture (like on raspberry pie), add the
 **With the OctoBot executable**
 
 Download and start the latest OctoBot 0.4.0 executable for your computer
-from <https://github.com/Drakkar-Software/OctoBot-Binary/releases>.
+from <https://github.com/Drakkar-Software/OctoBot/releases>.
 
 The first start will setup your OctoBot environment and download
 tentacles.

@@ -8,7 +8,7 @@ mode.
 [![trading](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/trading.jpg)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/trading.jpg)
 
 The only difference with a real trader is in the starting portfolio that
-is set in the **user/profiles/<profile_name>/profile.json** file.
+is set in the **user/profiles/profile_name/profile.json** file.
 Each profile has its own simulated portfolio. This portfolio will be
 managed by OctoBot and simulated orders will be using these available
 cryptocurrencies as a basis. The trader simulator will use the
@@ -20,7 +20,7 @@ Setup the trader_simulator
 ---------------------------
 
 Find the trader-simulator key in
-**user/profiles/<profile_name>/profile.json** :
+**user/profiles/profile_name/profile.json** :
 
 ``` json
 "trader-simulator":{

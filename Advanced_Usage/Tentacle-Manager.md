@@ -11,7 +11,7 @@ all default tentacles (modules) you can create to custom your own
 cryptocurrencies trader bot.
 
 **It's very simple !** If you used [the OctoBot
-binary](https://github.com/Drakkar-Software/OctoBot-Binary/releases) to
+binary](https://github.com/Drakkar-Software/OctoBot/releases) to
 install OctoBot, you dont need to do this.
 
 Otherwise, after the [developer installation](https://developer.docs.octobot.online/installation/for-developers) of
