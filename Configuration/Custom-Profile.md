@@ -15,9 +15,9 @@ Evaluator and trading configuration
 
 [![trading_modes](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_strategies_select.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_strategies_select.png)
 
-**user/profiles/<profile_name>/tentacles_config.json** is a configuration file telling OctoBot which evaluators, strategies and trading modes to use. It is kept up to date after each [Tentacle Manager](../Advanced_Usage/Tentacle-Manager.md) usage (when new elements become available).
+**user/profiles/profile_name/tentacles_config.json** is a configuration file telling OctoBot which evaluators, strategies and trading modes to use. It is kept up to date after each [Tentacle Manager](../Advanced_Usage/Tentacle-Manager.md) usage (when new elements become available).
 
-An example of **user/profiles/<profile_name>/tentacles_config.json** is available [as default_tentacles_config.json on github](https://github.com/Drakkar-Software/OctoBot/blob/master/octobot/config/default_tentacles_config.json).
+An example of **user/profiles/profile_name/tentacles_config.json** is available [as default_tentacles_config.json on github](https://github.com/Drakkar-Software/OctoBot-Tentacles/blob/master/profiles/daily_trading/tentacles_config.json).
 
 [![evaluators](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/evaluators.jpg)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/evaluators.jpg)
 
