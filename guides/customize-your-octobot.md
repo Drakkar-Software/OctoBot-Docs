@@ -34,9 +34,7 @@ tentacles --install --all --location "path/to/your/package/package_name.zip"
 
 To create a tentacles package from a local folder:
 
-1. Make sure it follows the \[OctoBot-Tentacles folder
-
-   architecture\]\([https://github.com/Drakkar-Software/OctoBot-Tentacles](https://github.com/Drakkar-Software/OctoBot-Tentacles)\)
+1. Make sure it follows the [OctoBot-Tentacles folders architecture](https://github.com/Drakkar-Software/OctoBot-Tentacles)
 
 2. Call OctoBot with the following options:
 

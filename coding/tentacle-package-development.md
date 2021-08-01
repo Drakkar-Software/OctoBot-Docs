@@ -4,7 +4,7 @@
 
 This page covers tentacle package creation.
 
-A tentacle package contains one or multiple [tentacles](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Tentacles/Tentacle-Development.html).
+A tentacle package contains one or multiple [tentacles](tentacle-development.md).
 
 ## The tentacle package folder
 
@@ -83,7 +83,7 @@ Example _DailyTradingMode/metadata.json_ :
 
 ## Tentacle modules
 
-[Tentacle](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Tentacles/Tentacle-Development.html) python modules should be placed at the root path of the tentacle package (can be 1 or more).
+[Tentacle](tentacle-development.md) python modules should be placed at the root path of the tentacle package (can be 1 or more).
 
 Example with _momentum_evaluator_ : The main python module that contains multiple tentacles is located at
 
@@ -148,5 +148,5 @@ Tentacle should be tested. Tests file are usually located in the [tests]{.title-
 
 ## Installation
 
-Follow the [tentacles installation guide](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Tentacles/Customize-your-OctoBot.html#installing-tentacles) to install your custom tentacle package.
+Follow the [tentacles installation guide](../guides/customize-your-octobot.md#installing-tentacles) to install your custom tentacle package.
 
