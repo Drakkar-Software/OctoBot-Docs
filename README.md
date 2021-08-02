@@ -18,7 +18,7 @@ Here are the current partners:
 
 * [Coinbase Pro](officially_supported/coinbase_pro.md)
 * [Kucoin](officially_supported/kucoin.md)
-* [FTX](officially_supported/ftx.md)
+* [FTX](partners/ftx/README.md)
 
 ## Community tested exchanges
 
