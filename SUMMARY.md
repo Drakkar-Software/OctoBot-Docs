@@ -8,6 +8,8 @@
 
 * [Binance](partners/binance/README.md)
   * [Account setup](partners/binance/setup.md)
+* [FTX](partners/ftx/README.md)
+  * [Account setup](partners/ftx/setup.md)
 * [Bybit](partners/bybit/README.md)
   * [Account setup](partners/bybit/setup.md)
 * [Ascendex](partners/ascendex/README.md)
@@ -17,7 +19,6 @@
 
 * [Coinbase Pro](officially_supported/coinbase_pro.md)
 * [Kucoin](officially_supported/kucoin.md)
-* [FTX](officially_supported/ftx.md)
 
 ## Community tested <a id="community_tested"></a>
 

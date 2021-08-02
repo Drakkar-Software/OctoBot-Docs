@@ -9,5 +9,12 @@
 | Websocket | 🚧  |
 | Testnet | ❌  |
 
+| Future trading | 🚧 |
+| :--- | :--- |
+| Simulation | 🚧 |
+| REST | 🚧 |
+| Websocket | 🚧 |
+| Testnet | 🚧 |
+
 ### 
 
