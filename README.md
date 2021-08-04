@@ -1,5 +1,13 @@
 # Getting Started
 
+## Officially supported exchanges
+
+* [Binance](partners/binance/)
+* [Coinbase Pro](officially_supported/coinbase_pro.md)
+* [Kucoin](officially_supported/kucoin.md)
+* [FTX](partners/ftx/)
+* [Ascendex](partners/ascendex/)
+
 ## Partner exchanges - Support OctoBot
 
 As the OctoBot team, **our goal is to keep providing OctoBot for free**. However developing and maintaining the project comes at a cost. Therefore we rely on exchanges partnerships to propose the most convenient way to support OctoBot.
@@ -12,13 +20,8 @@ Here are the current partners:
 
 * [Binance](partners/binance/)
 * [Bybit](partners/bybit/)
-* [Ascendex](partners/ascendex/)
-
-## Officially supported exchanges
-
-* [Coinbase Pro](officially_supported/coinbase_pro.md)
-* [Kucoin](officially_supported/kucoin.md)
-* [FTX](partners/ftx/README.md)
+* [FTX](partners/ftx/)
+* [Ascendex](partners/ascendex/) 
 
 ## Community tested exchanges
 
@@ -43,9 +46,14 @@ If you want use any exchange that is available [here](https://github.com/ccxt/cc
 
 ### REST
 
-**slow** and **limited** requests
+The REST technology is a HTTP polling based interface where exchanges have to be frequently requested to refresh OctoBot's databases.
+It: 
+* is **slower**: it might take a few seconds to update prices and orders 
+* can handle a **limited** amount of requests per seconds due to exchanges restrictions. Therefore only a limited amount of trading pairs can be handled simultaneously when using a REST interface. 
 
 ### Websocket
 
-**high speed** and **no limit**
-
+The websocket technology allows for permanent channels between exchanges and OctoBot from which exchanges directly push updated information to OctoBot.
+It:
+* is **almost instantaneous**: updates are directly pushed to OctoBot when updated on the exchange 
+* is **limitless** regarding the amount trading pairs that can be handled simultaneously
