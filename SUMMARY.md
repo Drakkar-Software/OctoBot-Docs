@@ -14,6 +14,8 @@
   * [Account setup](partners/bybit/setup.md)
 * [Ascendex](partners/ascendex/README.md)
   * [Account setup](partners/ascendex/setup.md)
+* [OKEX](partners/okex/README.md)
+  * [Account setup](partners/okex/setup.md)
 
 ## Officially supported <a id="officially_supported"></a>
 
@@ -29,7 +31,6 @@
 * [COSS](community_tested/coss.md)
 * [Huobi & Huobi Pro](community_tested/huobi.md)
 * [Bitstamp](community_tested/bitstamp.md)
-* [OKEX](community_tested/okex.md)
 * [Poloniex](community_tested/poloniex.md)
 * [Bithumb](community_tested/bithumb.md)
 * [Upbit](community_tested/upbit.md)

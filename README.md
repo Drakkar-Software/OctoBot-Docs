@@ -7,6 +7,7 @@
 * [Kucoin](officially_supported/kucoin.md)
 * [FTX](partners/ftx/)
 * [Ascendex](partners/ascendex/)
+* [OKEx](partners/okex/)
 
 ## Partner exchanges - Support OctoBot
 
@@ -21,7 +22,8 @@ Here are the current partners:
 * [Binance](partners/binance/)
 * [Bybit](partners/bybit/)
 * [FTX](partners/ftx/)
-* [Ascendex](partners/ascendex/) 
+* [Ascendex](partners/ascendex/)
+* [OKEx](partners/okex/)
 
 ## Community tested exchanges
 
