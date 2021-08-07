@@ -6,7 +6,7 @@
 | :--- | :--- |
 | Simulation | ✅ |
 | REST | ✅ |
-| Websocket | 🚧  |
+| Websocket | ✅  |
 | Testnet | ❌  |
 
 | Future trading | 🚧 |
