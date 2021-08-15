@@ -33,9 +33,9 @@ Note that python3.8 might be available under the name **python3.8** after this i
 **Python3.8.X**, **git** and an installed and **functional OctoBot setup** cloned from [OctoBot github repository [https://github.com/Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot)]
 
 ```bash
-$ git pull origin dev
-$ python3 -m pip install -Ur requirements.txt
-$ python3 start.py tentacles --install --all
+git pull origin dev
+python3 -m pip install -Ur requirements.txt
+python3 start.py tentacles --install --all
 ```
 
 ### Python3
