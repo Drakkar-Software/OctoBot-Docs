@@ -20,7 +20,7 @@
 
 ## Partnership details
 
-Binance has 2 accounts requirements to support OctoBot:
+Binance has 2 requirements for an account to support OctoBot:
 
 * A relatively new account \(after july 1st 2021\)
 * 135007948 as a referral id (or no referral id) on the account
