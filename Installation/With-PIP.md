@@ -13,7 +13,7 @@ Installation
 In a command line (with python in your PATH) type the following command:
 
 ``` bash
-$ python3.8 -m pip install OctoBot>=0.4.0b
+python3.8 -m pip install OctoBot>=0.4.0b
 ```
 
 You can change **python3.8** to the name of the python binary you added to your PATH (for example on linux you may use **python3**)
@@ -22,7 +22,7 @@ Usage
 -----
 
 ``` bash
-$ OctoBot
+OctoBot
 ```
 
 Start multiple OctoBots

@@ -15,21 +15,21 @@ The tentacles server URL has changed, there is no more leading "www". Starting f
 On Unix systems
 
 ``` bash
-$ export TENTACLES_URL="https://tentacles.octobot.online/repository/tentacles/officials/packages/full/base/0.4.0b4/any_platform.zip"
-$ python3 start.py tentacles --install --all
+export TENTACLES_URL="https://tentacles.octobot.online/repository/tentacles/officials/packages/full/base/0.4.0b4/any_platform.zip"
+python3 start.py tentacles --install --all
 ```
 
 On Windows systems
 
 ``` bash
-$ SET TENTACLES_URL=https://tentacles.octobot.online/repository/tentacles/officials/packages/full/base/0.4.0b4/any_platform.zip
-$ python3 start.py tentacles --install --all
+SET TENTACLES_URL=https://tentacles.octobot.online/repository/tentacles/officials/packages/full/base/0.4.0b4/any_platform.zip
+python3 start.py tentacles --install --all
 ```
 
 Using Docker
 
 ``` bash
-$ docker run -itd --name OctoBot -p 80:5001 -e TENTACLES_URL="https://tentacles.octobot.online/repository/tentacles/officials/packages/full/base/0.4.0b4/any_platform.zip" -v $(pwd)/user:/octobot/user -v $(pwd)/tentacles:/octobot/tentacles -v $(pwd)/logs:/octobot/logs drakkarsoftware/octobot:stable
+docker run -itd --name OctoBot -p 80:5001 -e TENTACLES_URL="https://tentacles.octobot.online/repository/tentacles/officials/packages/full/base/0.4.0b4/any_platform.zip" -v $(pwd)/user:/octobot/user -v $(pwd)/tentacles:/octobot/tentacles -v $(pwd)/logs:/octobot/logs drakkarsoftware/octobot:stable
 ```
 
 Where 0.4.0b4 is your OctoBot version.
