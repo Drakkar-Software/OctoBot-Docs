@@ -29,6 +29,18 @@ python3 -m pip install -Ur requirements.txt
 python3 start.py tentacles --install --all
 ```
 
+
+{% hint style="note" %}
+On some setup like 32-bit ARM architectures, you might get a `rust` related error while running `python3 -m pip install -Ur requirements.txt` when installing `cryptography`.
+If this happens, you need to install the `rust compiler`: `cryptography` is coded in `rust`.
+
+``` bash
+sudo apt-get install -y rustc
+```
+
+You can then restart `python3 -m pip install -Ur requirements.txt`.
+{% endhint %}
+
 ### Using the latest version (dev branch)
 
 **This is installation allows to use the most up-to-date version of OctoBot but might broken depending on the moment it is being done (modules updates might be in progress in this branch).**
