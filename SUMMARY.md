@@ -16,6 +16,8 @@
   * [Account setup](partners/ascendex/setup.md)
 * [OKEX](partners/okex/README.md)
   * [Account setup](partners/okex/setup.md)
+* [GateIO](partners/gateio/README.md)
+  * [Account setup](partners/gateio/setup.md)
 
 ## Officially supported <a id="officially_supported"></a>
 
@@ -39,5 +41,4 @@
 * [Cryptopia](community_tested/cryptopia.md)
 * [Bitvavo](community_tested/bitvavo.md)
 * [Phemex](community_tested/phemex.md)
-* [GateIO](community_tested/gateio.md)
 

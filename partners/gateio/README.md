@@ -6,5 +6,5 @@
 | :--- | :--- |
 | Simulation | ✅ |
 | REST | ✅  |
-| Websocket | 🚧  |
-| Testnet | ❌  |
+| Websocket | ✅  |
+| Testnet | ✅  |
