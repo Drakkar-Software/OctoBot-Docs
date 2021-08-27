@@ -9,6 +9,7 @@
 * [Ascendex](partners/ascendex/)
 * [OKEx](partners/okex/)
 * [GateIO](partners/gateio/)
+* [Huobi & Huobi Pro](partners/huobi/)
 
 ## Partner exchanges - Support OctoBot
 
@@ -26,6 +27,7 @@ Here are the current partners:
 * [Ascendex](partners/ascendex/)
 * [OKEx](partners/okex/)
 * [GateIO](partners/gateio/)
+* [Huobi & Huobi Pro](partners/huobi/)
 
 ## Community tested exchanges
 
@@ -34,7 +36,6 @@ Here are the current partners:
 * [Bitfinex](community_tested/bitfinex.md)
 * [Bittrex](community_tested/bittrex.md)
 * [COSS](community_tested/coss.md)
-* [Huobi & Huobi Pro](community_tested/huobi.md)
 * [Bitstamp](community_tested/bitstamp.md)
 * [Poloniex](community_tested/poloniex.md)
 * [Bithumb](community_tested/bithumb.md)

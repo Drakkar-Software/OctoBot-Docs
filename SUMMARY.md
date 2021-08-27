@@ -18,6 +18,8 @@
   * [Account setup](partners/okex/setup.md)
 * [GateIO](partners/gateio/README.md)
   * [Account setup](partners/gateio/setup.md)
+* [Huobi & Huobi Pro](partners/huobi/README.md)
+  * [Account setup](partners/huobi/setup.md)
 
 ## Officially supported <a id="officially_supported"></a>
 
@@ -31,7 +33,6 @@
 * [Bitfinex](community_tested/bitfinex.md)
 * [Bittrex](community_tested/bittrex.md)
 * [COSS](community_tested/coss.md)
-* [Huobi & Huobi Pro](community_tested/huobi.md)
 * [Bitstamp](community_tested/bitstamp.md)
 * [Poloniex](community_tested/poloniex.md)
 * [Bithumb](community_tested/bithumb.md)
