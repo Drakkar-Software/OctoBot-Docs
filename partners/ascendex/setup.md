@@ -2,7 +2,7 @@
 
 ## Create an account
 
-TODO
+- Fill [this Ascendex](https://ascendex.com/en-us/register?inviteCode=ULWCFWL6G) registration form
 
 ## Generate API key
 

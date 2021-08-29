@@ -2,6 +2,8 @@
 
 ## Create an account on FTX
 
+- Fill [this FTX](https://ftx.com/#a=2525542) registration form
+
 ## Generate API key for program
 
 Once logged into your FTX account: 
