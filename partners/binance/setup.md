@@ -2,7 +2,7 @@
 
 ## Create an account
 
-TODO
+- Fill [this Binance](https://accounts.binance.com/en/register?ref=135007948) registration form
 
 ## Generate API key
 
