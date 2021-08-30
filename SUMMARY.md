@@ -14,7 +14,7 @@
   * [Account setup](partners/bybit/setup.md)
 * [Ascendex](partners/ascendex/README.md)
   * [Account setup](partners/ascendex/setup.md)
-* [OKEX](partners/okex/README.md)
+* [OKEx](partners/okex/README.md)
   * [Account setup](partners/okex/setup.md)
 * [GateIO](partners/gateio/README.md)
   * [Account setup](partners/gateio/setup.md)
