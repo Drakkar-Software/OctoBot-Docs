@@ -1,4 +1,4 @@
-# FTX
+# OKEx
 
 ### OctoBot support
 
@@ -7,7 +7,7 @@
 | Simulation | ✅ |
 | REST | ✅ |
 | Websocket | ✅  |
-| Testnet | ❌  |
+| Testnet | ✅  |
 
 | Future trading | 🚧 |
 | :--- | :--- |
