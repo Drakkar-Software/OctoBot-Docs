@@ -71,7 +71,7 @@ CentOS
 
 ### Install OctoBot on CentOS
 
-1. Requirements
+Requirements
 
 ``` bash
 yum -y update
@@ -86,7 +86,7 @@ cd Python-3.8*/
 ./configure --enable-loadable-sqlite-extensions && make && sudo make install
 ```
 
-2. OctoBot
+OctoBot
 
 ``` bash
 git clone https://github.com/Drakkar-Software/OctoBot.git
