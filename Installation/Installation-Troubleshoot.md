@@ -26,6 +26,35 @@ SET TENTACLES_URL=https://tentacles.octobot.online/repository/tentacles/official
 python3 start.py tentacles --install --all
 ```
 
+On CentOS systems
+
+1. Requirements
+
+``` bash
+yum -y update
+yum install -y git wget sqlite-devel screen
+yum -y groupinstall "Development Tools"
+yum -y install openssl-devel bzip2-devel libffi-devel
+yum install -y screen
+cd /root
+wget https://www.python.org/ftp/python/3.8.3/Python-3.8.3.tgz
+tar xvf Python-3.8.3.tgz
+d Python-3.8*/
+./configure --enable-loadable-sqlite-extensions && make && sudo make install
+```
+
+2. OctoBot
+
+``` bash
+git clone https://github.com/Drakkar-Software/OctoBot.git
+cd OctoBot/
+python3.8 -m pip install virtualenv
+virtualenv venv
+source venv/bin/activate
+pip install -Ur requirements.txt
+python start.py
+```
+
 Using Docker
 
 ``` bash
