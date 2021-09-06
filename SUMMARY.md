@@ -33,6 +33,7 @@
 * [Reddit interface](Interfaces/Reddit-interface.md)
 * [Twitter interface](Interfaces/Twitter-interface.md)
 * [Telegram interface](Interfaces/Telegram-interface.md)
+  * [Telegram API](Interfaces/Telegram-API.md)
 
 ## Advanced usage <a id="advanced_usage"></a>
 
