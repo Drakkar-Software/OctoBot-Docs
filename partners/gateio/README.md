@@ -8,3 +8,5 @@
 | REST | ✅  |
 | Websocket | ✅  |
 | Testnet | ✅  |
+
+[Account setup](partners/gateio/setup)
