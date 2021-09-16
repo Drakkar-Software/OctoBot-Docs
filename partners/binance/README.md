@@ -17,6 +17,7 @@
 | Testnet | 🚧 |
 
 
+[Account setup](partners/binance/setup)
 
 ## Partnership details
 

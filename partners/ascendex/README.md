@@ -18,3 +18,5 @@
 
 ⚠ Ascendex websocket is under development
 
+[Account setup](partners/ascendex/setup)
+
