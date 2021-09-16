@@ -9,4 +9,4 @@
 | Websocket | ✅  |
 | Testnet | ✅  |
 
-[Account setup](partners/gateio/setup)
+[Account setup](partners/gateio/setup.md)

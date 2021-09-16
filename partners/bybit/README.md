@@ -16,7 +16,7 @@
 | Websocket | 🚧 |
 | Testnet | 🚧 |
 
-[Account setup](partners/bybit/setup)
+[Account setup](partners/bybit/setup.md)
 
 ❌ Spot trading is not yet supported by Bybit
 

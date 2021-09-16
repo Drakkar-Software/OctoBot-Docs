@@ -17,7 +17,7 @@
 | Testnet | 🚧 |
 
 
-[Account setup](partners/binance/setup)
+[Account setup](partners/binance/setup.md)
 
 ## Partnership details
 
