@@ -16,5 +16,5 @@
 | Websocket | 🚧 |
 | Testnet | 🚧 |
 
-[Account setup](partners/okex/setup)
+[Account setup](setup.md)
 

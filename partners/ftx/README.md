@@ -16,5 +16,5 @@
 | Websocket | 🚧 |
 | Testnet | 🚧 |
 
-[Account setup](partners/ftx/setup.md)
+[Account setup](setup.md)
 
