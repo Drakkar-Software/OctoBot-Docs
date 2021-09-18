@@ -60,7 +60,7 @@ How to change the backtesting starting portfolio ?
 --------------------------------------------------
 
 Each backtesting run is using the [simulator's starting
-portfolio](Simulator.html#starting-portfolio) as a base.
+portfolio](Simulator.md#starting-portfolio) as a base.
 
 Note: In 0.3.X, when the reference market is changed during a
 backtesting, its value will always be 10000. This changes in 0.4.X where
