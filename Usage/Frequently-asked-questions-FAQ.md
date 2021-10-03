@@ -100,3 +100,21 @@ range in 1d is `500/(60*24) = 0.35` which means the whole backtesting is
 carried out with the data of one day: the last daily candle of the 500
 1d candle only while using 100% of the shortest time frame: 1m (which
 all happened during this one day).
+
+"RuntimeError: Event loop is closed" in my OctoBot's logs, is there a problem ?
+-------------------------------------------------------------------------------
+
+This error (or something very similar) might appear in your OctoBot's logs:
+
+```
+<function _ProactorBasePipeTransport.del at 0x000001064DE8A310>
+Traceback (most recent call last):
+  File "asyncio\proactor_events.py", line 116, in del
+  File "asyncio\proactor_events.py", line 108, in close
+  File "asyncio\base_events.py", line 719, in call_soon
+  File "asyncio\base_events.py", line 508, in _check_closed
+RuntimeError: Event loop is closed
+```
+
+This is a minor issue with the current Windows implementation of the asynchronous 
+libraries OctoBot is using. It has absolutely no effect and can be completely ignored.
