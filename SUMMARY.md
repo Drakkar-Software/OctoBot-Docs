@@ -6,8 +6,8 @@
 ## Installation
 
 * [Developer Installation](installation/developer-installation/README.md)
-  * [simple developer installation](installation/developer-installation/for-developers.md)
-  * [full developer installation](installation/developer-installation/full-developer-installation.md)
+  * [Tentacle developer installation](installation/developer-installation/for-developers.md)
+  * [OctoBot developer installation](installation/developer-installation/octobot-developer-installation.md)
 
 ## Guides
 

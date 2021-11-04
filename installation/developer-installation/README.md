@@ -10,6 +10,6 @@
 
 this environment allows you to fully customize OctoBot
 
-{% content-ref url="full-developer-installation.md" %}
-[full-developer-installation.md](full-developer-installation.md)
+{% content-ref url="octobot-developer-installation.md" %}
+[octobot-developer-installation.md](octobot-developer-installation.md)
 {% endcontent-ref %}

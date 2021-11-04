@@ -2,7 +2,7 @@
 description: Setting up the recommended OctoBot development environment
 ---
 
-# full developer installation
+# OctoBot developer installation
 
 {% hint style="info" %}
 This page is referring to OctoBot in versions superior to 0.4.0.
@@ -105,7 +105,7 @@ project_work https://github.com/Drakkar-Software/Async-Channel false
 
 *   Clone the repository into the preferred destination
 
-    and repeat that step for all repositories [below](full-developer-installation.md#octobot-repositories)
+    and repeat that step for all repositories [below](octobot-developer-installation.md#octobot-repositories)
 
 ![](<../../.gitbook/assets/image (18).png>)
 
