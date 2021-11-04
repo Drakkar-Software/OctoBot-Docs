@@ -173,10 +173,7 @@ OctoBot code is split in multiple repositories:
 
 We recommand using [PyCharm](https://www.jetbrains.com/pycharm/) to navigate through the OctoBot projects. This IDE will allow you to open and navigate through the multiple OctoBot repositories and make your OctoBot run setup use the code directly from the clonned repos using the project dependencies.
 
-* Open Pycharm and open the OctoBot repository.
-*   Open every other [OctoBot repository](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Guides/Developer-Guide.html#id1)
-
-    alongside to the main OctoBot repository **in the same PyCharm window**.
+* Open Pycharm and open the folder where all the OctoBot repositories are.
 *   In File/Settings/Project/Python Interpreter: select your installed python3.8 and create a new virtual environment through PyCharm.
 
     [![python interpreter](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki\_resources/python\_interpreter.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki\_resources/python\_interpreter.png)
