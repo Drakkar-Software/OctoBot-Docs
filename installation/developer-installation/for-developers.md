@@ -1,4 +1,4 @@
-# Developer installation
+# simple developer installation
 
 ## Requirements
 
@@ -7,40 +7,42 @@
 
 ## Instructions
 
-### Windows
+{% hint style="info" %}
+on **Windows Python3.8 has to be in environment variable** :
 
-**Python3.8 has to be in environment variable** :
-
-During [python install](https://www.python.org/downloads) check _add to environment var_ checkbox.
+During [python install](https://www.python.org/downloads) **check **_add to environment var_ checkbox.
+{% endhint %}
 
 Open a command line and type :
 
 ```bash
 git clone https://github.com/Drakkar-Software/OctoBot -b dev
 cd OctoBot
-python3 -m pip install -Ur requirements.txt
-python3 start.py tentacles --install --all
+python -m pip install -Ur requirements.txt
+python start.py tentacles --install --all
 ```
 
-There **python3** is refering to your **Python3.8.X** installation, just adapt the commands to match your setup if any different (might be python, python3, python3.8, etc: it depends on your environment).
+{% hint style="info" %}
+**python** is referring to your **Python3.8.X** installation, just adapt the commands to match your setup if any different (might be **python**, **python3**,** python3.8**, etc: it depends on your environment).
 
 Note that python3.8 might be available under the name **python3.8** after this installation.
+{% endhint %}
 
 ## Update OctoBot with python only when using OctoBot code directly from dev branch
 
 ### Requirements
 
-**Python3.8.X**, **git** and an installed and **functional OctoBot setup** cloned from [OctoBot github repository [https://github.com/Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot)]
+**Python3.8.X**, **git** and an installed and **functional OctoBot setup** cloned from \[OctoBot github repository [https://github.com/Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot)]
 
 ```bash
 git pull origin dev
-python3 -m pip install -Ur requirements.txt
-python3 start.py tentacles --install --all
+python -m pip install -Ur requirements.txt
+python start.py tentacles --install --all
 ```
 
-### Python3
-
-There **python3** is refering to your **Python3.8.X** installation, just adapt the commands to match your setup if any different (might be python, python3, python3.8, etc: it depends on your environment).
+{% hint style="info" %}
+**python** is refering to your **Python3.8.X** installation, just adapt the commands to match your setup if any different (might be **python**, **python3**, **python3.8**, etc: it depends on your environment).
+{% endhint %}
 
 ## With Repo
 
@@ -75,4 +77,3 @@ OctoBot-Tentacles
 OctoBot-Tentacles-Manager
 OctoBot-Trading
 ```
-
