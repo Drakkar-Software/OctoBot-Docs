@@ -6,13 +6,14 @@
 ## Installation
 
 * [Developer Installation](installation/developer-installation/README.md)
-  * [OctoBot developer installation](installation/developer-installation/octobot-developer-installation.md)
   * [Tentacle developer installation](installation/developer-installation/for-developers.md)
+  * [OctoBot developer installation](installation/developer-installation/octobot-developer-installation.md)
 
 ## Guides
 
 * [OctoBot is customizable !](guides/customize-your-octobot.md)
-* [Developer startup guide](guides/developer-guide.md)
+* [OctoBot architecture](guides/developer-guide.md)
+* [OctoBot Repositories](guides/octobot-repositories.md)
 * [Contribution](guides/contribution.md)
 
 ## Coding
@@ -22,8 +23,8 @@
 
 ## Tentacles <a href="coding-1" id="coding-1"></a>
 
-* [Tentacle package development](coding/tentacle-package-development.md)
-* [Tentacle development](coding/tentacle-development.md)
+* [Tentacle package development](coding-1/tentacle-package-development.md)
+* [Tentacle development](coding-1/tentacle-development.md)
 
 ## Scripted Trading Overview
 
@@ -48,21 +49,21 @@
     * [calculate metrics](scripted-trading/script-structure/backtesting-script/calculate-metrics.md)
     * [plot metrics](scripted-trading/script-structure/backtesting-script/plot-metrics.md)
   * [Optimizer Script](scripted-trading/script-structure/optimizer-script.md)
-* [built in data sources](scripted-trading/built-in-data/README.md)
-  * [built in variables](scripted-trading/built-in-variables.md)
-  * [read/write any data](scripted-trading/built-in-data/read-write-any-data.md)
-  * [exchange private data](scripted-trading/built-in-data/exchange-private-data.md)
-  * [backtesting data](scripted-trading/built-in-data/backtesting-data/README.md)
-    * [backtesting results](scripted-trading/built-in-data/backtesting-data/backtesting-results.md)
-    * [trades](scripted-trading/built-in-data/backtesting-data/trades.md)
-  * [candle data](scripted-trading/built-in-data/candle-data/README.md)
-    * [Time](scripted-trading/built-in-data/candle-data/time.md)
-    * [Open](scripted-trading/built-in-data/candle-data/open.md)
-    * [High](scripted-trading/built-in-data/candle-data/high.md)
-    * [Low](scripted-trading/built-in-data/candle-data/low.md)
-    * [Close](scripted-trading/built-in-data/candle-data/close.md)
-    * [Volume](scripted-trading/built-in-data/candle-data/volume.md)
-  * [trade history](scripted-trading/built-in-data/trade-history.md)
+* [built in data sources](scripted-trading/built-in-data-sources/README.md)
+  * [built in variables](scripted-trading/built-in-data-sources/built-in-variables.md)
+  * [read/write any data](scripted-trading/built-in-data-sources/read-write-any-data.md)
+  * [exchange private data](scripted-trading/built-in-data-sources/exchange-private-data.md)
+  * [backtesting data](scripted-trading/built-in-data-sources/backtesting-data/README.md)
+    * [backtesting results](scripted-trading/built-in-data-sources/backtesting-data/backtesting-results.md)
+    * [trades](scripted-trading/built-in-data-sources/backtesting-data/trades.md)
+  * [candle data](scripted-trading/built-in-data-sources/candle-data/README.md)
+    * [Time](scripted-trading/built-in-data-sources/candle-data/time.md)
+    * [Open](scripted-trading/built-in-data-sources/candle-data/open.md)
+    * [High](scripted-trading/built-in-data-sources/candle-data/high.md)
+    * [Low](scripted-trading/built-in-data-sources/candle-data/low.md)
+    * [Close](scripted-trading/built-in-data-sources/candle-data/close.md)
+    * [Volume](scripted-trading/built-in-data-sources/candle-data/volume.md)
+  * [trade history](scripted-trading/built-in-data-sources/trade-history.md)
 * [built in functions](scripted-trading/built-in-functions/README.md)
   * [Context](scripted-trading/built-in-functions/context.md)
   * [orders](scripted-trading/built-in-functions/orders/README.md)
@@ -92,7 +93,7 @@
     * [cancel orders](scripted-trading/built-in-functions/orders/cancel-orders.md)
   * [UI](scripted-trading/built-in-functions/ui/README.md)
     * [inputs](scripted-trading/built-in-functions/ui/inputs.md)
-    * [plots](scripted-trading/built-in-functions/ui/plots.md)
+    * [plots](scripted-trading/built-in-functions/ui/plots/README.md)
       * [plot](scripted-trading/built-in-functions/ui/plots/plot.md)
       * [plot\_candles](scripted-trading/built-in-functions/ui/plots/plot\_candles.md)
   * [TA](scripted-trading/built-in-functions/ta/README.md)

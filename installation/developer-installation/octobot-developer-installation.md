@@ -73,7 +73,7 @@ git clone https://github.com/Drakkar-Software/Async-Channel
 
 * now add each folder
 
-![](<../../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (21).png>)
 
 * Now you have all repositories open as tabs and you can switch between branches
 
@@ -148,7 +148,7 @@ this script will run OctoBot and apply all changes made to all repositories exce
 
 now add a new python script
 
-![](<../../.gitbook/assets/image (19).png>)
+![](<../../.gitbook/assets/image (20).png>)
 
 ### install OctoBot-Tentacles and run OctoBot script
 
