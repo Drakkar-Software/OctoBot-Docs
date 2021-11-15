@@ -27,7 +27,7 @@ This page is referring to OctoBot in versions superior to 0.4.0.
     improvement and is not necessary.
 * Language: [Python 3.8](https://www.python.org/downloads/)
 
-#### Dependencies for Windows
+#### additional dependencies for Windows
 
 * download [Visual Studio build tools](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019) and install "Desktop development with C++"
 
@@ -35,7 +35,7 @@ This page is referring to OctoBot in versions superior to 0.4.0.
 
 ![](<../../.gitbook/assets/image (1).png>)
 
-#### Dependencies for Mac
+#### additional Dependencies for Mac
 
 * install [GCC](https://discussions.apple.com/thread/8336714)
 
@@ -55,9 +55,10 @@ git clone https://github.com/Drakkar-Software/OctoBot-Backtesting
 git clone https://github.com/Drakkar-Software/OctoBot-Tentacles-Manager
 git clone https://github.com/Drakkar-Software/OctoBot-Commons
 git clone https://github.com/Drakkar-Software/Async-Channel
+git clone https://github.com/Drakkar-Software/trading-backend
 ```
 
-* now you should have all the OctoBot modules in one folder
+* now you should have all the OctoBot repos in one folder
 
 ![](<../../.gitbook/assets/image (8).png>)
 
