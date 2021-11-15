@@ -1,2 +1,0 @@
-# trailling stop loss
-
