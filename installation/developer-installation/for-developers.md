@@ -1,4 +1,4 @@
-# simple developer installation
+# Tentacle developer installation
 
 ## Requirements
 
@@ -28,7 +28,7 @@ python start.py tentacles --install --all
 Note that python3.8 might be available under the name **python3.8** after this installation.
 {% endhint %}
 
-## Update OctoBot with python only when using OctoBot code directly from dev branch
+## Update OctoBot
 
 ### Requirements
 
@@ -43,37 +43,3 @@ python start.py tentacles --install --all
 {% hint style="info" %}
 **python** is refering to your **Python3.8.X** installation, just adapt the commands to match your setup if any different (might be **python**, **python3**, **python3.8**, etc: it depends on your environment).
 {% endhint %}
-
-## With Repo
-
-Repo is a tool built on top of Git. Repo helps manage many Git repositories.
-
-To create a development OctoBot environment, repo can be used as following :
-
-* [Install repo](https://source.android.com/setup/build/downloading#installing-repo)
-* Create a directory for the OctoBot environment
-* Create OctoBot developer environment by running
-
-```bash
-repo init -u https://github.com/Drakkar-Software/OctoBot-Repo-Manifest.git
-```
-
-* Synchronize repositories
-
-```bash
-repo sync
-```
-
-All required OctoBot projects are now available in the current directory :
-
-```bash
-Async-Channel
-OctoBot
-OctoBot-Backtesting
-OctoBot-Commons
-OctoBot-Evaluators
-OctoBot-Services
-OctoBot-Tentacles
-OctoBot-Tentacles-Manager
-OctoBot-Trading
-```

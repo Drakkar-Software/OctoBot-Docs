@@ -1,2 +1,0 @@
-# Candle data
-

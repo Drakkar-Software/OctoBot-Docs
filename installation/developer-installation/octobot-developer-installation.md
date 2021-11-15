@@ -10,9 +10,6 @@ This page is referring to OctoBot in versions superior to 0.4.0.
 
 * ****[**Install OctoBot requirements**](https://app.gitbook.com/s/XGhS0OJcF37WFUAtCJrB/c/K2S34tUZ8NdXf7pYP47C/guides/dev-environment-setup#install-octobot-requirements)****
 * ****[**Cloning OctoBot repositories**](https://app.gitbook.com/s/XGhS0OJcF37WFUAtCJrB/c/K2S34tUZ8NdXf7pYP47C/guides/dev-environment-setup#cloning-octobot-repositories)****
-
-**f**[**gd**](octobot-developer-installation.md#cloning-octobot-repositories)****
-
 * ****[**Setting up the IDE**](https://app.gitbook.com/s/XGhS0OJcF37WFUAtCJrB/c/K2S34tUZ8NdXf7pYP47C/guides/dev-environment-setup#setting-up-the-ide)****
 * ****[**create starting scripts in pyCharm**](https://app.gitbook.com/s/XGhS0OJcF37WFUAtCJrB/c/K2S34tUZ8NdXf7pYP47C/installation/developer-installation/full-developer-installation#create-starting-scripts-in-pycharm)****
 * ****[**start OctoBot in pyCharm**](https://app.gitbook.com/s/XGhS0OJcF37WFUAtCJrB/c/K2S34tUZ8NdXf7pYP47C/installation/developer-installation/full-developer-installation#start-octobot-in-pycharm)****
@@ -117,9 +114,25 @@ Do not install the requirements related to the previously downloaded repositorie
 
 * For each OctoBot's repository: install missing dependencies in requirements.txt and dev\_requirements.txt, except the OctoBot packages
 
+```
+pip install -r Octobot/requirements.txt
+pip install -r OctoBot-Backtesting/requirements.txt
+pip install -r OctoBot-Commons/requirements.txt
+pip install -r OctoBot-evaluators/requirements.txt
+pip install -r OctoBot-Services/requirements.txt
+pip install -r OctoBot-Tentacles-Manager/requirements.txt
+pip install -r Octobot/OctoBot-Trading.txt
+```
+
+* remove octobot pip packages to use the packages from your project directory
+
+```
+pip uninstall -y OctoBot-Backtesting OctoBot-Trading Async-Channel OctoBot-Evaluators OctoBot-Commons OctoBot-Tentacles-Manager OctoBot-Services trading-backend
+```
+
 ## create starting scripts in pyCharm
 
-\* Create PyCharm run configurations using the previously created virtual env (with all the dependencies installed) for each way you want to start python commands (running OctoBot, running tests, etc).
+Create PyCharm run configurations using the previously created virtual env (with all the dependencies installed) for each way you want to start python commands (running OctoBot, running tests, etc).
 
 [![run configuration](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki\_resources/run\_config.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki\_resources/run\_config.png)
 
