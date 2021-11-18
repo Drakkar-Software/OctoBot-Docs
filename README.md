@@ -2,14 +2,14 @@
 
 ## Officially supported exchanges
 
+* [Ascendex](partners/ascendex/)
 * [Binance](partners/binance/)
 * [Coinbase Pro](officially_supported/coinbase_pro.md)
-* [Kucoin](officially_supported/kucoin.md)
 * [FTX](partners/ftx/)
-* [Ascendex](partners/ascendex/)
-* [OKEx](partners/okex/)
 * [GateIO](partners/gateio/)
 * [Huobi & Huobi Pro](partners/huobi/)
+* [Kucoin](officially_supported/kucoin.md)
+* [OKEx](partners/okex/)
 
 ## Partner exchanges - Support OctoBot
 
@@ -21,28 +21,29 @@ If an account you are using is not meeting a partner exchange requirement, you w
 
 Here are the current partners:
 
+* [Ascendex](partners/ascendex/)
 * [Binance](partners/binance/)
 * [Bybit](partners/bybit/)
-* [FTX](partners/ftx/)
-* [Ascendex](partners/ascendex/)
-* [OKEx](partners/okex/)
 * [GateIO](partners/gateio/)
 * [Huobi & Huobi Pro](partners/huobi/)
+* [FTX](partners/ftx/)
+* [OKEx](partners/okex/)
 
 ## Community tested exchanges
 
-* [Kraken](community_tested/kraken.md)
-* [HitBTC](community_tested/hitbtc.md)
 * [Bitfinex](community_tested/bitfinex.md)
+* [Bithumb](community_tested/bithumb.md)
+* [Bitstamp](community_tested/bitstamp.md)
 * [Bittrex](community_tested/bittrex.md)
 * [COSS](community_tested/coss.md)
-* [Bitstamp](community_tested/bitstamp.md)
-* [Poloniex](community_tested/poloniex.md)
-* [Bithumb](community_tested/bithumb.md)
-* [Upbit](community_tested/upbit.md)
 * [Crex24](community_tested/crex24.md)
-* [Wavesexchange](community_tested/wavesexchange.md)
 * [Cryptopia](community_tested/cryptopia.md)
+* [Kraken](community_tested/kraken.md)
+* [HitBTC](community_tested/hitbtc.md)
+* [Poloniex](community_tested/poloniex.md)
+* [Upbit](community_tested/upbit.md)
+* [Wavesexchange](community_tested/wavesexchange.md)
+
 
 ## Exchanges supported technologies
 
