@@ -25,7 +25,7 @@ This page is referring to OctoBot in versions superior to 0.4.0.
     OctoBot's multiple repos, this is just a quality of life
 
     improvement and is not necessary.
-* Language: [Python 3.8](https://www.python.org/downloads/)
+* Language: [Python 3.8](https://www.python.org/downloads/release/python-3810/)
 
 #### additional dependencies for Windows
 
@@ -35,7 +35,7 @@ This page is referring to OctoBot in versions superior to 0.4.0.
 
 ![](<../../.gitbook/assets/image (1).png>)
 
-#### additional Dependencies for Mac
+#### additional dependencies for Mac
 
 * install [GCC](https://discussions.apple.com/thread/8336714)
 
@@ -74,7 +74,7 @@ git clone https://github.com/Drakkar-Software/trading-backend
 
 * now add each folder
 
-![](<../../.gitbook/assets/image (21).png>)
+![](<../../.gitbook/assets/image (20).png>)
 
 * Now you have all repositories open as tabs and you can switch between branches
 
@@ -122,7 +122,7 @@ pip install -r OctoBot-Commons/requirements.txt
 pip install -r OctoBot-evaluators/requirements.txt
 pip install -r OctoBot-Services/requirements.txt
 pip install -r OctoBot-Tentacles-Manager/requirements.txt
-pip install -r Octobot/OctoBot-Trading.txt
+pip install -r Octobot/OctoBot-Trading/requirements.txt
 ```
 
 * remove octobot pip packages to use the packages from your project directory
@@ -149,7 +149,7 @@ this script will run OctoBot and apply all changes made to all repositories exce
 
 now add a new python script
 
-![](<../../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (19).png>)
 
 ### install OctoBot-Tentacles and run OctoBot script
 
