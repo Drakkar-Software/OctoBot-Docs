@@ -122,7 +122,7 @@ pip install -r OctoBot-Commons/requirements.txt
 pip install -r OctoBot-evaluators/requirements.txt
 pip install -r OctoBot-Services/requirements.txt
 pip install -r OctoBot-Tentacles-Manager/requirements.txt
-pip install -r Octobot/OctoBot-Trading/requirements.txt
+pip install -r OctoBot-Trading/requirements.txt
 ```
 
 * remove octobot pip packages to use the packages from your project directory
