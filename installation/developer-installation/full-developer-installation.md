@@ -26,7 +26,7 @@ This page is referring to OctoBot in versions superior to 0.4.0.
     OctoBot's multiple repos, this is just a quality of life
 
     improvement and is not necessary.
-* Language: [Python 3.8](https://www.python.org/downloads/)
+* Language: [Python 3.8](https://www.python.org/downloads/release/python-3810/)
 
 #### Dependencies for Windows
 
