@@ -8,7 +8,7 @@ Web interface configuration
 
 Octobot reads trading data (prices, volumes, trades, etc) from exchanges. At least one exchange is required for OctoBot to perform trades. In [simulation mode](../Usage/Simulator.md), exchange API keys configuration is not necessary.
 
-[![exchanges](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/exchanges.jpg)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/exchanges.jpg)
+[![exchanges](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/exchanges.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/exchanges.jpg)
 
 You can configure OctoBot's exchanges using the [web interface](../Interfaces/Web-interface.md) **configuration** tab.
 
