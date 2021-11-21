@@ -8,6 +8,7 @@
 * [FTX](partners/ftx/)
 * [Ascendex](partners/ascendex/)
 * [OKEx](partners/okex/)
+* [Okcoin](partners/okcoin/)
 * [GateIO](partners/gateio/)
 * [Huobi & Huobi Pro](partners/huobi/)
 
@@ -26,6 +27,7 @@ Here are the current partners:
 * [FTX](partners/ftx/)
 * [Ascendex](partners/ascendex/)
 * [OKEx](partners/okex/)
+* [Okcoin](partners/okcoin/)
 * [GateIO](partners/gateio/)
 * [Huobi & Huobi Pro](partners/huobi/)
 
