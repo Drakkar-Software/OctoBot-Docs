@@ -1,4 +1,4 @@
-# okcoin
+# Okcoin
 
 ### OctoBot support
 
