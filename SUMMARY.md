@@ -16,6 +16,8 @@
   * [Account setup](partners/ascendex/setup.md)
 * [OKEx](partners/okex/README.md)
   * [Account setup](partners/okex/setup.md)
+* [Okcoin](partners/okcoin/README.md)
+  * [Account setup](partners/okcoin/setup.md)
 * [GateIO](partners/gateio/README.md)
   * [Account setup](partners/gateio/setup.md)
 * [Huobi & Huobi Pro](partners/huobi/README.md)
