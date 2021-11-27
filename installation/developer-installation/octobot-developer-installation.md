@@ -8,11 +8,11 @@ description: Setting up the recommended OctoBot development environment
 This page is referring to OctoBot in versions superior to 0.4.0.
 {% endhint %}
 
-* ****[**Install OctoBot requirements**](https://app.gitbook.com/s/XGhS0OJcF37WFUAtCJrB/c/K2S34tUZ8NdXf7pYP47C/guides/dev-environment-setup#install-octobot-requirements)****
-* ****[**Cloning OctoBot repositories**](https://app.gitbook.com/s/XGhS0OJcF37WFUAtCJrB/c/K2S34tUZ8NdXf7pYP47C/guides/dev-environment-setup#cloning-octobot-repositories)****
-* ****[**Setting up the IDE**](https://app.gitbook.com/s/XGhS0OJcF37WFUAtCJrB/c/K2S34tUZ8NdXf7pYP47C/guides/dev-environment-setup#setting-up-the-ide)****
-* ****[**create starting scripts in pyCharm**](https://app.gitbook.com/s/XGhS0OJcF37WFUAtCJrB/c/K2S34tUZ8NdXf7pYP47C/installation/developer-installation/full-developer-installation#create-starting-scripts-in-pycharm)****
-* ****[**start OctoBot in pyCharm**](https://app.gitbook.com/s/XGhS0OJcF37WFUAtCJrB/c/K2S34tUZ8NdXf7pYP47C/installation/developer-installation/full-developer-installation#start-octobot-in-pycharm)****
+* [**Install OctoBot requirements**](https://app.gitbook.com/s/XGhS0OJcF37WFUAtCJrB/c/K2S34tUZ8NdXf7pYP47C/guides/dev-environment-setup#install-octobot-requirements)
+* [**Cloning OctoBot repositories**](https://app.gitbook.com/s/XGhS0OJcF37WFUAtCJrB/c/K2S34tUZ8NdXf7pYP47C/guides/dev-environment-setup#cloning-octobot-repositories)
+* [**Setting up the IDE**](https://app.gitbook.com/s/XGhS0OJcF37WFUAtCJrB/c/K2S34tUZ8NdXf7pYP47C/guides/dev-environment-setup#setting-up-the-ide)
+* [**create starting scripts in pyCharm**](https://app.gitbook.com/s/XGhS0OJcF37WFUAtCJrB/c/K2S34tUZ8NdXf7pYP47C/installation/developer-installation/full-developer-installation#create-starting-scripts-in-pycharm)
+* [**start OctoBot in pyCharm**](https://app.gitbook.com/s/XGhS0OJcF37WFUAtCJrB/c/K2S34tUZ8NdXf7pYP47C/installation/developer-installation/full-developer-installation#start-octobot-in-pycharm)
 
 ## Install OctoBot requirements
 
@@ -74,7 +74,7 @@ git clone https://github.com/Drakkar-Software/trading-backend
 
 * now add each folder
 
-![](<../../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (21).png>)
 
 * Now you have all repositories open as tabs and you can switch between branches
 
@@ -99,7 +99,7 @@ This will allow your PyCharm python runner to use your OctoBot repositories as s
 
 ### Add OctoBot modules with PyCharm Pro
 
-*   In File/Settings/Project/Python Dependencies: For each repository: check its required OctoBot repository dependency.&#x20;
+*   In File/Settings/Project/Python Dependencies: For each repository: check its required OctoBot repository dependency.
 
     [![python dependencies](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki\_resources/python\_dependencies.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki\_resources/python\_dependencies.png)
 
@@ -149,7 +149,7 @@ this script will run OctoBot and apply all changes made to all repositories exce
 
 now add a new python script
 
-![](<../../.gitbook/assets/image (19).png>)
+![](<../../.gitbook/assets/image (20).png>)
 
 ### install OctoBot-Tentacles and run OctoBot script
 
@@ -159,7 +159,7 @@ this script will install the OctoBot-Tentacles folder and run Octobot with all y
 
 #### Create the following three scripts:
 
-* **Script to create an installable OctoBot-Tentacles package **
+* \*\*Script to create an installable OctoBot-Tentacles package \*\*
 
 ![](<../../.gitbook/assets/image (7).png>)
 
