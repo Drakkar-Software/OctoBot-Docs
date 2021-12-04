@@ -86,8 +86,8 @@ VOLUME=0.01
 PRICE=42000
 ```
 
-`ORDER_TYPE` can be `MARKET` or `LIMIT`
-`VOLUME` is the order volume in the base currency of the pair (BTC for BTC/USDT). When unspecified, order volume is computed from a % of your portfolio available funds. 
+- `ORDER_TYPE` can be `MARKET` or `LIMIT`
+- `VOLUME` is the order volume in the base currency of the pair (BTC for BTC/USDT). When unspecified, order volume is computed from a % of your portfolio available funds. 
 
 Example signal:
 
