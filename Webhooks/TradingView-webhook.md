@@ -58,13 +58,15 @@ Create an alert
 
     [![webhook log](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/webhook_log.jpg)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/webhook_log.jpg)
 
--   Set the alert message to .. code-block:
+-   Set the alert message:
 
-        EXCHANGE={{exchange}}
-        SYMBOL={{ticker}}
-        SIGNAL=BUY
+``` bash
+EXCHANGE={{exchange}}
+SYMBOL={{ticker}}
+SIGNAL=BUY
+```
 
-    if it's a buy signal
+if it's a buy signal
 
 OR
 
@@ -75,6 +77,26 @@ SIGNAL=SELL
 ```
 
 if it's a sell signal
+
+Additional order details can be added to the signal. These are optional:
+
+``` bash
+ORDER_TYPE=LIMIT
+VOLUME=0.01
+PRICE=42000
+```
+
+`ORDER_TYPE` can be `MARKET` or `LIMIT`
+`VOLUME` is the order volume in the base currency of the pair (BTC for BTC/USDT). When unspecified, order volume is computed from a % of your portfolio available funds. 
+
+Example signal:
+
+``` bash
+EXCHANGE=binance
+SYMBOL=ETHBTC
+SIGNAL=SELL
+ORDER_TYPE=LIMIT
+```
 
 [![alert-message](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/tradingview-alert-message.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/tradingview-alert-message.png)
 
