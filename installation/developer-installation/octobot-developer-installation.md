@@ -116,7 +116,7 @@ Do not install the requirements related to the previously downloaded repositorie
 * For each OctoBot's repository: install missing dependencies in requirements.txt and dev\_requirements.txt, except the OctoBot packages
 
 ```
-pip install -r Octobot/requirements.txt
+pip install -r OctoBot/requirements.txt
 pip install -r OctoBot-Backtesting/requirements.txt
 pip install -r OctoBot-Commons/requirements.txt
 pip install -r OctoBot-evaluators/requirements.txt
@@ -125,7 +125,7 @@ pip install -r OctoBot-Tentacles-Manager/requirements.txt
 pip install -r OctoBot-Trading/requirements.txt
 ```
 
-* remove octobot pip packages to use the packages from your project directory
+* remove OctoBot pip packages to use the packages from your project directory
 
 ```
 pip uninstall -y OctoBot-Backtesting OctoBot-Trading Async-Channel OctoBot-Evaluators OctoBot-Commons OctoBot-Tentacles-Manager OctoBot-Services trading-backend
