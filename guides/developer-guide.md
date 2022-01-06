@@ -1,16 +1,8 @@
-# Developer startup guide
+# OctoBot architecture
 
-{% hint style="note" %}
+{% hint style="info" %}
 This page is referring to OctoBot in versions superior to 0.4.0.
 {% endhint %}
-
-## Environment setup
-
-We recommand using [PyCharm](https://www.jetbrains.com/pycharm/) to navigate through the OctoBot projects. This IDE will allow you to open and navigate through the multiple OctoBot repositories and make your OctoBot run setup use the code directly from the clonned repos using the project dependencies.
-
-More details in the [OctoBot repositories](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Guides/Developer-Guide.html#id1) and [Setting up the recommended OctoBot development environment](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Guides/Developer-Guide.html#id2) sections.
-
-## OctoBot architecture
 
 ### Philosophy
 
@@ -20,19 +12,19 @@ To achieve this, OctoBot is entirely built around the [asyncio](https://docs.pyt
 
 Additionally, in order to save CPU time, as little threads as possible are use by OctoBot (usually less than 10 with a standard setup).
 
-As a final touch, each CPU or memory intensive task is further optimized using [Cython](https://cython.org/). The python code of these tasks is translated into highly optimized C code that allows for less instructions to process and optimized memory representation ending up with a huge performance increase.
+As a final touch, each CPU or memory intensive task is further optimized using [Cython](https://cython.org). The python code of these tasks is translated into highly optimized C code that allows for less instructions to process and optimized memory representation ending up with a huge performance increase.
 
 ### Overview
 
-The OctoBot code is split into [several repository](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Guides/Developer-Guide.html#id1). Each module is handled as an independent python module and is available on the [official python package repository](https://pypi.org/) (used in `pip` commands). Modules are made available as python source modules as well as as compiled modules which includes cython optimizations. Installing a module on a platform which as not already been built and made available on [pypi.org](https://pypi.org/) will take much more time as `pip` will cythonize and compile the given module, which also requires a cpp compiler.
+The OctoBot code is split into [several repository](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Guides/Developer-Guide.html#id1). Each module is handled as an independent python module and is available on the [official python package repository](https://pypi.org) (used in `pip` commands). Modules are made available as python source modules as well as as compiled modules which includes cython optimizations. Installing a module on a platform which as not already been built and made available on [pypi.org](https://pypi.org) will take much more time as `pip` will cythonize and compile the given module, which also requires a cpp compiler.
 
 ### OctoBot
 
-[![OctoBot architecture](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/octobot_arch.svg)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/octobot_arch.svg)
+[![OctoBot architecture](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki\_resources/octobot\_arch.svg)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki\_resources/octobot\_arch.svg)
 
 Simplified view of the OctoBot core components.
 
-{% hint style="note" %}
+{% hint style="info" %}
 Inside the OctoBot part, each arrow is an async channel.
 {% endhint %}
 
@@ -74,154 +66,20 @@ For evaluators
 
 For strategies
 
-* After a technical evaluator cycle: when all TA have updated their
+*   After a technical evaluator cycle: when all TA have updated their
 
-  evaluation and called `await self.evaluation_completed`
+    evaluation and called `await self.evaluation_completed`
+*   After any real time evaluator evaluation and call of
 
-* After any real time evaluator evaluation and call of
+    `await self.evaluation_completed`
+*   After any social evaluator evaluation and call of
 
-  `await self.evaluation_completed`
-
-* After any social evaluator evaluation and call of
-
-  `await self.evaluation_completed`
+    `await self.evaluation_completed`
 
 For trading mode
 
-* After any strategy evaluation and call of
+*   After any strategy evaluation and call of
 
-  `await self.strategy_completed`
-
-## OctoBot repositories
-
-OctoBot code is split in multiple repositories:
-
-* [https://github.com/Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot) (dev branch) for the
-
-  main program initialization, backtesting and strategy optimizer setup as well as community data management.
-
-* [https://github.com/Drakkar-Software/OctoBot-Tentacles](https://github.com/Drakkar-Software/OctoBot-Tentacles) (dev branch)
-
-  for tentacles: evaluators, strategies, trading modes, interfaces, notifiers, external data feeds (twitter, telegram etc), backtesting data formats management and exchange specific behaviors.
-
-* [https://github.com/Drakkar-Software/OctoBot-Trading](https://github.com/Drakkar-Software/OctoBot-Trading) for everything
-
-  trading and exchange related: exchange connections, exchange data
-
-  fetch and update, orders, trades and portfolios management.
-
-* [https://github.com/Drakkar-Software/OctoBot-evaluators](https://github.com/Drakkar-Software/OctoBot-evaluators) for
-
-  everything related to evaluators and strategies.
-
-* [https://github.com/Drakkar-Software/OctoBot-Services](https://github.com/Drakkar-Software/OctoBot-Services) for
-
-  everything related to interfaces: graphic (web) and text(telegram), notifications push and social analysis data management: update engine to handle new data from an external feed (ex: twitter) when it gets available.
-
-* [https://github.com/Drakkar-Software/OctoBot-Backtesting](https://github.com/Drakkar-Software/OctoBot-Backtesting) for the
-
-  backtesting engine and scheduling as well as historical data collection unified storage management.
-
-* [https://github.com/Drakkar-Software/OctoBot-Tentacles-Manager](https://github.com/Drakkar-Software/OctoBot-Tentacles-Manager) for
-
-  tentacles installation, updates and interactions: get a tentacle documentation, configuration or it's dependencies.
-
-* [https://github.com/Drakkar-Software/OctoBot-Commons](https://github.com/Drakkar-Software/OctoBot-Commons) for common
-
-  tools and constants used across each above repository.
-
-* [https://github.com/Drakkar-Software/Async-Channel](https://github.com/Drakkar-Software/Async-Channel) which is used by
-
-  OctoBot as a base framework for every data transfer within the bot.  This allows a highly optimized and scalable architecture that adapts to any system while using a very low amount of CPU and RAM.
-
-### Setting up the recommended OctoBot development environment
-
-Requirements:
-
-* IDE: [PyCharm](https://www.jetbrains.com/pycharm/)
-* SCM: [Git](https://git-scm.com/downloads), we also use
-
-  [GitKraken](https://www.gitkraken.com/git-client) to easily manage
-
-  OctoBot's multiple repos, this is just a quality of life
-
-  improvement and is not necessary.
-
-* Language: [Python 3.8](https://www.python.org/downloads/)
-* Clone each [OctoBot repository](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Guides/Developer-Guide.html#id1) using the dev branch when specified.
-* Open Pycharm and open the OctoBot repository.
-* Open every other [OctoBot repository](https://github.com/Drakkar-Software/OctoBot-Docs/tree/624bac35cfdd4b92e96356538d28ac0e39d983d3/Guides/Developer-Guide.html#id1)
-
-  alongside to the main OctoBot repository **in the same PyCharm window**.
-
-* In File/Settings/Project/Python Interpreter: select your installed python3.8 and create a new virtual environment through PyCharm.
-
-  [![python interpreter](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/python_interpreter.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/python_interpreter.png)
-
-* In File/Settings/Project/Python Dependencies: For each repository: check its required OctoBot repository dependency. This will allow your PyCharm python runner to use your OctoBot repositories as source code directly. Thanks to this you will be able to edit any file in any repo and it will be taken into account in your other PyCharm run profiles runners from other open OctoBot repo. This is useful when running tests. If you skip this, you will need to install every OctoBot module with pip and won't be able to edit their code.
-
-  [![python dependencies](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/python_dependencies.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/python_dependencies.png)
-
-* For each OctoBot's repository: install missing dependencies in requirements.txt and dev_requirements.txt. 
-{% hint style="warning" %}
-Do not install the requirements related to the previously downloaded repositories or your python runner will use them instead of your local code version.
-{% endhint %}
-* Create PyCharm run configurations using the previously created virtual env (with all the dependencies installed) for each way you want to start python commands (running OctoBot, running tests, etc). Example of run configs (only the selected one is necessary to start OctoBot):
-
-  [![run configuration](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/run_config.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/run_config.png)
-
-* You can now run and debug the whole OctoBot project and its repositories.
-
-A script to install these git repo on a unix setup
-
-```bash
-#!/bin/bash
-
-readonly REMOTE_DEVBRANCH="remotes/origin/dev"
-readonly DEVBRANCH="dev"
-readonly BASEDIR=$(dirname "$0")
-
-branch_work() {
-  dir=$1
-  devbranch=$2
-  branch=$(cd $BASEDIR/$dir && git name-rev --name-only HEAD)
-  if $devbranch; then
-    if [ $branch == $REMOTE_DEVBRANCH ]; then
-      echo "[WARN] Already on branch: $branch "
-      echo "[INFO] Delete Folder: $dir - if you would like to have clean $dir project"
-    else
-      (cd $dir; git checkout $DEVBRANCH)
-    fi
-  fi
-}
-
-project_work() {
-  url=$1
-  devbranch=$2
-  dir=$(basename -s .git "$url")
-  echo "Check Dir $BASEDIR/$dir"
-  if [ -d $BASEDIR/$dir ]; then
-    echo "[WARN] Directory: $dir exists!"
-    branch_work $dir $devbranch
-  else
-    echo "----- $dir -----"
-    git clone $url
-    branch_work $dir $devbranch
-    echo "----- END $dir -----"
-  fi
-}
-
-#Uses dev branch: true/false
-project_work https://github.com/Drakkar-Software/OctoBot.git true
-project_work https://github.com/Drakkar-Software/OctoBot-Tentacles.git true
-project_work https://github.com/Drakkar-Software/OctoBot-Trading false
-project_work https://github.com/Drakkar-Software/OctoBot-evaluators false
-project_work https://github.com/Drakkar-Software/OctoBot-Services false
-project_work https://github.com/Drakkar-Software/OctoBot-Backtesting false
-project_work https://github.com/Drakkar-Software/OctoBot-Tentacles-Manager false
-project_work https://github.com/Drakkar-Software/OctoBot-Commons false
-project_work https://github.com/Drakkar-Software/Async-Channel false
-```
+    `await self.strategy_completed`
 
 _Thanks for reading this guide and if you have any idea on how to improve it, please reach out to us !_
-

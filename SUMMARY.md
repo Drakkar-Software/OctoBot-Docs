@@ -5,12 +5,15 @@
 
 ## Installation
 
-* [Developer installation](installation/for-developers.md)
+* [Developer Installation](installation/developer-installation/README.md)
+  * [Tentacle developer installation](installation/developer-installation/for-developers.md)
+  * [OctoBot developer installation](installation/developer-installation/octobot-developer-installation.md)
 
 ## Guides
 
 * [OctoBot is customizable !](guides/customize-your-octobot.md)
-* [Developer startup guide](guides/developer-guide.md)
+* [OctoBot architecture](guides/developer-guide.md)
+* [OctoBot Repositories](guides/octobot-repositories.md)
 * [Contribution](guides/contribution.md)
 
 ## Coding
@@ -18,8 +21,7 @@
 * [Developer tips](coding/developers-tips.md)
 * [Tests](coding/tests.md)
 
-## Tentacles <a id="coding-1"></a>
+## Tentacles <a href="coding-1" id="coding-1"></a>
 
-* [Tentacle package development](coding/tentacle-package-development.md)
-* [Tentacle development](coding/tentacle-development.md)
-
+* [Tentacle package development](coding-1/tentacle-package-development.md)
+* [Tentacle development](coding-1/tentacle-development.md)
