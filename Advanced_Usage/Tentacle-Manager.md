@@ -14,7 +14,7 @@ cryptocurrencies trader bot.
 binary](https://github.com/Drakkar-Software/OctoBot/releases) to
 install OctoBot, you dont need to do this.
 
-Otherwise, after the [developer installation](https://developer.docs.octobot.online/installation/for-developers) of
+Otherwise, after the [developer installation](https://developer.octobot.info/installation/for-developers) of
 your OctoBot, you just have to type :
 
 ``` bash
@@ -25,7 +25,7 @@ And all the default tentacles package from this repository will be
 installed (and activated).
 
 If you want to modify or disable some of them [see this
-page](https://developer.docs.octobot.online/guides/customize-your-octobot).
+page](https://developer.octobot.info/guides/customize-your-octobot).
 
 Add new tentacles packages to your OctoBot
 ------------------------------------------

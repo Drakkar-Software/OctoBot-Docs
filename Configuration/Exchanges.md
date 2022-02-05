@@ -1,7 +1,7 @@
 Exchanges
 =========
 
-To know more about an exchange support in OctoBot, please have a look at [exchanges documentation](https://exchanges.docs.octobot.online).
+To know more about an exchange support in OctoBot, please have a look at [exchanges documentation](https://exchanges.octobot.info).
 
 Web interface configuration
 ---------------------------
