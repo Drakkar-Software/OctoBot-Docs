@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Getting Started](README.md)
-* [Developers documentation](https://developer.docs.octobot.online)
-* [Exchanges support](https://exchanges.docs.octobot.online)
+* [Developers documentation](https://developer.octobot.info)
+* [Exchanges support](https://exchanges.octobot.info)
 
 ## Installation <a id="installation"></a>
 

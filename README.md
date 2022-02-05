@@ -1,18 +1,18 @@
 # OctoBot-Docs
 
-Sources of the OctoBot documentation available at https://docs.octobot.online/
+Sources of the OctoBot documentation available at [https://octobot.info/](https://octobot.info/)
 
-## General documentation (docs.octobot.online)
+## General documentation (octobot.info)
 Built from the **stable** branch.
 
-Available at https://docs.octobot.online/
+Available at [https://octobot.info/](https://octobot.info/)
 
-## Exchange documentation (exchanges.docs.octobot.online)
+## Exchange documentation (exchanges.octobot.info)
 Built from the **exchange/stable** branch.
 
-Available at https://exchanges.docs.octobot.online/
+Available at [https://exchanges.octobot.info/](https://exchanges.octobot.info/)
 
-## Developer documentation (developer.docs.octobot.online)
+## Developer documentation (developer.octobot.info)
 Built from the **dev/stable** branch.
 
-Available at https://developer.docs.octobot.online/
+Available at [https://developer.octobot.info/](https://developer.octobot.info/)
