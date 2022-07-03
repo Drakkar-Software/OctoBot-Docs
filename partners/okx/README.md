@@ -1,4 +1,4 @@
-# OKEx
+# OKX
 
 ### OctoBot support
 
