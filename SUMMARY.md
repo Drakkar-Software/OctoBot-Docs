@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Getting Started](README.md)
-* [Users documentation](https://docs.octobot.online)
-* [Developers documentation](https://developer.docs.octobot.online)
+* [Users documentation](https://www.octobot.info)
+* [Developers documentation](https://developer.octobot.info)
 
 ## Partners
 
