@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Getting Started](README.md)
-* [Users documentation](https://docs.octobot.online)
+* [Users documentation](https://www.octobot.info)
 
 ## Installation
 
