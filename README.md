@@ -1,11 +1,11 @@
 # OctoBot-Docs
 
-Sources of the OctoBot documentation available at [https://octobot.info/](https://octobot.info/)
+Sources of the OctoBot documentation available at [https://www.octobot.info/](https://www.octobot.info/)
 
 ## General documentation (octobot.info)
 Built from the **stable** branch.
 
-Available at [https://octobot.info/](https://octobot.info/)
+Available at [https://www.octobot.info/](https://www.octobot.info/)
 
 ## Exchange documentation (exchanges.octobot.info)
 Built from the **exchange/stable** branch.
