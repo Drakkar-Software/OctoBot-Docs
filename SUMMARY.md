@@ -16,6 +16,8 @@
   * [Account setup](partners/ascendex/setup.md)
 * [OKX](partners/okx/README.md)
   * [Account setup](partners/okx/setup.md)
+* [HollaEx](partners/hollaex/README.md)
+  * [Account setup](partners/hollaex/setup.md)
 * [Okcoin](partners/okcoin/README.md)
   * [Account setup](partners/okcoin/setup.md)
 * [GateIO](partners/gateio/README.md)

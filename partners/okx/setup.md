@@ -42,9 +42,9 @@ Make sure to remember that Passphrase, as you will need to use it again in a few
 ![OctoBot-Add-Exchange](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/docs/OKEx/OKEx-OctoBot-Add-Exchange.png)
 
 ### Add OKX API keys
-- Copy and paste `API Key` from OKX to OctoBot `API Key` field
-- Copy and paste `Secret Key` from OKX to OctoBot `API Secret` field
+- Copy and paste `API Key` from OKX to your OctoBot `API Key` field
+- Copy and paste `Secret Key` from OKX to your OctoBot `API Secret` field
 - Enter your OKX `API Password` to OctoBot `API Password` field
 ![OctoBot-Validate-Credentials](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/docs/OKEx/OKEx-OctoBot-Add-Exchange-Creds.png)
-- Click on `Save And restart` `
+- Click on `Save And restart`
 ![OctoBot-Validate-Credentials](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/docs/OKEx/OKEx-Save-And-Restart.png)
