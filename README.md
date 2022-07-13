@@ -11,6 +11,7 @@
 * [Okcoin](partners/okcoin/)
 * [GateIO](partners/gateio/)
 * [Huobi & Huobi Pro](partners/huobi/)
+* [HollaEx](partners/hollaex/)
 
 ## Partner exchanges - Support OctoBot
 
@@ -30,6 +31,7 @@ Here are the current partners:
 * [Okcoin](partners/okcoin/)
 * [GateIO](partners/gateio/)
 * [Huobi & Huobi Pro](partners/huobi/)
+* [HollaEx](partners/hollaex/)
 
 ## Community tested exchanges
 
