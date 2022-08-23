@@ -4,7 +4,7 @@
 
 This page covers tentacle development.
 
-A tentacle is part of a [tentacle package](tentacle-package-development.md) and defines a tool for OctoBot such as a way to analyse moving averages, listen to twitter for create grid-like orders.
+A tentacle is part of a [tentacle package](tentacle-package-development.md) and defines a tool for OctoBot such as a way to analyse moving averages, listen to twitter or create grid-like orders.
 
 OctoBot uses tentacles to handle:
 
@@ -14,15 +14,18 @@ OctoBot uses tentacles to handle:
 * Orders creation and followup \(trading modes\)
 * User interfaces and notifications \(web, telegram, twitter\)
 * Backtesting data files reading and writing \(.data\)
-* Exchanges fixes \(to handle exchange local differences\)
+* Exchanges fixes \(to handle exchange specific behaviors\)
 
 There is no limit to the things OctoBot can handle: everything that can be coded can be used by OctoBot through a tentacle. It is possible to create a new tentacle to add a new tool to OctoBot or to build on an existing one and improve it.
 
-### Developing a new Tentacle
+## Developing a new Tentacle
 
-The most efficient way to create a new tentacle si to build on top of an existing one to add features to it. It is of course also possible to create a new completely new tentacle, in this case please have a look at similar tentacles.
+The most efficient way to create a new tentacle si to build on top of an existing one to add features to it. It is of course also possible to create a new completely new tentacle.
 
-To create a tentacle improving an existing one, all you need to do, is to use the existing tentacle folder as a template \(to create a [tentacle package](tentacle-package-development.md)\) and extend the existing tentacle you want to improve and re-implement the methods you want to change in the package's python file.
+
+### Developing a tentacle based on another one
+
+To create a tentacle improving an existing one, all you need to do is to use the existing tentacle folder as a template \(to create a [tentacle package](tentacle-package-development.md)\) and extend the existing tentacle you want to improve and re-implement the methods you want to change in the package's python file.
 
 Examples:
 
