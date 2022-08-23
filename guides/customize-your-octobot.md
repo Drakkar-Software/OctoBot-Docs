@@ -72,3 +72,13 @@ tentacles --single-tentacle-install "path/to/your/tentacle/to/install" Evaluator
 
 Please note that in this command, you also need to provide the type of the tentacle (`Evaluator/TA` in this example).
 
+### Installation troubleshoot
+
+- **TentacleLoader       Error when loading _your_tentacle_module_** : This means the import of your tentacle module failed. Tentacles that can't be imported by Python can't be used.
+- **Python doesn't even see my tentacle**: Your tentacle module has to be imported in your tentacle package `__init__.py` file. Your tentacle package has also to be imported in the parent folder `__init__.py`. Please note that this parent `__init__.py` file is managed by OctoBot and should already be properly filled when installing a tentacle bundle.
+- **Python sees my tentacle but I can't see it on the web interface**: Your tentacle classes have to be listed in your **user/profiles/NameOfYourProfile/tentacles_config.json**. The web interface uses this file to list tentacles and check if they are enabled or not. This file is also kept up to date when installing a tentacle bundle.
+
+In most cases, issues related to the **parent `__init__.py`** and `tentacles_config.json` files can be fixed by the following command:
+```bash
+tentacles --repair
+```
