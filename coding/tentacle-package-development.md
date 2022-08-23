@@ -81,7 +81,7 @@ Example _DailyTradingMode/metadata.json_ :
 
 ### Tentacle modules
 
-[Tentacle](tentacle-development.md) python modules should be placed at the root path of the tentacle package (1 or more).
+[Tentacle](tentacle-development.md) python modules should be placed at the root path of the tentacle package. There can 1 or more modules per package.
 
 Example with _momentum_evaluator_ : The main python module that contains multiple tentacles is located at
 
@@ -113,7 +113,7 @@ Each tentacles config file should be named with the exact case and name as the a
 tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/config/MyAwesomeTentacle.json
 ```
 
-On OctoBot's web interface, tentacle configuration settings are generated using the configuration and its assocaited json schema files using [json-editor](https://github.com/json-editor/json-editor) library. Below an example for _MyAwesomeTentacle_ configuration schema:
+On OctoBot's web interface, tentacle configuration settings are generated using the configuration file and its associated json schema using the [json-editor](https://github.com/json-editor/json-editor) library. Below is an example for _MyAwesomeTentacle_ configuration schema:
 
 ```bash
 tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/config/MyAwesomeTentacle_schema.json
@@ -127,7 +127,7 @@ A tentacle configuration schema file has to be named as your tentacle configurat
 
 Tentacle resources are located in the **resources** folder of your tentacle package.
 
-Each tentacles documentation should be created for in `resources/YOUR_TP_TENTACLE_1.md`, `resources/YOUR_TP_TENTACLE_2.md` (the file name should match the tentacle class name)
+Each tentacles documentation should be created for in `resources/YOUR_TP_TENTACLE_1.md`, `resources/YOUR_TP_TENTACLE_2.md` (the file name should match the tentacle class name).
 
 A tentacle package can also contain many resources that can be binary files, images...
 
