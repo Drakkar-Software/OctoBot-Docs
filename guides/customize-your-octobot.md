@@ -10,59 +10,65 @@ OctoBot is available for free with [basic implementations of a lot of different 
 
 Therefore, anyone can implement its own version of any evaluator, strategy, analysis tool and trading modes. It's even possible to use another version provided by someone else !
 
-## Tentacle installation
+# Tentacle installation
 
-### Default tentacles
+## Default tentacles
 
 OctoBot default tentacles are automatically installed when first starting your OctoBot.
 
-You can re-install them anytime using the following command options to your OctoBot binary or python version: `tentacles --install --all`
+You can re-install them anytime using the following command arguments to your OctoBot: `tentacles --install --all`
 
 It is also possible to install a tentacles package using the web interface Tentacles tab.
 
-### Installing tentacles
+## Installing tentacles
 
-To install tentacles, OctoBot can either install a tentacle package \(zipped bundle of tentacles\) or a single tentacle from a local folder.
+To install tentacles, OctoBot can either install a tentacle package bundle or a single tentacle from a local folder.
 
-#### Tentacle packages
+### Creating a tentacle package bundle
+Tentacle package bundles are the prefered way to share tentacles.
 
-To install a package, use the following options:
+To create a tentacles package bundle from a local folder:
 
-```bash
-tentacles --install --all --location "path/to/your/package/package_name.zip"
-```
+1. Make sure it follows the [OctoBot-Tentacles folders architecture](https://github.com/Drakkar-Software/OctoBot-Tentacles) to properly locate tentacles to be installed. There is no need to create empty folders but packages with content have to be at the [appropriate path](../coding/tentacle-package-development.md#the-tentacle-package-folder).  
+Example: a trading mode should be located at **Trading/Mode/name_of_your_trading_mode** in your bundle.
 
-To create a tentacles package from a local folder:
-
-1. Make sure it follows the [OctoBot-Tentacles folders architecture](https://github.com/Drakkar-Software/OctoBot-Tentacles)
-
-2. Call OctoBot with the following options:
+2. Call OctoBot with the following arguments:
 
 ```bash
-tentacles -p "path/to/your/packed/tentacles/pack_name.zip" -d "path/to/your/local/tentacles/folder"
+tentacles --pack "../tentacles_export.zip" --directory "path/to/your/local/tentacle_bundle"
 ```
 
-Once your package is created, you can install it using the command :
+{% hint style="info" %}
+You now have a **tentacles_export.zip** file that is a tentacle bundle containing your tentacles packages that you can install and share.
+{% endhint %}
+
+### Installing the tentacle package bundle
+
+To install a package bundle, use the following arguments:
 
 ```bash
-tentacles --install --all --location "path/to/your/packed/tentacles/pack_name.zip"
+tentacles --install --all --location "path/to/your/tentacles_export.zip"
 ```
 
-You can also make it available from an URL and later install it via \(for example\) :
+```
+
+You can also make it available from an URL and later install it via (for example) :
 
 ```bash
 tentacles --install --all --location "https://my.tentacles.com/pack_name"
 ```
 
-Installing a tentacle package will replace any existing source file taht share the same name. It can be used to update sources without changing the version number.
+{% hint style="info" %}
+Installing a tentacle package will replace any existing source file that share the same name at the same path.
+{% endhint %}
 
-#### Single tentacles
+### Installing a single tentacle package
 
-It is also possible to install a single tentacle from a local folder using the following options:
+It is also possible to install a single tentacle package from a local folder using the following arguments:
 
 ```bash
 tentacles --single-tentacle-install "path/to/your/tentacle/to/install" Evaluator/TA
 ```
 
-Please note that in this command, you also need to provide the type of the tentacle \(`Evaluator/TA` in this example\) for OctoBot to know how to handle it.
+Please note that in this command, you also need to provide the type of the tentacle (`Evaluator/TA` in this example).
 

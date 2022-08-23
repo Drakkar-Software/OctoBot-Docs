@@ -1,14 +1,14 @@
 # Tentacle package development
 
-## Intro
+## Tentacle packages
 
 This page covers tentacle package creation.
 
-A tentacle package contains one or multiple [tentacles](tentacle-development.md).
+A tentacle package is a python module that contains one or multiple [tentacles](tentacle-development.md) of the same type.
 
-## The tentacle package folder
+### The tentacle package folder
 
-A tentacle package is defined by a folder placed at :
+A tentacle package is defined by a folder located at :
 
 ```bash
 tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/
@@ -30,9 +30,9 @@ TP is for tentacle package
 
   package, shouldn't use an existing tentacle package name
 
-## Description file
+### Description file
 
-A tentacle package contains metadata described in metadata.json file. This file is used to properly install the tentacle and should be carefully written. It's located at the root path of the tentacle package :
+A tentacle package contains metadata described in the metadata.json file. This file is used to properly install the tentacle and should be carefully written. It's located at the root path of the tentacle package :
 
 ```bash
 tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/metadata.json
@@ -54,15 +54,13 @@ A tentacle package metadata.json contains :
 
   of the tentacle package
 
-* **YOUR_TP_TENTACLE_1** and **YOUR_TP_TENTACLE_2** are names of
-
-  your tentacle package tentacles (can have 1 or more).
+* **YOUR_TP_TENTACLE_1** and **YOUR_TP_TENTACLE_2** are name of the tentacle classes contained in your tentacle package tentacles (1 or more).
 
 * **YOUR_TP_TP_REQUIREMENT_1** and
 
   **YOUR_TP_TP_REQUIREMENT_2** are the names of required tentacle
 
-  packages to have installed to run your tentacle package (can have 0
+  packages to have installed to run your tentacle package (0
 
   or more)
 
@@ -81,9 +79,9 @@ Example _DailyTradingMode/metadata.json_ :
 }
 ```
 
-## Tentacle modules
+### Tentacle modules
 
-[Tentacle](tentacle-development.md) python modules should be placed at the root path of the tentacle package (can be 1 or more).
+[Tentacle](tentacle-development.md) python modules should be placed at the root path of the tentacle package (1 or more).
 
 Example with _momentum_evaluator_ : The main python module that contains multiple tentacles is located at
 
@@ -91,9 +89,9 @@ Example with _momentum_evaluator_ : The main python module that contains multipl
 tentacles/Evaluator/TA/momentum_evaluator/momentum.py
 ```
 
-Every tentacle classes should be imported in the root **init.py** file.
+Every tentacle classes should be imported in the package root `__init__.py` file.
 
-Example with _momentum_evaluator_'s __init__.py :
+Example with _momentum_evaluator_'s `__init__.py`.py :
 
 ```python
 from .momentum import RSIMomentumEvaluator, ADXMomentumEvaluator, RSIWeightMomentumEvaluator, 
@@ -101,31 +99,35 @@ BBMomentumEvaluator, MACDMomentumEvaluator, KlingerOscillatorMomentumEvaluator,
 KlingerOscillatorReversalConfirmationMomentumEvaluator
 ```
 
-## Config
+### Config
 
-A tentacle package can contain tentacle config. Config files are located in _config/_ folder at :
+A tentacle package can contain tentacle configurations. Configuration files are located in the _config/_ folder at :
 
 ```bash
 tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/config/
 ```
 
-Each tentacles config file should be named with the exact case and name as the exposed tentacle class(es). Below an example for _MyAwesomeTentacle_ :
+Each tentacles config file should be named with the exact case and name as the associated tentacle class. Below an example for _MyAwesomeTentacle_ :
 
 ```bash
 tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/config/MyAwesomeTentacle.json
 ```
 
-Tentacle configuration interface are generated using configuration schema files and the [json-editor](https://github.com/json-editor/json-editor) library. Below an example for _MyAwesomeTentacle_ :
+On OctoBot's web interface, tentacle configuration settings are generated using the configuration and its assocaited json schema files using [json-editor](https://github.com/json-editor/json-editor) library. Below an example for _MyAwesomeTentacle_ configuration schema:
 
 ```bash
 tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/config/MyAwesomeTentacle_schema.json
 ```
 
-## Resources
+{% hint style="info" %}
+A tentacle configuration schema file has to be named as your tentacle configuration file with a **_schema** suffix.
+{% endhint %}
 
-Tentacle package resources are located in the folder of your tentacle package.
+### Resources
 
-Tentacles guides can be created for each tentacle in `resources/YOUR_TP_TENTACLE_1.md`, `resources/YOUR_TP_TENTACLE_2.md` (the file name should match the tentacle class name)
+Tentacle resources are located in the **resources** folder of your tentacle package.
+
+Each tentacles documentation should be created for in `resources/YOUR_TP_TENTACLE_1.md`, `resources/YOUR_TP_TENTACLE_2.md` (the file name should match the tentacle class name)
 
 A tentacle package can also contain many resources that can be binary files, images...
 
@@ -142,11 +144,15 @@ DailyTradingMode will consider every compatible strategy and average their evalu
 each state.
 ```
 
-## Tests
+{% hint style="info" %}
+You can use [markdown](https://www.markdownguide.org/cheat-sheet) to format a tentacle documentation.
+{% endhint %}
 
-Tentacle should be tested. Tests file are usually located in the [tests]{.title-ref} folder of the tentacle package.
+### Tests
 
-## Installation
+Tentacle should be tested. Tests file are usually located in the **tests** folder of the tentacle package.
 
-Follow the [tentacles installation guide](../guides/customize-your-octobot.md#installing-tentacles) to install your custom tentacle package.
+## Installing and sharing tentacles
+
+Follow the [tentacles installation guide](../guides/customize-your-octobot.md#installing-tentacles) to install or share your custom tentacle package.
 
