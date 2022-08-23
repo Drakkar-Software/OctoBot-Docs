@@ -16,7 +16,7 @@ Therefore, anyone can implement its own version of any evaluator, strategy, anal
 
 OctoBot default tentacles are automatically installed when first starting your OctoBot.
 
-You can re-install them anytime using the following command arguments to your OctoBot: `tentacles --install --all`
+You can re-install them anytime using the following command arguments with your OctoBot: `tentacles --install --all`
 
 It is also possible to install a tentacles package using the web interface Tentacles tab.
 
@@ -27,7 +27,7 @@ To install tentacles, OctoBot can either install a tentacle package bundle or a 
 ### Creating a tentacle package bundle
 Tentacle package bundles are the prefered way to share tentacles.
 
-To create a tentacles package bundle from a local folder:
+Steps to create a tentacles package bundle from a local folder:
 
 1. Make sure it follows the [OctoBot-Tentacles folders architecture](https://github.com/Drakkar-Software/OctoBot-Tentacles) to properly locate tentacles to be installed. There is no need to create empty folders but packages with content have to be at the [appropriate path](../coding/tentacle-package-development.md#the-tentacle-package-folder).  
 Example: a trading mode should be located at **Trading/Mode/name_of_your_trading_mode** in your bundle.
@@ -39,17 +39,15 @@ tentacles --pack "../tentacles_export.zip" --directory "path/to/your/local/tenta
 ```
 
 {% hint style="info" %}
-You now have a **tentacles_export.zip** file that is a tentacle bundle containing your tentacles packages that you can install and share.
+You now have a **tentacles_export.zip** file. It is a tentacle bundle containing your tentacles packages that you can install and share.
 {% endhint %}
 
 ### Installing the tentacle package bundle
 
-To install a package bundle, use the following arguments:
+To install a package bundle, call OctoBot with the following arguments:
 
 ```bash
 tentacles --install --all --location "path/to/your/tentacles_export.zip"
-```
-
 ```
 
 You can also make it available from an URL and later install it via (for example) :
@@ -78,7 +76,7 @@ Please note that in this command, you also need to provide the type of the tenta
 - **Python doesn't even see my tentacle**: Your tentacle module has to be imported in your tentacle package `__init__.py` file. Your tentacle package has also to be imported in the parent folder `__init__.py`. Please note that this parent `__init__.py` file is managed by OctoBot and should already be properly filled when installing a tentacle bundle.
 - **Python sees my tentacle but I can't see it on the web interface**: Your tentacle classes have to be listed in your **user/profiles/NameOfYourProfile/tentacles_config.json**. The web interface uses this file to list tentacles and check if they are enabled or not. This file is also kept up to date when installing a tentacle bundle.
 
-In most cases, issues related to the **parent `__init__.py`** and `tentacles_config.json` files can be fixed by the following command:
+In most cases, issues related to the **parent `__init__.py`** and `tentacles_config.json` files can be fixed by calling OctoBot with the following arguments:
 ```bash
 tentacles --repair
 ```
