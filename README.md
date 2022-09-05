@@ -47,6 +47,7 @@ Here are the current partners:
 * [Crex24](community_tested/crex24.md)
 * [Wavesexchange](community_tested/wavesexchange.md)
 * [Cryptopia](community_tested/cryptopia.md)
+* [CoinEX](community_tested/coinex.md)
 
 ## Exchanges supported technologies
 
