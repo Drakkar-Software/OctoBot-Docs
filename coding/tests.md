@@ -2,7 +2,7 @@
 
 ## Requirements
 
-To run OctoBot's tests, an OctoBot development environment is necessary, development environment setup is described [here](../guides/developer-guide.md)
+To run OctoBot's tests, an OctoBot development environment is necessary, development environment setup is described [here](../installation/developer-installation/)
 
 ## OctoBot engine
 
