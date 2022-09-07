@@ -16,14 +16,14 @@ Once setup you'll love the OctoBot Developer environment.
 [developer-installation](installation/developer-installation/)
 {% endcontent-ref %}
 
-## Step 3 - Learn how to create Tentacles&#x20;
+## Step 3 - learn how to create Tentacles&#x20;
 
 {% hint style="success" %}
-Octobot Tentacles are apps for OctoBot.
+Octobot Tentacles are apps/extensions for OctoBot.
 {% endhint %}
 
 {% hint style="success" %}
-A tentacle can be what ever you want it to be. For example a Indicator, a Strategy, a new Feature or all together in one tentacle.
+A tentacle can be what ever you want it to be. For example an Indicator, a Strategy, a new Feature for the web interface or for something else. All of these can be packed in one tentacle bundle.
 {% endhint %}
 
 {% content-ref url="tentacles/customize-your-octobot.md" %}
