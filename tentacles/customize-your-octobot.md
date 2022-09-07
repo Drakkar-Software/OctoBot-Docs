@@ -1,5 +1,6 @@
-# OctoBot is customizable !
+# OctoBot is customizable!
 
+## OctoBot is customizable !
 You can easily create or add existing tentacles to your OctoBot.
 
 Tentacles are evaluators \(using social media, trend analysis, news, ...\), strategies \(interpretations of evaluator's evaluations\), analysis tools \(implementation of a bollinger bands in depth analysis, twitter posts reader, ...\) and trading modes.
@@ -29,9 +30,8 @@ Tentacle package bundles are the prefered way to share tentacles.
 
 Steps to create a tentacles package bundle from a local folder:
 
-1. Make sure it follows the [OctoBot-Tentacles folders architecture](https://github.com/Drakkar-Software/OctoBot-Tentacles) to properly locate tentacles to be installed. There is no need to create empty folders but packages with content have to be at the [appropriate path](../coding/tentacle-package-development.md#the-tentacle-package-folder).  
-Example: a trading mode should be located at **Trading/Mode/name_of_your_trading_mode** in your bundle.
-
+1. Make sure it follows the [OctoBot-Tentacles folders architecture](https://github.com/Drakkar-Software/OctoBot-Tentacles) to properly locate tentacles to be installed. There is no need to create empty folders but packages with content have to be at the [appropriate path](tentacle-package-development.md#the-tentacle-package-folder).\
+   Example: a trading mode should be located at **Trading/Mode/name\_of\_your\_trading\_mode** in your bundle.
 2. Call OctoBot with the following arguments:
 
 ```bash

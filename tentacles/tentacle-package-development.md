@@ -154,5 +154,4 @@ Tentacle should be tested. Tests file are usually located in the **tests** folde
 
 ## Installing and sharing tentacles
 
-Follow the [tentacles installation guide](../guides/customize-your-octobot.md#installing-tentacles) to install or share your custom tentacle package.
-
+Follow the [tentacles installation guide](customize-your-octobot.md) to install or share your custom tentacle package.

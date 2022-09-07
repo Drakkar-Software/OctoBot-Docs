@@ -30,7 +30,7 @@ A tentacle can be what ever you want it to be. For example an Indicator, a Strat
 [customize-your-octobot.md](tentacles/customize-your-octobot.md)
 {% endcontent-ref %}
 
-## Step 5 - contribute to OctoBot
+## Step 4 - contribute to OctoBot
 
 {% content-ref url="octobot/contribution.md" %}
 [contribution.md](octobot/contribution.md)
