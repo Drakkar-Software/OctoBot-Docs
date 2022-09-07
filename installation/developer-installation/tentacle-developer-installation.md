@@ -8,7 +8,7 @@
 ## Instructions
 
 {% hint style="info" %}
-on **Windows Python3.8 has to be in environment variable** :
+on **Windows Python3.8 has to be in environment variables** :
 
 During [python install](https://www.python.org/downloads) **check** _add to environment var_ checkbox.
 {% endhint %}
@@ -32,7 +32,7 @@ Note that python3.8 might be available under the name **python3.8** after this i
 
 ### Requirements
 
-**Python3.8.X**, **git** and an installed and **functional OctoBot setup** cloned from \[OctoBot github repository [https://github.com/Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot)]
+**Python3.8.X**, **git** and an installed and **functional OctoBot setup** cloned from the https://github.com/Drakkar-Software/OctoBot
 
 ```bash
 git pull origin dev

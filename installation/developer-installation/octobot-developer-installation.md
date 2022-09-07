@@ -11,8 +11,8 @@ This page is referring to OctoBot in versions superior to 0.4.0.
 * [**Install OctoBot requirements**](octobot-developer-installation.md#install-octobot-requirements)
 * [**Cloning OctoBot repositories**](octobot-developer-installation.md#cloning-octobot-repositories-with-git)
 * [**Setting up the IDE**](octobot-developer-installation.md#setting-up-the-ide)
-* [**create starting scripts in pyCharm**](octobot-developer-installation.md#create-starting-scripts-in-pycharm)
-* [**start OctoBot in pyCharm**](octobot-developer-installation.md#start-octobot-in-pycharm)
+* [**Create starting scripts in pyCharm**](octobot-developer-installation.md#create-starting-scripts-in-pycharm)
+* [**Start OctoBot in pyCharm**](octobot-developer-installation.md#start-octobot-in-pycharm)
 
 ## Install OctoBot requirements
 
@@ -20,22 +20,18 @@ This page is referring to OctoBot in versions superior to 0.4.0.
 
 * IDE: [PyCharm](https://www.jetbrains.com/pycharm/)
 * SCM: [Git](https://git-scm.com/downloads)
-*   we also use [GitKraken](https://www.gitkraken.com/git-client) to easily manage
+*   We also use [GitKraken](https://www.gitkraken.com/git-client) to easily manage OctoBot's multiple repos, this is just a quality of life improvement and is not necessary.
+* Programming language: [Python 3.8](https://www.python.org/downloads/release/python-3810/)
 
-    OctoBot's multiple repos, this is just a quality of life
+### Additional dependencies for Windows
 
-    improvement and is not necessary.
-* Language: [Python 3.8](https://www.python.org/downloads/release/python-3810/)
-
-#### additional dependencies for Windows
-
-* download [Visual Studio build tools](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019) and install "Desktop development with C++"
+* Download [Visual Studio Build Tools](https://visualstudio.microsoft.com/fr/downloads/) and install "Desktop development with C++". It can be from 2019 or later.
 
 ![](<../../.gitbook/assets/image (9).png>)
 
 ![](<../../.gitbook/assets/image (5).png>)
 
-#### additional dependencies for Mac
+### Additional dependencies for Mac
 
 * install [GCC](https://discussions.apple.com/thread/8336714)
 
@@ -46,16 +42,16 @@ This page is referring to OctoBot in versions superior to 0.4.0.
 * open a terminal in your project folder and execute the following commands to download the repos
 
 ```bash
-git clone --branch dev https://github.com/Drakkar-Software/OctoBot.git
-git clone --branch dev https://github.com/Drakkar-Software/OctoBot-Tentacles.git
-git clone https://github.com/Drakkar-Software/OctoBot-Trading
-git clone https://github.com/Drakkar-Software/OctoBot-evaluators
-git clone https://github.com/Drakkar-Software/OctoBot-Services
-git clone https://github.com/Drakkar-Software/OctoBot-Backtesting
-git clone https://github.com/Drakkar-Software/OctoBot-Tentacles-Manager
-git clone https://github.com/Drakkar-Software/OctoBot-Commons
-git clone https://github.com/Drakkar-Software/Async-Channel
-git clone https://github.com/Drakkar-Software/trading-backend
+git clone https://github.com/Drakkar-Software/OctoBot.git --branch dev
+git clone https://github.com/Drakkar-Software/OctoBot-Tentacles.git --branch dev
+git clone https://github.com/Drakkar-Software/OctoBot-Trading.git
+git clone https://github.com/Drakkar-Software/OctoBot-Evaluators.git
+git clone https://github.com/Drakkar-Software/OctoBot-Services.git
+git clone https://github.com/Drakkar-Software/OctoBot-Backtesting.git
+git clone https://github.com/Drakkar-Software/OctoBot-Tentacles-Manager.git
+git clone https://github.com/Drakkar-Software/OctoBot-Commons.git
+git clone https://github.com/Drakkar-Software/Async-Channel.git
+git clone https://github.com/Drakkar-Software/trading-backend.git
 ```
 
 * now you should have all the OctoBot repos in one folder
@@ -76,9 +72,9 @@ git clone https://github.com/Drakkar-Software/trading-backend
 
 ![](<../../.gitbook/assets/image (10).png>)
 
-* Now you have all repositories open as tabs and you can switch between branches
+* Now you have all repositories open as tabs and you can switch between git repositories and branches
 
-### switch to experimental branches
+### Switch to experimental branches
 
 * You can explore and switch to different branches by double-clicking on the branch name for each repository, or right click "reset to this commit".
 
@@ -123,9 +119,12 @@ Go to File -> Settings and add your OctoBot module folders as a project source
 
 ### Install Octobot dependencies
 
-* For each OctoBot's repository: install missing dependencies in requirements.txt and dev\_requirements.txt
+* For each OctoBot's repository: install missing dependencies in requirements.txt and dev_requirements.txt
+* To install these requirements on your pycharm virtual environement, you can either:
+    * Manually go through each file listed in the commands bellow and install its requirements using the PyCharm requirements plugin
+    * In a new terminal, activate your the virtual environement create by PyCharm (venv directory) and then run the following commands
 
-```
+```bash
 pip install -r OctoBot/requirements.txt
 pip install -r OctoBot-Backtesting/requirements.txt
 pip install -r OctoBot-Commons/requirements.txt
@@ -156,18 +155,18 @@ Through the requirements you have also installed OctoBot packages related to the
 pip uninstall -y OctoBot-Backtesting OctoBot-Trading Async-Channel OctoBot-Evaluators OctoBot-Commons OctoBot-Tentacles-Manager OctoBot-Services trading-backend
 ```
 
-## create starting scripts in pyCharm
+## Create starting scripts in pyCharm
 
 Create PyCharm run configurations using the previously created virtual env (with all the dependencies installed) for each way you want to start python commands (running OctoBot, running tests, etc).
 
-### Introduction into OctoBot scripts
+### Introduction to OctoBot scripts
 
 {% hint style="info" %}
 Here we explain how to setup and run two scripts for OctoBot, but there are way more you can set up by yourself, explore the rest of the docs to find out more commands
 {% endhint %}
 
 * ****[**OctoBot starting script**](octobot-developer-installation.md#octobot-starting-script)****
-* ****[**install OctoBot-Tentacles and run OctoBot script**](octobot-developer-installation.md#install-octobot-tentacles-and-run-octobot-script)****
+* ****[**Install OctoBot-Tentacles and run OctoBot script**](octobot-developer-installation.md#install-octobot-tentacles-and-run-octobot-script)****
 
 ### OctoBot starting script
 
@@ -189,7 +188,7 @@ now add a new python script
 
 <figure><img src="../../.gitbook/assets/grafik.png" alt=""><figcaption></figcaption></figure>
 
-### install OctoBot-Tentacles and run OctoBot script
+### Install OctoBot-Tentacles and run OctoBot script
 
 {% hint style="info" %}
 this script will install the OctoBot-Tentacles folder and run Octobot with all your changes applied from all repositories.
