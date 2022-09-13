@@ -39,6 +39,7 @@
 
 * [Tentacle Manager](Advanced_Usage/Tentacle-Manager.md)
 * [Backtesting](Advanced_Usage/Backtesting-and-strategy-optimization.md)
+* [Beta program](Advanced_Usage/Beta-program.md)
 
 ## Webhooks <a id="webhooks"></a>
 
