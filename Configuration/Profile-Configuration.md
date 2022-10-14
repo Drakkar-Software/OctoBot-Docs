@@ -49,15 +49,12 @@ interface.
 
 [![evaluators_config](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/specific_eval_config.jpg)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/specific_eval_config.jpg)
 
-This edition interface is generated according to the
-**NameOfTheRelatedClass_schema.json** [json
-schema](https://json-schema.org/understanding-json-schema/) file of the
-evaluator or trading mode to configure.
+This edition interface is generated according to the user inputs of the evaluator or trading mode to configure. Details in [the tentacles configuration docs](https://developer.octobot.info/tentacles/tentacle-package-development#configuration).
 
 It is also possible to manually edit each configuration file using a
 text editor for JSON. When configurable, each evaluator or trading mode
 has a **NameOfTheRelatedClass.json** file in
-**user/profiles/<profile_name>/specific_config**.
+**user/profiles/<profile_name>/specific_config**. Note: this file created in your profile after any change in the default configuration of the tentacle.
 
 Currencies
 ----------
