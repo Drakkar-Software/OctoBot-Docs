@@ -99,9 +99,49 @@ BBMomentumEvaluator, MACDMomentumEvaluator, KlingerOscillatorMomentumEvaluator,
 KlingerOscillatorReversalConfirmationMomentumEvaluator
 ```
 
-### Config
+### Configuration
 
-A tentacle package can contain tentacle configurations. Configuration files are located in the _config/_ folder at :
+A tentacle package can contain tentacle configurations. 
+Tentacles configuration consists in 2 parts:
+1. User inputs: the description of each configuration parameter, in the `init_user_inputs` tentacle method
+2. Default configuration: the default configuration values, as json, in the `config` folder
+
+
+#### User inputs
+On OctoBot's web interface, tentacle configuration settings are generated using their definition as User inputs as well as their current values.
+
+For a configuration parameter to show on the configuration interface, it has to be defined as user input. Any value contained in the json configuration file can be used by the tentacle but only the ones associated to user inputs will be visible to the user.
+
+```python
+def init_user_inputs(self, inputs: dict) -> None:
+   self.period_length = self.UI.user_input(
+        "period_length", enums.UserInputTypes.INT, 14, inputs, 
+        min_val=1, title="EMA period length."
+    )
+    self.min_trigger_value = self.UI.user_input(
+        "sleep_delay", enums.UserInputTypes.FLOAT, 0.5, inputs, 
+        min_val=0.34, max_val=0.75, title="Threshold above which to trigger a signal."
+    )
+    self.send_notification = self.UI.user_input(
+        "send_notification", enums.UserInputTypes.BOOLEAN, True, inputs, 
+        title="When enabled, send telegram notification on signal."
+    )
+```
+The full definition of user inputs can be found [here](https://github.com/Drakkar-Software/OctoBot-Commons/blob/master/octobot_commons/configuration/user_inputs.py).
+
+
+If you are unsure how to use user inputs, have a look at [the existing tentacles user inputs](https://github.com/Drakkar-Software/OctoBot-Tentacles/blob/master/Evaluator/TA/momentum_evaluator/momentum.py).
+
+{% hint style="info" %}
+Tentacles configuration are displayed using the [json-editor](https://github.com/json-editor/json-editor) library. User inputs are converted into json schemas that are then passed to the editor alongside their current configuraiton values. 
+
+- The `editor_options` argument allows to set json-editor specific options such as the `disable_array_add` option (`editor_options={"disable_array_add": True}`).
+- The `other_schema_values` argument allows to set json schema specific parameters such as the `minItems` or `uniqueItems` for arrays (`other_schema_values={"minItems": 1, "uniqueItems": True}`).
+{% endhint %}
+
+
+#### Default configuration
+Values for an tentacle default configuration are located in the _config/_ folder at :
 
 ```bash
 tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/config/
@@ -113,15 +153,7 @@ Each tentacles config file should be named with the exact case and name as the a
 tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/config/MyAwesomeTentacle.json
 ```
 
-On OctoBot's web interface, tentacle configuration settings are generated using the configuration file and its associated json schema using the [json-editor](https://github.com/json-editor/json-editor) library. Below is an example for _MyAwesomeTentacle_ configuration schema:
-
-```bash
-tentacles/YOUR_TP_CATEGORY/YOUR_TP_SUB_CATEGORY/YOUR_TENTACLE_PACKAGE_NAME/config/MyAwesomeTentacle_schema.json
-```
-
-{% hint style="info" %}
-A tentacle configuration schema file has to be named as your tentacle configuration file with a **_schema** suffix.
-{% endhint %}
+Once a tentacle configuration has been edited, a local copy of this json configuration file is added to your profile where local changes are saved.
 
 ### Resources
 
