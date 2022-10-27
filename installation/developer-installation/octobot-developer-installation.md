@@ -25,7 +25,7 @@ This page is referring to OctoBot in versions superior to 0.4.0.
 
 ### Additional dependencies for Windows
 
-* Download [Visual Studio Build Tools](https://visualstudio.microsoft.com/fr/downloads/) and install "Desktop development with C++". It can be from 2019 or later.
+* Download [Visual Studio Build Tools](https://visualstudio.microsoft.com/downloads/) and install "Desktop development with C++". It can be from 2019 or later.
 
 ![](<../../.gitbook/assets/image (9).png>)
 
