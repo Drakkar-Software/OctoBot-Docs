@@ -1,6 +1,6 @@
 # FTX
 
-### OctoBot support
+## OctoBot support
 
 | Spot trading | ✅ |
 | :--- | :--- |

@@ -1,4 +1,4 @@
-# GateIO
+# Phemex
 
 ## OctoBot support
 
@@ -7,6 +7,6 @@
 | Simulation | ✅ |
 | REST | ✅ |
 | Websocket | ✅ |
-| Testnet | ✅ |
+| Testnet | 🚧 |
 
 [Account setup](setup.md)

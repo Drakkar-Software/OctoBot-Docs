@@ -1,12 +1,12 @@
 # HollaEx
 
-### OctoBot support
+## OctoBot support
 
 | Spot trading | ✅ |
 | :--- | :--- |
 | Simulation | ✅ |
 | REST | ✅ |
-| Websocket | ❌  |
+| Websocket | ❌ |
 | Testnet | ✅  |
 
 | Future trading | 🚧 |
