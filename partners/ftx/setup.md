@@ -20,5 +20,3 @@ Once logged into your FTX account:
 4. Click on `CREATE API KEY`
 
 ![FTX-Create-Api](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/docs/ftx-create-API.png)
-
-## Add the API key to OctoBot

@@ -9,12 +9,12 @@
 | Websocket | ❌ |
 | Testnet | ❌ |
 
-| Future trading | 🚧 |
+| Future trading | ✅ |
 | :--- | :--- |
-| Simulation | 🚧 |
-| REST | 🚧 |
-| Websocket | 🚧 |
-| Testnet | 🚧 |
+| Simulation | ✅ |
+| REST | ✅ |
+| Websocket | ❌ |
+| Testnet | ✅ |
 
 [Account setup](setup.md)
 
