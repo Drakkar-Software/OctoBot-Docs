@@ -10,17 +10,16 @@ This page is referring to OctoBot in versions superior to 0.4.0.
 
 * [**Install OctoBot requirements**](octobot-developer-installation.md#install-octobot-requirements)
 * [**Cloning OctoBot repositories**](octobot-developer-installation.md#cloning-octobot-repositories-with-git)
-* [**Setting up the IDE**](octobot-developer-installation.md#setting-up-the-ide)
-* [**Create starting scripts in pyCharm**](octobot-developer-installation.md#create-starting-scripts-in-pycharm)
-* [**Start OctoBot in pyCharm**](octobot-developer-installation.md#start-octobot-in-pycharm)
+* [**Setting up PyCharm IDE**](octobot-developer-installation.md#setting-up-pycharm-ide)
+* [**Setting up Visual Studio Code IDE**](octobot-developer-installation.md#setting-up-visual-studio-code-ide)
 
 ## Install OctoBot requirements
 
 **Download and install:**
 
-* IDE: [PyCharm](https://www.jetbrains.com/pycharm/)
+* IDE: [PyCharm](https://www.jetbrains.com/pycharm/) or [Visual Studio Code](https://code.visualstudio.com/Download)
 * SCM: [Git](https://git-scm.com/downloads)
-*   We also use [GitKraken](https://www.gitkraken.com/git-client) to easily manage OctoBot's multiple repos, this is just a quality of life improvement and is not necessary.
+* We also use [GitKraken](https://www.gitkraken.com/git-client) to easily manage OctoBot's multiple repos, this is just a quality of life improvement and is not necessary.
 * Programming language: [Python 3.8](https://www.python.org/downloads/release/python-3810/)
 
 ### Additional dependencies for Windows
@@ -80,7 +79,7 @@ git clone https://github.com/Drakkar-Software/trading-backend.git
 
 ![](<../../.gitbook/assets/image (27).png>)
 
-## Setting up the IDE
+## Setting up PyCharm IDE
 
 We recommend using [PyCharm](https://www.jetbrains.com/pycharm/) to navigate through the OctoBot projects. This IDE will allow you to open and navigate through the multiple OctoBot repositories and make your OctoBot run setup use the code directly from the cloned repos using the project dependencies.
 
@@ -99,30 +98,12 @@ We recommend using [PyCharm](https://www.jetbrains.com/pycharm/) to navigate thr
 
 ![](<../../.gitbook/assets/grafik (1).png>)
 
-### Add OctoBot modules
-
-This will allow your PyCharm python runner to use your OctoBot repositories as source code directly. Thanks to this you will be able to edit any file in any repo and it will be taken into account in your other PyCharm run profiles runners from other open OctoBot repo. This is useful when running tests. If you skip this, you will need to install every OctoBot module with pip and won't be able to edit their code.
-
-### Add OctoBot modules with PyCharm Pro
-
-*   In File/Settings/Project/Python Dependencies: For each repository: check its required OctoBot repository dependency.
-
-
-
-    <figure><img src="https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/python_dependencies.png" alt=""><figcaption></figcaption></figure>
-
-### Add OctoBot modules with PyCharm Community
-
-Go to File -> Settings and add your OctoBot module folders as a project source
-
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
-
 ### Install Octobot dependencies
 
 * For each OctoBot's repository: install missing dependencies in requirements.txt and dev_requirements.txt
-* To install these requirements on your pycharm virtual environement, you can either:
-    * Manually go through each file listed in the commands bellow and install its requirements using the PyCharm requirements plugin
-    * In a new terminal, activate your the virtual environement create by PyCharm (venv directory) and then run the following commands
+* To install these requirements on your PyCharm virtual environment, you can either:
+  * Manually go through each file listed in the commands below and install its requirements using the PyCharm requirements plugin
+  * In a new terminal, activate your the virtual environment create by PyCharm (venv directory) and then run the following commands
 
 ```bash
 pip install -r OctoBot/requirements.txt
@@ -155,20 +136,38 @@ Through the requirements you have also installed OctoBot packages related to the
 pip uninstall -y OctoBot-Backtesting OctoBot-Trading Async-Channel OctoBot-Evaluators OctoBot-Commons OctoBot-Tentacles-Manager OctoBot-Services trading-backend
 ```
 
-## Create starting scripts in pyCharm
+##
+
+### Add OctoBot modules
+
+This will allow your PyCharm python runner to use your OctoBot repositories as source code directly. Thanks to this you will be able to edit any file in any repo and it will be taken into account in your other PyCharm run profiles runners from other open OctoBot repo. This is useful when running tests. If you skip this, you will need to install every OctoBot module with pip and won't be able to edit their code.
+
+#### Add OctoBot modules with PyCharm Pro
+
+*   In File/Settings/Project/Python Dependencies: For each repository: check its required OctoBot repository dependency.
+
+    <figure><img src="https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/python_dependencies.png" alt=""><figcaption></figcaption></figure>
+
+#### Add OctoBot modules with PyCharm Community
+
+Go to File -> Settings and add your OctoBot module folders as a project source
+
+###
+
+### Create starting scripts in pyCharm
 
 Create PyCharm run configurations using the previously created virtual env (with all the dependencies installed) for each way you want to start python commands (running OctoBot, running tests, etc).
 
-### Introduction to OctoBot scripts
+#### Introduction to OctoBot scripts
 
 {% hint style="info" %}
 Here we explain how to setup and run two scripts for OctoBot, but there are way more you can set up by yourself, explore the rest of the docs to find out more commands
 {% endhint %}
 
-* ****[**OctoBot starting script**](octobot-developer-installation.md#octobot-starting-script)****
-* ****[**Install OctoBot-Tentacles and run OctoBot script**](octobot-developer-installation.md#install-octobot-tentacles-and-run-octobot-script)****
+* [**OctoBot starting script**](octobot-developer-installation.md#octobot-starting-script)
+* [**Install OctoBot-Tentacles and run OctoBot script**](octobot-developer-installation.md#install-octobot-tentacles-and-run-octobot-script)
 
-### OctoBot starting script
+#### OctoBot starting script
 
 {% hint style="info" %}
 this script will run OctoBot and apply all changes made to all repositories except the OctoBot-Tentacles folder (see [install OctoBot-Tentacles and run OctoBot script](octobot-developer-installation.md#install-octobot-tentacles-and-run-octobot-script))
@@ -188,7 +187,7 @@ now add a new python script
 
 <figure><img src="../../.gitbook/assets/grafik.png" alt=""><figcaption></figcaption></figure>
 
-### Install OctoBot-Tentacles and run OctoBot script
+### Install OctoBot-Tentacles and run OctoBot script in PyCharm
 
 {% hint style="info" %}
 this script will install the OctoBot-Tentacles folder and run Octobot with all your changes applied from all repositories.
@@ -207,3 +206,123 @@ this script will install the OctoBot-Tentacles folder and run Octobot with all y
 * **Script to zip, install and run in one go**
 
 ![](<../../.gitbook/assets/image (12).png>)
+
+
+## Setting up Visual Studio Code IDE
+
+### Open project folder in VS Code
+
+Open the OctoBot Project root folder with VS Code
+
+### Create Virtual Environment
+
+{% hint style="info" %}
+depending your system instead of "python" you might need to use "python3.8" or "python38" . Especially if you have multiple versions of python installed it's important to use the right version
+{% endhint %}
+
+```bash
+python -m venv venv  
+```
+
+### Activate virtual environment
+on Windows:
+```bash
+.\venv\Scripts\activate
+```
+
+on Debian/Ubuntu:
+```bash
+source venv/bin/activate
+```
+
+### Create VSCode launch.json
+
+![](../../.gitbook/assets/image.png)
+
+{% hint style="info" %}
+The VS Code launch config is located in project-folder/.vscode/launch.json
+{% endhint %}
+
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Start OctoBot",
+            "type": "python",
+            "request": "launch",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/Async-Channel;${workspaceFolder}/OctoBot-Tentacles-Manager;${workspaceFolder}/OctoBot-Commons;${workspaceFolder}/OctoBot-Trading;${workspaceFolder}/OctoBot-Backtesting;${workspaceFolder}/OctoBot-evaluators;${workspaceFolder}/OctoBot-Services"
+            },
+            "program": "start.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/OctoBot",
+            "args": [""],
+            "justMyCode": true
+        }
+    ]
+}
+
+```
+
+### Create VSCode settings.json
+
+{% hint style="info" %}
+The VS Code settings.json is located in project-folder/.vscode/settings.json
+{% endhint %}
+
+```json
+{
+    "python.analysis.extraPaths": [
+        "./OctoBot",
+        "./Async-Channel",
+        "./OctoBot-Backtesting",
+        "./OctoBot-Commons",
+        "./OctoBot-Services",
+        "./OctoBot-evaluators",
+        "./OctoBot-Trading",
+        "./OctoBot-Tentacles-Manager",
+    ]
+}
+
+```
+
+### Install Octobot dependencies
+
+* For each OctoBot's repository: install missing dependencies in requirements.txt and dev_requirements.txt
+
+<pre class="language-bash"><code class="lang-bash">
+pip install -r OctoBot/requirements.txt
+pip install -r OctoBot-Backtesting/requirements.txt
+pip install -r OctoBot-Commons/requirements.txt
+pip install -r OctoBot-evaluators/requirements.txt
+pip install -r OctoBot-Services/requirements.txt
+pip install -r OctoBot-Tentacles-Manager/requirements.txt
+pip install -r OctoBot-Trading/requirements.txt
+pip install -r Async-Channel/requirements.txt
+
+pip install -r OctoBot-Backtesting/dev_requirements.txt
+pip install -r OctoBot-Commons/dev_requirements.txt
+pip install -r OctoBot-evaluators/dev_requirements.txt
+pip install -r OctoBot-Services/dev_requirements.txt
+pip install -r OctoBot-Tentacles-Manager/dev_requirements.txt
+pip install -r OctoBot-Trading/dev_requirements.txt
+pip install -r OctoBot/dev_requirements.txt
+</code></pre>
+
+{% hint style="warning" %}
+Through the requirements you have also installed OctoBot packages related to the previously downloaded repositories. You must uninstall them or your python runner will use them instead of your local code version.
+{% endhint %}
+
+* remove OctoBot pip packages to use the packages from your project directory
+
+```
+pip uninstall -y OctoBot-Backtesting OctoBot-Trading Async-Channel OctoBot-Evaluators OctoBot-Commons OctoBot-Tentacles-Manager OctoBot-Services
+```
+
+### Start using Visual Studio Code
+
+{% hint style="info" %}
+Press F5 on your keybord to start OctoBot
+{% endhint %}
