@@ -195,7 +195,7 @@ this script will install the OctoBot-Tentacles folder and run Octobot with all y
 
 #### Create the following three scripts:
 
-* \*\*Script to create an installable OctoBot-Tentacles package \*\*
+* **Script to create an installable OctoBot-Tentacles package **
 
 ![](<../../.gitbook/assets/image (20).png>)
 
