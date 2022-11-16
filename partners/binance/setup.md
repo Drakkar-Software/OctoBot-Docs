@@ -8,7 +8,7 @@
 
 ### Generate Your Keys
 - Sign into your Binance account
-- Click on your profile in the top right corner.
+- Click on your profile in the top right corner
 - Click on `API Management`
 
 ![Binance-Create-API-Key](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/docs/Binance/create_api_key.png)
@@ -42,4 +42,5 @@
 - Copy and paste `API Key` from Binance to your OctoBot `API Key` field
 - Copy and paste `Secret Key` from Binance to your OctoBot `API Secret` field
 - Leave the `API Password` as is
+
 ![OctoBot-Validate-Credentials](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/docs/Binance/enter_binance.png)
