@@ -5,7 +5,6 @@
 * [Binance](partners/binance/)
 * [Coinbase Pro](officially_supported/coinbase_pro.md)
 * [Kucoin](officially_supported/kucoin.md)
-* [FTX](partners/ftx/)
 * [Huobi & Huobi Pro](partners/huobi/)
 * [OKX](partners/okx/)
 * [Phemex](partners/phemex/)
@@ -26,7 +25,6 @@ If an account you are using is not meeting a partner exchange requirement, you w
 Here are the current partners:
 
 * [Binance](partners/binance/)
-* [FTX](partners/ftx/)
 * [Bybit](partners/bybit/)
 * [Huobi & Huobi Pro](partners/huobi/)
 * [OKX](partners/okx/)
