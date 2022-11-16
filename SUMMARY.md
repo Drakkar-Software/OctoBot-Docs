@@ -8,8 +8,6 @@
 
 * [Binance](partners/binance/README.md)
   * [Account setup](partners/binance/setup.md)
-* [FTX](partners/ftx/README.md)
-  * [Account setup](partners/ftx/setup.md)
 * [Bybit](partners/bybit/README.md)
   * [Account setup](partners/bybit/setup.md)
 * [Huobi & Huobi Pro](partners/huobi/README.md)
