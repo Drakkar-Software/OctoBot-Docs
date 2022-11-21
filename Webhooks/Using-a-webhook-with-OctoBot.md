@@ -24,7 +24,11 @@ Setting up your OctoBot's webhook
             configuration.
 
     -   Option 2: If your OctoBot is exposed to the Internet you can
-        disable ngrok and set the listening port and ip for the webhook
+        disable ngrok and set the listening port and ip for the webhook.
+
+    {% hint style="info" %}
+    When using option 2 with docker you also need to add `-p 9000:9000` after `docker run`.
+    {% endhint %}
 
 3.  Activate a tentacle using a webhook service (like the trading view
     signals trading mode).
