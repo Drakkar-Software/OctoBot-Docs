@@ -17,11 +17,10 @@ Setting up your OctoBot's webhook
 2.  To set up your webhook configuration
 
     * Option 1: If your OctoBot is not exposed to the Internet you have to :
-
-    :   -   enable ngrok
-        -   create an account on <https://ngrok.com/>
-        -   enter your ngrok token into your OctoBot's webhook service
-            configuration.
+      -   enable ngrok
+      -   create an account on <https://ngrok.com/>
+      -   copy your ngrok token from <https://dashboard.ngrok.com/get-started/your-authtoken>
+      -   enter your ngrok token into your OctoBot's webhook service configuration.
 
     -   Option 2: If your OctoBot is exposed to the Internet you can
         disable ngrok and set the listening port and ip for the webhook.
