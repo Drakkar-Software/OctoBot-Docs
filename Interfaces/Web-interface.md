@@ -20,7 +20,7 @@ Add in **user/config.json** in the services key :
 }
 ```
 
-**Exemple:**
+**Example:**
 
 ``` json
 "services": {
