@@ -2,7 +2,7 @@
 
 ## Create an account
 
-- Fill [this Binance](https://accounts.binance.com/en/register?ref=135007948) registration form
+- Fill [this Binance](https://accounts.binance.com/en/register?ref=528112221) registration form
 
 ## Generate API key
 
