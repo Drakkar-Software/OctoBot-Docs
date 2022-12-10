@@ -20,7 +20,7 @@ Once you have your own **user/config.json** file, to start using OctoBot with re
 }
 ```
 
-[Here is the doc helping to setup an exchange for OctoBot](Exchanges.html)
+[Here is the doc helping to setup an exchange for OctoBot](Exchanges.md)
 
 Interfaces
 ----------
