@@ -6,6 +6,11 @@ description: Setting up the OctoBot beta-test environment
 
 The OctoBot Beta Tester program gives you early access to most of the new features that are added to OctoBot.
 
+It's important to understand that beta testing is not the same as using a finished product. You may encounter 
+bugs or other issues that have not yet been resolved, and you may be asked to provide feedback on your experience 
+with the application. 
+This feedback can be used to help improve the final version of the feature being tested, so it's important to be thorough and honest in your testing.
+
 ## Why joining the program
 
 The goal of this program is to test those new features as well as experimenting with improvements on existing ones.
