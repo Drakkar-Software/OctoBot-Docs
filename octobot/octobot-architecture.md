@@ -34,7 +34,7 @@ Tentacles are OctoBot's extensions, they are meant to be easily customizable, ca
 
 #### Evaluation chain tentacles
 
-They are tools to analyze market data as well as any other type of data (twitter, telegram, etc). They implement abstract evaluators, strategies and trading modes.
+They are tools to analyze market data as well as any other type of data (reddit, telegram, etc). They implement abstract evaluators, strategies and trading modes.
 
 #### Utility tentacles
 
@@ -62,7 +62,7 @@ For evaluators
 
 * Technical evaluators: any new candle or refresh request (with updated candles data) from a strategy
 * Real time evaluators: any new candle and any market price change
-* Social evaluators: associated signal (ex: a tweet for a twitter social evaluator)
+* Social evaluators: associated signal (ex: a post for a reddit social evaluator)
 
 For strategies
 

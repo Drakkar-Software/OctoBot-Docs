@@ -4,15 +4,15 @@
 
 This page covers tentacle development.
 
-A tentacle is part of a [tentacle package](tentacle-package-development.md) and defines a tool for OctoBot such as a way to analyse moving averages, listen to twitter or create grid-like orders.
+A tentacle is part of a [tentacle package](tentacle-package-development.md) and defines a tool for OctoBot such as a way to analyse moving averages, listen to reddit or create grid-like orders.
 
 OctoBot uses tentacles to handle:
 
 * Price technical analysis \(moving averages, RSI, MACD, ...\)
-* Social analysis \(Twitter, Telegram, Reddit and Google\)
+* Social analysis \(Telegram, Reddit and Google\)
 * Evaluator signals interpretations \(strategies\)
 * Orders creation and followup \(trading modes\)
-* User interfaces and notifications \(web, telegram, twitter\)
+* User interfaces and notifications \(web, telegram\)
 * Backtesting data files reading and writing \(.data\)
 * Exchanges fixes \(to handle exchange specific behaviors\)
 
@@ -29,21 +29,21 @@ To create a tentacle improving an existing one, all you need to do is to use the
 
 Examples:
 
-**TwitterNewsEvaluator** is a simple Twitter evaluator available by default in `tentacles/Evaluator/Social/new_evaluator/news.py`. Let's say you want to implement **SuperTwitterNewsEvaluator** which is a better Twitter evaluator.
+**RedditForumEvaluator** is a simple Reddit evaluator available by default in `tentacles/Evaluator/Social/forum_evaluator/forum.py`. Let's say you want to implement **SuperRedditForumEvaluator** which is a better Reddit evaluator.
 
-Create the `tentacles/Evaluator/Social/super_new_evaluator/` [tentacle package](tentacle-package-development.md) based on `tentacles/Evaluator/Social/new_evaluator` and start coding the the python file.
+Create the `tentacles/Evaluator/Social/super_forum_evaluator/` [tentacle package](tentacle-package-development.md) based on `tentacles/Evaluator/Social/forum_evaluator` and start coding the the python file.
 
 ```python
 import tentacles.Evaluator.Social as Socials
 
-class SuperTwitterNewsEvaluator(Socials.TwitterNewsEvaluator):
-    # _get_tweet_sentiment is the TwitterNewsEvaluator method taking a tweet and
-    # returning a number representing the "bullishness" of the tweet.
+class SuperRedditForumEvaluator(Socials.RedditForumEvaluator):
+    # _get_sentiment is the RedditForumEvaluator method taking an entry and
+    # returning a number representing the "bullishness" of the entry.
     # to change this part only, just redefine this method here
-    def _get_tweet_sentiment(self, tweet, tweet_text, is_a_quote=False):
+    def _get_sentiment(self, entry):
         # your new content
        sentiment = 1
-       # some advanced tweet analysis to set sentiment value
+       # some advanced entry analysis to set sentiment value
        return sentiment
 ```
 
