@@ -35,7 +35,6 @@ Here are different page explaining interfaces configuration :
 -   [Discord](../Interfaces/Discord-interface.md)
 -   [Reddit](../Interfaces/Reddit-interface.md)
 -   [Telegram](../Interfaces/Telegram-interface.md)
--   [Twitter](../Interfaces/Twitter-interface.md)
 
 Notifications
 -------------
@@ -70,16 +69,6 @@ Add notifications types to **notification\_type** to tell which type of notifica
 ```
 
 Discord notifications use the Discord service. [See Discord service configuration docs](../Interfaces/Discord-interface.md)
-
-### On Twitter
-
-Open your **user/config.json** file and set the notification type value **TwitterService** :
-
-``` json
-"notification-type": ["twitter"]
-```
-
-Twitter notifications use the Twitter service. [See Twitter service configuration docs](../Interfaces/Twitter-interface.md)
 
 ### On Telegram
 

@@ -46,7 +46,7 @@ When your OctoBot places an order or has a order that is filled, it will
 appear on the web interface. The web interface displays the list of open
 orders and the list of filled orders.
 
-You can also receive Telegram, Twitter and soon Discord notifications on
+You can also receive Telegram and soon Discord notifications on
 orders placement and trades.
 
 What part of my portoflio will be traded by OctoBot ?
