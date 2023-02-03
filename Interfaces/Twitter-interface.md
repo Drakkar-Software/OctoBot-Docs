@@ -1,5 +1,13 @@
-Twitter interface
+Twitter interface (DISABLED)
 =================
+
+
+{% hint style="warning" %}
+Unfortunatelly, we had to disable the Twitter interface starting from OctoBot 0.4.37. This is due to the change in Twitter API policy making all Twitter programmatic connection paid ones and completely ending the free API access OctoBot was relying on for its Twitter interface. 
+
+see https://twitter.com/TwitterDev/status/1621026986784337922
+
+{% endhint %}
 
 OctoBot uses the Twitter interface for the following purposes:
 

@@ -36,7 +36,6 @@ Example of **tentacles_config.json**:
   "InstantFluctuationsEvaluator": true,
 
 
-  "TwitterNewsEvaluator": true,
   "RedditForumEvaluator": false,
   "GoogleTrendStatsEvaluator": true,
 
@@ -48,7 +47,7 @@ Example of **tentacles_config.json**:
 
 -   Here, the first part is about technical analysis evaluators: they are all activated except for the **CandlePatternMomentumEvaluator**. This means that any technical evaluator of these types (except **CandlePatternMomentumEvaluator**) will be used by OctoBot.
 -   Second part contains only **InstantFluctuationsEvaluator**, OctoBot will then take real time market moves into account using **InstantFluctuationsEvaluator** only.
--   Third part is the social evaluation. Here OctoBot will look at Twitter using **TwitterNewsEvaluator** (this requires that the [Twitter interface](../Interfaces/Twitter-interface.md) is setup correctly) and google stats using **GoogleTrendStatsEvaluator**. However, OctoBot will not look a reddit (`"RedditForumEvaluator": false`), therefore a [Reddit interface](../Interfaces/Reddit-interface.md) configuration is not necessary.
+-   Third part is the social evaluation. Here OctoBot will look at Google stats using **GoogleTrendStatsEvaluator**. However, OctoBot will not look a reddit (`"RedditForumEvaluator": false`), therefore a [Reddit interface](../Interfaces/Reddit-interface.md) configuration is not necessary.
 -   Last part are the strategies to use. Here only one strategy out of two is to be used by OctoBot: **TempFullMixedStrategiesEvaluator**.
 
 Any setting also applies to subclasses of these evaluators. For example if you add an evaluator extending **ADXMomentumEvaluator**, `"ADXMomentumEvaluator": true` will tell OctoBot to use the **most advanced ADXMomentumEvaluator** available: if you evaluator extends **ADXMomentumEvaluator**, your evaluator will be considered more advanced than the **basic ADXMomentumEvaluator** and OctoBot will use it. See the [Customize your OctoBot page](https://developer.octobot.info/guides/customize-your-octobot) to learn how to add elements to your OctoBot.
