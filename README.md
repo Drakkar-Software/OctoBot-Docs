@@ -4,6 +4,8 @@
 
 * [Binance](partners/binance/)
 * [Coinbase Pro](officially_supported/coinbase_pro.md)
+* [Bybit](partners/bybit/)
+* [Crypto.com](partners/cryptocom/)
 * [Kucoin](officially_supported/kucoin.md)
 * [Huobi & Huobi Pro](partners/huobi/)
 * [OKX](partners/okx/)
@@ -26,8 +28,9 @@ Here are the current partners:
 
 * [Binance](partners/binance/)
 * [Bybit](partners/bybit/)
-* [Huobi & Huobi Pro](partners/huobi/)
+* [Crypto.com](partners/cryptocom/)
 * [OKX](partners/okx/)
+* [Huobi & Huobi Pro](partners/huobi/)
 * [Phemex](partners/phemex/)
 * [Bitget](partners/bitget/)
 * [Okcoin](partners/okcoin/)
