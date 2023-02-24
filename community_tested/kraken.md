@@ -10,5 +10,5 @@ Kraken is not providing free and used data for account balance. OctoBot wont be 
 | :--- | :--- |
 | Simulation | ✅ |
 | REST | ⚠  |
-| Websocket | 🚧  |
+| Websocket | ✅  |
 | Testnet | ❌  |
