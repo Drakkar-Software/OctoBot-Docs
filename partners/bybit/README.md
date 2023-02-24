@@ -13,7 +13,7 @@
 | :--- | :--- |
 | Simulation | ✅ |
 | REST | ✅ |
-| Websocket | ❌ |
+| Websocket | ✅ |
 | Testnet | ✅ |
 
 [Account setup](setup.md)

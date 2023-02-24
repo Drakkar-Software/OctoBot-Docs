@@ -2,11 +2,11 @@
 
 ## OctoBot support
 
-| Spot trading | ⚠ |
+| Spot trading | ✅ |
 | :--- | :--- |
 | Simulation | ✅ |
 | REST | ✅ |
-| Websocket | 🚧 |
+| Websocket | ✅ |
 | Testnet | 🚧 |
 
 | Future trading | 🚧 |
@@ -15,8 +15,6 @@
 | REST | 🚧 |
 | Websocket | 🚧 |
 | Testnet | 🚧 |
-
-⚠ Ascendex websocket is under development
 
 [Account setup](setup.md)
 

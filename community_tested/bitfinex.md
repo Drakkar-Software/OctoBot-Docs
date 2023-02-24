@@ -10,5 +10,5 @@ It is highly recommended to choose `bitfinex2` (latest API version) instead of `
 | :--- | :--- |
 | Simulation | ✅ |
 | REST | ✅  |
-| Websocket | 🚧  |
+| Websocket | ✅  |
 | Testnet | ❌  |
