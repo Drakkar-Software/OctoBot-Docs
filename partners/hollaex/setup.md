@@ -1,12 +1,16 @@
 # Account setup
 
+{% hint style="info" %}
+HollaEx is an open-source white label exchange: OctoBot is compatible with every HollaEx powered exchange.
+{% endhint %}
+
 An API Key can be considered as a username that is generating to allow access to data.
 
 An API Secret, also referred to as API Private Key is simply a password used in combination with an API Key.
 
 ## Create an account
 
-- Fill the registration form on [HollaEx](https://dash.hollaex.com/signup) or on the HollaEx powered exchange you wish to trade on.
+- Fill the registration form on the HollaEx powered exchange you wish to trade on (or on [hollaex.com](https://dash.hollaex.com/signup) to use HollaEx's demo exchange).
 
 ## Generate API key
 
