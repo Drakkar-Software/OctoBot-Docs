@@ -3,15 +3,16 @@
 ## Officially supported exchanges
 
 * [Binance](partners/binance/)
-* [Coinbase Pro](officially_supported/coinbase_pro.md)
-* [Kucoin](officially_supported/kucoin.md)
-* [Huobi & Huobi Pro](partners/huobi/)
 * [OKX](partners/okx/)
+* [Kucoin](officially_supported/kucoin.md)
+* [Bybit](partners/bybit/)
+* [Huobi & Huobi Pro](partners/huobi/)
+* [Coinbase Pro](officially_supported/coinbase_pro.md)
 * [Phemex](partners/phemex/)
 * [Bitget](partners/bitget/)
 * [Okcoin](partners/okcoin/)
-* [GateIO](partners/gateio/)
 * [HollaEx](partners/hollaex/)
+* [GateIO](partners/gateio/)
 * [Ascendex](partners/ascendex/)
 
 ## Partner exchanges - Support OctoBot
@@ -25,15 +26,15 @@ If an account you are using is not meeting a partner exchange requirement, you w
 Here are the current partners:
 
 * [Binance](partners/binance/)
+* [OKX](partners/okx/)
 * [Bybit](partners/bybit/)
 * [Huobi & Huobi Pro](partners/huobi/)
-* [OKX](partners/okx/)
 * [Phemex](partners/phemex/)
 * [Bitget](partners/bitget/)
 * [Okcoin](partners/okcoin/)
+* [HollaEx](partners/hollaex/)
 * [GateIO](partners/gateio/)
 * [Ascendex](partners/ascendex/)
-* [HollaEx](partners/hollaex/)
 
 ## Community tested exchanges
 
