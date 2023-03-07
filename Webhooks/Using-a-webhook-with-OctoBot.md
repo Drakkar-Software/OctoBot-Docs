@@ -6,9 +6,10 @@ one of them is using a webhook. With a webhook, you can automatically
 send messages to your OctoBot from any website supporting this system.
 <https://www.tradingview.com> is one of them.
 
-In order to be able to receive the webhook's message, OctoBot has to
-expose an API to the web, for this it uses <https://ngrok.com/> that
-acts as a secure intermediary between the internet and your OctoBot.
+In order to be able to receive the webhook's message, there are 2 possibilites:
+1. On Cloud OctoBots, webhooks included and directly available. There is no need for extra configuration, you can jmup to step 3. of *Setting up your OctoBot's webhook*.
+2. On self hosted OctoBots, use <https://ngrok.com/> to
+act as a secure intermediary between the internet and your OctoBot.
 
 Setting up your OctoBot's webhook
 ----------------------------------
@@ -29,7 +30,7 @@ Setting up your OctoBot's webhook
     When using option 2 with docker you also need to add `-p 9000:9000` after `docker run`.
     {% endhint %}
 
-3.  Activate a tentacle using a webhook service (like the trading view
+3.  **Start here on Cloud OctoBots** Activate a tentacle using a webhook service (like the trading view
     signals trading mode).
 4.  Restart your OctoBot.
 5.  The webhook address will be displayed on your OctoBot configuration
