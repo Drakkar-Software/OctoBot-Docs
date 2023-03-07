@@ -6,6 +6,7 @@
 
 ## Installation <a id="installation"></a>
 
+* [With OctoBot Cloud](Installation/With-OctoBot-Cloud.md)
 * [With Executable](Installation/With-Binary.md)
 * [With Docker](Installation/With-Docker.md)
 * [With Python index package (pip)](Installation/With-PIP.md)
