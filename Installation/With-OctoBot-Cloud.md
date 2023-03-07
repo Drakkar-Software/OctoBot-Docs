@@ -13,7 +13,7 @@ Go to [OctoBot Cloud](https://www.octobot.cloud/) and chose one of the hosting p
 Find out more on the hosting OctoBot plans on [our dedicated article](https://blog.octobot.online/introducing-cloud-octobot-plans).
 
 {% hint style="info" %}
-To celebrate the launch of Cloud OctoBots, we are running a time limited early bird offer which heavily discounts all the plans
+To celebrate the launch of Cloud OctoBots, we are running a time limited early bird offer which heavily discounts all the plans.
 {% endhint %}
 
 Usage
