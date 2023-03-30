@@ -7,7 +7,7 @@ send messages to your OctoBot from any website supporting this system.
 <https://www.tradingview.com> is one of them.
 
 In order to be able to receive the webhook's message, there are 2 possibilites:
-1. On Cloud OctoBots, webhooks included and directly available. There is no need for extra configuration, you can jmup to step 3. of *Setting up your OctoBot's webhook*.
+1. On Cloud OctoBots, webhooks included and directly available. There is no need for extra configuration, you can jmup to step 3. of **Setting up your OctoBot's webhook**.
 2. On self hosted OctoBots, use <https://ngrok.com/> to
 act as a secure intermediary between the internet and your OctoBot.
 
