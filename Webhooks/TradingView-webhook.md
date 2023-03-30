@@ -46,8 +46,7 @@ Create an alert
     [![set-webhook-url](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/tradingview-alert-webhook-url.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/tradingview-alert-webhook-url.png)
 
     You can find OctoBot's webhook on your OctoBot's configuration
-    page or in OctoBot's starting logs. It should be an url like
-    <http://XXXXXXXX.ngrok.io/webhook/trading_view>.
+    page or in OctoBot's starting logs. It should be an url like <https://XXXXXXXX.octobot.cloud/webhook/trading_view> or <http://XXXXXXXX.ngrok.io/webhook/trading_view>.
 
     WARNING: To improve performances, webhooks are started only when
     required, this means that **you need to activate a webhook related
@@ -84,10 +83,15 @@ Additional order details can be added to the signal. These are optional:
 ORDER_TYPE=LIMIT
 VOLUME=0.01
 PRICE=42000
+STOP_PRICE=38000
+REDUCE_ONLY=true
 ```
 
 - `ORDER_TYPE` can be `MARKET` or `LIMIT`
 - `VOLUME` is the order volume in the base currency of the pair (BTC for BTC/USDT). When unspecified, order volume is computed from a % of your portfolio available funds. 
+- `PRICE` is the price of the limit order in quote asset (USDT for BTC/USDT)
+- `STOP_PRICE` is the price of the stop order to create (also requires the `PRICE` to be set to link it with a limit order) 
+- `REDUCE_ONLY` is only used for futures trading, it can be `true` or `false`
 
 Example signal:
 
