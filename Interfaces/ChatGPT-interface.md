@@ -18,6 +18,8 @@ To use ChatGPT, the only configuration you need is to enter your OpenAI API key 
 2. Create a new API key on https://platform.openai.com/account/api-keys
 3. Copy your API key into the GPT configuration in the Accounts tab of the web interface
 
+![gpt config](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/gpt_config.png)
+
 Costs 
 -----
 

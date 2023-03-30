@@ -5,8 +5,23 @@ OctoBot uses the Reddit interface to monitor reddit posts from
 subreddits given in **RedditForumEvaluator.json**. This interface
 enables the social evaluator **RedditForumEvaluator**
 
-Reddit service configuration
-----------------------------
+Configuration
+---------------------------
+
+![reddit config](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/reddit_config.png)
+
+Those information can be found after creating a Reddit App.
+
+1. Login on your Reddit account if you already have one
+2. [Generate a Reddit script App to your Reddit account if you don't
+    already have one](https://www.reddit.com/prefs/apps/)
+3. **client-id** is the 14 characters identifier under the App's name
+4. **client-secret** is the **secret** identifier of the App
+5. **username** and **password** are your usual Reddit username and
+    password
+
+user/confg.json configuration
+-----------------------------
 
 Add in **user/config.json** in the services key :
 
@@ -37,13 +52,3 @@ Add in **user/config.json** in the services key :
    }
 }
 ```
-
-All those information can be found after creating a Reddit App.
-
--   Login on your Reddit account if you are not already
--   [Generate a Reddit script App to your Reddit account if you don't
-    already have one](https://www.reddit.com/prefs/apps/)
--   **client-id** is the 14 characters identifier under the App's name
--   **client-secret** is the **secret** identifier of the App
--   **username** and **password** are your usual Reddit username and
-    password

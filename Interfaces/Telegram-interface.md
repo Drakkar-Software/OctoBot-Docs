@@ -28,31 +28,7 @@ website](https://core.telegram.org/bots#6-botfather)
 Configuration
 -------------
 
-Add in **user/config.json** in the services key :
-
-``` json
-"telegram": {
-       "chat-id": "YOUR_CHAT_ID",
-       "token": "YOUR_BOT_TOKEN"
-   }
-```
-
-**Exemple:**
-
-``` json
-"services": {
-   "a service": {
-
-   },
-   "telegram": {
-       "chat-id": "YOUR_CHAT_ID",
-       "token": "YOUR_BOT_TOKEN"
-   },
-   "another service": {
-
-   }
-}
-```
+![telegram config](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/telegram_config.png)
 
 ### Token
 
@@ -89,6 +65,36 @@ In order to be able to read group messages, your telegram bot must have its **pr
 -   enter `Disable`
 
 Your OctoBot is now able to read any group message.
+
+
+user/confg.json configuration
+-----------------------------
+
+Add in **user/config.json** in the services key :
+
+``` json
+"telegram": {
+       "chat-id": "YOUR_CHAT_ID",
+       "token": "YOUR_BOT_TOKEN"
+   }
+```
+
+**Exemple:**
+
+``` json
+"services": {
+   "a service": {
+
+   },
+   "telegram": {
+       "chat-id": "YOUR_CHAT_ID",
+       "token": "YOUR_BOT_TOKEN"
+   },
+   "another service": {
+
+   }
+}
+```
 
 Troubleshooting
 ---------------
