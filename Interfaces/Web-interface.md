@@ -9,34 +9,14 @@ OctoBot provides a web interface for the following purposes:
 -   Interacting with OctoBot
 -   Configure OctoBot
 
-Web service configuration
--------------------------
+Configuration
+-------------
 
-Add in **user/config.json** in the services key :
+![web config](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/web_config.png)
 
-``` json
-"web": {
-     "port": 5001
-}
-```
-
-**Example:**
-
-``` json
-"services": {
-   "a service": {
-
-   },
-   "web": {
-       "port": 5022
-   },
-   "another service": {
-
-   }
-}
-```
-
--   **port** is the port you want the web interface to be accessible from
+- **port** is the port you want the web interface to be accessible from. Changing it allows you to have multiple OctoBots running on the same computer.
+- **auto open in web browser** is wether starting your OctoBot should open a new tab on your browser to display the web interface
+- **requires password** is wether the web interface of your OctoBot should be protected by a password
 
 Protect your web interface
 --------------------------
@@ -93,3 +73,41 @@ Examples:
 Requests from other origins will be refused with a 400 error and the web interface will behave as if OctoBot was constantly disconnected.
 
 By default, no request filter is set (equivalent to CORS_ALLOWED_ORIGINS=*) which might make your bot vulnerable to [Cross Site Request Forgery attacks](https://owasp.org/www-community/attacks/csrf).
+
+
+user/confg.json configuration
+-----------------------------
+
+Add in **user/config.json** in the services key :
+
+``` json
+"web": {
+    "auto-open-in-web-browser": false,
+    "ip": "0.0.0.0",
+    "password": "",
+    "port": 5001,
+    "require-password": false
+}
+```
+
+You can also change the IP your web interface is binding to from **user/config.json**.
+
+**Example:**
+
+``` json
+"services": {
+   "a service": {
+
+   },
+   "web": {
+        "auto-open-in-web-browser": false,
+        "ip": "0.0.0.0",
+        "password": "",
+        "port": 5001,
+        "require-password": false
+   },
+   "another service": {
+
+   }
+}
+```
