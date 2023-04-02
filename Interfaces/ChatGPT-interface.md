@@ -9,7 +9,7 @@ ChatGPT service configuration
 -----------------------------
 
 {% hint style="info" %}
-No configuration is needed for [Cloud OctoBots](https://www.octobot.cloud/).
+No configuration is needed for [Pro Cloud OctoBots](https://www.octobot.cloud/).
 {% endhint %}
 
 To use ChatGPT, the only configuration you need is to enter your OpenAI API key into the GPT Interface
@@ -24,7 +24,7 @@ Costs
 -----
 
 {% hint style="info" %}
-When using [Cloud OctoBots](https://www.octobot.cloud/), we are covering the GPT calls cost.
+When using [Pro Cloud OctoBots](https://www.octobot.cloud/), we are covering the GPT calls cost.
 {% endhint %}
 
 Using ChatGPT from automated API calls is a paid service from OpenAI. Each call to ChatGPT will consume a few OpenAI tokens.
