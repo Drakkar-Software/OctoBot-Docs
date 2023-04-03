@@ -7,7 +7,7 @@
 * [Kucoin](officially_supported/kucoin.md)
 * [Bybit](partners/bybit/)
 * [Huobi & Huobi Pro](partners/huobi/)
-* [Coinbase Pro](officially_supported/coinbase_pro.md)
+* [Coinbase](officially_supported/coinbase.md)
 * [Phemex](partners/phemex/)
 * [Bitget](partners/bitget/)
 * [Okcoin](partners/okcoin/)

@@ -1,4 +1,4 @@
-# Coinbase Pro
+# Coinbase
 
 ### OctoBot support
 
@@ -6,7 +6,7 @@
 | :--- | :--- |
 | Simulation | ✅ |
 | REST | ✅ |
-| Websocket | ✅  |
+| Websocket | ❌  |
 | Testnet | ❌  |
 
 ### 

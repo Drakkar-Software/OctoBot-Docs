@@ -29,7 +29,7 @@
 
 ## Officially supported <a id="officially_supported"></a>
 
-* [Coinbase Pro](officially_supported/coinbase_pro.md)
+* [Coinbase](officially_supported/coinbase.md)
 * [Kucoin](officially_supported/kucoin.md)
 
 ## Community tested <a id="community_tested"></a>
