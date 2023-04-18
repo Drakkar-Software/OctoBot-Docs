@@ -57,12 +57,18 @@ Create an alert
 
     [![webhook log](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/webhook_log.jpg)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/webhook_log.jpg)
 
--   Set the alert message:
+-   Set the alert message
+
+Alert format
+------------
+
+The alert format is designed to be easily used from TradingView. Minimal alerts contain the exchange name, the alert symbol (BTCUSDT for BTC/USDT and BTC/USDT:USDT) and the side of the order to create.
+Example: 
 
 ``` bash
 EXCHANGE={{exchange}}
 SYMBOL={{ticker}}
-SIGNAL=BUY
+SIGNAL=SELL
 ```
 
 if it's a buy signal
@@ -77,23 +83,25 @@ SIGNAL=SELL
 
 if it's a sell signal
 
-Additional order details can be added to the signal. These are optional:
+Additional order details can be added to the alert. These are optional:
 
 ``` bash
 ORDER_TYPE=LIMIT
 VOLUME=0.01
 PRICE=42000
 STOP_PRICE=38000
+TAKE_PROFIT_PRICE=55000
 REDUCE_ONLY=true
 ```
 
-- `ORDER_TYPE` can be `MARKET` or `LIMIT`
-- `VOLUME` is the order volume in the base currency of the pair (BTC for BTC/USDT). When unspecified, order volume is computed from a % of your portfolio available funds. 
+- `ORDER_TYPE` is the type of order, it can be `MARKET` or `LIMIT`
+- `VOLUME`  is the volume of the order in base asset (BTC for BTC/USDT) it can a flat amount (ex: 0.1 to trade 0.1 BTC on BTC/USD), a % of the total portfolio value (ex: 2%) or a % of the available holdings (ex: 12a%). 
 - `PRICE` is the price of the limit order in quote asset (USDT for BTC/USDT)
-- `STOP_PRICE` is the price of the stop order to create (also requires the `PRICE` to be set to link it with a limit order) 
-- `REDUCE_ONLY` is only used for futures trading, it can be `true` or `false`
+- `STOP_PRICE` is the price of the stop order to create. When increasing the position or buying in spot trading, the stop loss will automatically be created once the initial order is filled. When decreasing the position (or selling in spot) using a LIMIT `ORDER_TYPE`, the stop loss will be created instantly.
+- `TAKE_PROFIT_PRICE` is the price of the take profit order to create. When increasing the position or buying in spot trading, the take profit will automatically be created once the initial order is filled. When decreasing the position (or selling in spot) using a LIMIT `ORDER_TYPE`, the take profit will be created instantly.
+- `REDUCE_ONLY` when true, only reduce the current position (avoid accidental short position opening when reducing a long position). **Only used in futures trading**. Default is false
 
-Example signal:
+Example alert:
 
 ``` bash
 EXCHANGE=binance
