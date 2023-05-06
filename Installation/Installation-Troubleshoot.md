@@ -80,9 +80,9 @@ yum -y groupinstall "Development Tools"
 yum -y install openssl-devel bzip2-devel libffi-devel
 yum install -y screen
 cd /root
-wget https://www.python.org/ftp/python/3.8.3/Python-3.8.3.tgz
-tar xvf Python-3.8.3.tgz
-cd Python-3.8*/
+wget https://www.python.org/ftp/python/3.10.11/Python-3.10.11.tgz
+tar xvf Python-3.10.11.tgz
+cd Python-3.10*/
 ./configure --enable-loadable-sqlite-extensions && make && sudo make install
 ```
 
@@ -91,7 +91,7 @@ OctoBot
 ``` bash
 git clone https://github.com/Drakkar-Software/OctoBot.git
 cd OctoBot/
-python3.8 -m pip install virtualenv
+python3.10 -m pip install virtualenv
 virtualenv venv
 source venv/bin/activate
 pip install -Ur requirements.txt
