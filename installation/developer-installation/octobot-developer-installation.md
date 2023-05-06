@@ -20,7 +20,7 @@ This page is referring to OctoBot in versions superior to 0.4.0.
 * IDE: [PyCharm](https://www.jetbrains.com/pycharm/) or [Visual Studio Code](https://code.visualstudio.com/Download)
 * SCM: [Git](https://git-scm.com/downloads)
 * We also use [GitKraken](https://www.gitkraken.com/git-client) to easily manage OctoBot's multiple repos, this is just a quality of life improvement and is not necessary.
-* Programming language: [Python 3.8](https://www.python.org/downloads/release/python-3810/)
+* Programming language: [Python 3.10](https://www.python.org/downloads/release/python-31011/)
 
 ### Additional dependencies for Windows
 
@@ -94,7 +94,7 @@ We recommend using [PyCharm](https://www.jetbrains.com/pycharm/) to navigate thr
 
 1. select "Virtualenv Environment"
 2. select the location of your venv. This should be your OctoBot project folder with "/venv" at the end
-3. select your base interpreter and make sure its python 3.8 or 38
+3. select your base interpreter and make sure its python 3.10 or 310
 
 ![](<../../.gitbook/assets/grafik (1).png>)
 
@@ -217,7 +217,7 @@ Open the OctoBot Project root folder with VS Code
 ### Create Virtual Environment
 
 {% hint style="info" %}
-depending your system instead of "python" you might need to use "python3.8" or "python38" . Especially if you have multiple versions of python installed it's important to use the right version
+depending your system instead of "python" you might need to use "python3.10" or "python310" . Especially if you have multiple versions of python installed it's important to use the right version
 {% endhint %}
 
 ```bash
