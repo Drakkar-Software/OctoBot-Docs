@@ -4,7 +4,7 @@ With Python index package (pip)
 Requirements
 ------------
 
--   Python 3.8 ([download](https://www.python.org/downloads/))
+-   Python 3.10 ([download](https://www.python.org/downloads/))
 -   Add python to your PATH ([tutorial windows](https://superuser.com/questions/143119/how-do-i-add-python-to-the-windows-path))
 
 Installation
@@ -13,10 +13,10 @@ Installation
 In a command line (with python in your PATH) type the following command:
 
 ``` bash
-python3.8 -m pip install OctoBot>=0.4.0b
+python3.10 -m pip install OctoBot
 ```
 
-You can change **python3.8** to the name of the python binary you added to your PATH (for example on linux you may use **python3**)
+You can change **python3.10** to the name of the python binary you added to your PATH (for example on linux you may use **python3** or even **python** if the **python --version** commands outputs a python 3.10 version)
 
 Usage
 -----

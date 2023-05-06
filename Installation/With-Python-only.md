@@ -4,12 +4,12 @@ With Python only
 Requirements
 ------------
 
--   Packages installed : Python3.8.X, Python3.8.X-dev, Python3.8.X-pip, git
+-   Packages installed : Python3.10.X, Python3.10.X-dev, Python3.10.X-pip, git
 
 Installation
 ------------
 
-**First, make sure you have python3.8 and python3.8-dev and python3.8-pip installed on your computer.**
+**First, make sure you have python3.10 and python3.10-dev and python3.10-pip installed on your computer.**
 
 ### Using the current stable version (master branch)
 
@@ -91,7 +91,7 @@ python3 start.py
 Python3
 -------
 
-There **python3** is refering to your **Python3.8.X** installation, just adapt the commands to match your setup if any different (might be python, python3, python3.8, etc: it depends on your environment).
+There **python3** is refering to your **Python3.10.X** installation, just adapt the commands to match your setup if any different (might be python, python3, python3.10, etc: it depends on your environment).
 
 Start in background
 -------------------
