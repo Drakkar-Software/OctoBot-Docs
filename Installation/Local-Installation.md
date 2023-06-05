@@ -28,7 +28,7 @@ On Linux, first type `chmod +x OctoBot_linux_x64` and then `./OctoBot_linux_x64`
 
 The management interface of your OctoBot is available on port 5001 of your system. http://localhost:5001/ or http://ip-address:5001/
 
-Find all the details regarding the docker installation on [the dedicated page](../With-Docker)
+Find all the details regarding the docker installation on [the dedicated page](With-Docker.md)
 
 ## Option 3: From the source code
 
@@ -45,4 +45,4 @@ Deploy your OctoBot from the code in to be able to use a local Python environmen
 
 The management interface of your OctoBot is available on port 5001 of your system. http://localhost:5001/ or http://ip-address:5001/
 
-Find all the details regarding the source code installation on [the dedicated page](../With-Python-only)
+Find all the details regarding the source code installation on [the dedicated page](With-Python-only.md)
