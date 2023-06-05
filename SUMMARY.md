@@ -4,7 +4,7 @@
 * [Developers documentation](https://developer.octobot.info)
 * [Exchanges support](https://exchanges.octobot.info)
 
-## Installation <a id="installation"></a>
+## Installation
 
 * [With OctoBot Cloud](Installation/With-OctoBot-Cloud.md)
 * [Local installation](Installation/Local-Installation.md)
@@ -14,7 +14,7 @@
 * [With Python only](Installation/With-Python-only.md)
 * [Troubleshoot](Installation/Installation-Troubleshoot.md)
 
-## Configuration <a id="configuration"></a>
+## Configuration
 
 * [Profiles](Configuration/Profiles.md)
 * [Profile configuration](Configuration/Profile-Configuration.md)
@@ -22,13 +22,13 @@
 * [Custom Profile](Configuration/Custom-Profile.md)
 * [Exchanges](Configuration/Exchanges.md)
 
-## Usage <a id="usage"></a>
+## Usage
 
 * [Simulator](Usage/Simulator.md)
 * [Profitability in OctoBot](Usage/Understanding-profitability.md)
 * [Frequently Asked Questions (FAQ)](Usage/Frequently-asked-questions-FAQ.md)
 
-## Interfaces <a id="interfaces"></a>
+## Interfaces
 
 * [Web interface](Interfaces/Web-interface.md)
 * [Reddit interface](Interfaces/Reddit-interface.md)
@@ -36,13 +36,13 @@
   * [Telegram API](Interfaces/Telegram-API.md)
 * [ChatGPT interface](Interfaces/ChatGPT-interface.md)
 
-## Advanced usage <a id="advanced_usage"></a>
+## Advanced usage <a href="#advanced_usage" id="advanced_usage"></a>
 
-* [Tentacle Manager](Advanced_Usage/Tentacle-Manager.md)
-* [Backtesting](Advanced_Usage/Backtesting-and-strategy-optimization.md)
-* [Beta program](Advanced_Usage/Beta-program.md)
+* [Tentacle Manager](Advanced\_Usage/Tentacle-Manager.md)
+* [Backtesting](Advanced\_Usage/Backtesting-and-strategy-optimization.md)
+* [Beta program](Advanced\_Usage/Beta-program.md)
 
-## Webhooks <a id="webhooks"></a>
+## Webhooks
 
 * [TradingView webhook](Webhooks/TradingView-webhook.md)
 * [Using a webhook with OctoBot](Webhooks/Using-a-webhook-with-OctoBot.md)
