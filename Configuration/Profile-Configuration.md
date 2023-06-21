@@ -71,44 +71,10 @@ trade **between 1 and 5** different assets **not to use more than 10 to
 15** different assets at the same time, depending on the size of your
 available funds.
 
-Examples:
-
-``` json
-"crypto-currencies":{
-    "Bitcoin": {
-      "pairs": ["BTC/USDT"],
-      "enabled": true
-    }
-}
-```
-
-OctoBot trading only Bitcoin against USDT
-
-``` json
-"crypto-currencies":{
-    "Bitcoin": {
-      "pairs": ["BTC/USDT"],
-      "enabled": true
-    },
-    "Ethereum": {
-      "pairs": ["ETH/USDT"],
-      "enabled": false
-    },
-    "NEO": {
-      "pairs": ["NEO/BTC", "NEO/ETH"],
-      "enabled": true
-    }
-}
-```
-
-OctoBot trading Bitcoin against USDT as well as NEO against BTC and ETH
-but not Ethereum against USDT because Ethereum is disabled ("enabled":
-false)
-
 ### Wildcard
 
 To tell OctoBot to trade all BTC trading pairs (with BTC as a quote
-asset), use the wildcard "*" instead of a list for "pairs":
+asset), use the wildcard "*" instead of a list for "pairs", directly in your profile's profile.json file:
 
 ``` json
 "crypto-currencies":{
@@ -125,50 +91,22 @@ with.
 Exchanges
 ---------
 
-[![trading](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_exchanges.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_exchanges.png)
+[![exchanges](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_exchanges.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_exchanges.png)
 
-Open your **user/profiles/<profile_name>/profile.json** file and edit
-this configuration :
+For each profile, you can enable the exchanges you want to trade on.
 
-``` json
-"trader":{
-  "enabled": true,
-  "load-trade-history": false
-}
-```
+It is also where you can select if you want to use **spot** or **future** trading on those exchanges.
 
-### Enabled
-
-When the **Enabled** parameter is set at **true**, OctoBot will trade
-using your real funds from your exchange's accounts. When **false**
-OctoBot will never any create a real trade.
-
-### Load trade history
-
-When the **load-trade-history** parameter is set at **true**, OctoBot
-will load the account's recent trades for the enabled traded pairs at
-startup. This allows to have a view on your account's trade history.
-When **false**, OctoBot will only historize trades that happen after the
-bot startup.
 
 Trading
 -------
+
+[![trading](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_trading.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_trading.png)
 
 OctoBot can process two types of trading:
 
 -   Real trading using your exchanges' portfolio.
 -   Simulated trading using any imaginary portfolio.
-
-[![trading](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_trading.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_trading.png)
-
-Or edit the trader key in **user/profiles/<profile_name>/profile.json** :
-
-``` json
-"trading":{
-  "reference-market": "BTC",
-  "risk": 0.8
-}
-```
 
 ### Reference-market
 
@@ -176,7 +114,7 @@ The **Reference-market** parameter defines which currency OctBot should
 use as a reference, this reference is used to compute profitability and
 the portfolio total value
 
-### Risk parameter
+### Risk
 
 Any type of trading has its risk parameter. It is a parameter defining
 the behavior of the trader, similarly to a real human trader.
@@ -193,6 +131,20 @@ It is a value between 0 and 1:
 -   A high risk (closer to 1) will make OctoBot a very active and heavy
     trader. A 1 risk bot is very optimistic (regarding its orders
     creation) and is expecting significant market moves.
+
+### Trader
+
+When the **Enabled** parameter of the **Trader** section is set at **true**, OctoBot will trade
+using your real funds from your exchange's accounts. When **false**
+OctoBot will never any create a real trade.
+
+### Load trade history
+
+When the **load-trade-history** parameter is set at **true**, OctoBot
+will load the account's recent trades for the enabled traded pairs at
+startup. This allows to have a view on your account's trade history.
+When **false**, OctoBot will only historize trades that happen after the
+bot startup.
 
 ### Trader simulator
 
