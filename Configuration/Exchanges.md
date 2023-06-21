@@ -44,12 +44,14 @@ Example with Binance and Coinbase Pro :
 "exchanges": {
     "binance": {
         "api-key": "YOUR_BINANCE_API_KEY_ENCRYPTED",
-        "api-secret": "YOUR_BINANCE_API_SECRET_ENCRYPTED"
+        "api-secret": "YOUR_BINANCE_API_SECRET_ENCRYPTED",
+        "sandboxed": false
     },
     "coinbasepro": {
         "api-key": "YOUR_EXCHANGE_API_KEY_ENCRYPTED",
         "api-secret": "YOUR_EXCHANGE_API_SECRET_ENCRYPTED",
-        "api-password": "YOUR_EXCHANGE_API_SECRET_ENCRYPTED"
+        "api-password": "YOUR_EXCHANGE_API_SECRET_ENCRYPTED",
+        "sandboxed": true
     }
 }
 ```
@@ -57,6 +59,7 @@ Example with Binance and Coinbase Pro :
 -   **api-key** is your exchange account API key
 -   **api-secret** is your exchange account API secret
 -   **api-password** is your exchange account API password if this exchange is requiring a password. Leave empty otherwise
+-   **sandboxed** if your exchange is supporting a sandbox(or testnet) mode, allows to trade on this version of the exchange
 
 Simulated exchange
 ------------------

@@ -22,9 +22,9 @@ Interfaces are all defined in **user/config.json** in the **services** section.
 Here are different page explaining interfaces configuration :
 
 -   [Web](../Interfaces/Web-interface.md)
--   [Discord](../Interfaces/Discord-interface.md)
 -   [Reddit](../Interfaces/Reddit-interface.md)
 -   [Telegram](../Interfaces/Telegram-interface.md)
+-   [Chat GPT](../Interfaces/ChatGPT-interface.md)
 
 Notifications
 -------------
