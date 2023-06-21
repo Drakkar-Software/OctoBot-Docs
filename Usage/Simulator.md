@@ -20,7 +20,7 @@ filled and the current simulated portfolio is updated accordingly.
 
 ### Fees
 
-Fees in % to be deducted at simulated orders completion in backtesting.
+Fees in % to be deducted at simulated orders completion in simulated orders and backtesting.
 
 ### Starting portfolio
 
