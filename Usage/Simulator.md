@@ -5,40 +5,18 @@ OctoBot can be used in a simulation mode. In this mode, OctoBot will
 simulate trades using the exact same process as with the real trading
 mode.
 
-[![trading](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/trading.jpg)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/trading.jpg)
+[![trading](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_trading.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/profile_trading.png)
 
 The only difference with a real trader is in the starting portfolio that
-is set in the **user/profiles/profile_name/profile.json** file.
+is set in the Trade Simulator configuration.
 Each profile has its own simulated portfolio. This portfolio will be
 managed by OctoBot and simulated orders will be using these available
-cryptocurrencies as a basis. The trader simulator will use the
+cryptocurrencies as a basis. 
+
+The trader simulator will use the
 exchanges' last trades to figure out if the current orders would have
 been filled or not. If they would have been filled, simulated orders get
 filled and the current simulated portfolio is updated accordingly.
-
-Setup the trader_simulator
----------------------------
-
-Find the trader-simulator key in
-**user/profiles/profile_name/profile.json** :
-
-``` json
-"trader-simulator":{
-  "enabled": true,
-  "fees": {
-      "maker": 0.07,
-      "taker": 0.07
-  },
-  "starting-portfolio": {
-    "BTC": 10,
-    "USDT": 1000
-  }
-}
-```
-
-### Enabled
-
-Set **enabled** to true to start a trader simulator when starting OctoBot.
 
 ### Fees
 
