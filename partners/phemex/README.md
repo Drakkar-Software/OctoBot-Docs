@@ -7,6 +7,6 @@
 | Simulation | ✅ |
 | REST | ✅ |
 | Websocket | ✅ |
-| Testnet | 🚧 |
+| Testnet | ✅ |
 
 [Account setup](setup.md)
