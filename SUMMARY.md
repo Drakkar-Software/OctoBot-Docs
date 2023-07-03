@@ -26,6 +26,7 @@
   * [Account setup](partners/okcoin/setup.md)
 * [HollaEx](partners/hollaex/README.md)
   * [Account setup](partners/hollaex/setup.md)
+  * [HollaEx-powered exchanges](partners/hollaex/hollaex_powered_exchanges.md)
 * [MEXC](partners/mexc/README.md)
   * [Account setup](partners/mexc/setup.md)
 * [GateIO](partners/gateio/README.md)
