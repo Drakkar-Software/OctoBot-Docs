@@ -2,11 +2,11 @@
 
 ## OctoBot support
 
-| Spot trading | ❌ |
+| Spot trading | ✅ |
 | :--- | :--- |
-| Simulation | ❌ |
-| REST | ❌ |
-| Websocket | ❌ |
+| Simulation | ✅ |
+| REST | ✅ |
+| Websocket | ✅ |
 | Testnet | ❌ |
 
 | Future trading | ✅ |
@@ -17,6 +17,3 @@
 | Testnet | ✅ |
 
 [Account setup](setup.md)
-
-❌ Spot trading is not yet supported by Bybit
-

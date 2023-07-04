@@ -10,9 +10,13 @@
   * [Account setup](partners/binance/setup.md)
 * [OKX](partners/okx/README.md)
   * [Account setup](partners/okx/setup.md)
+* [Kucoin](partners/kucoin/README.md)
+  * [Account setup](partners/kucoin/setup.md)
 * [Bybit](partners/bybit/README.md)
   * [Account setup](partners/bybit/setup.md)
-* [Huobi & Huobi Pro](partners/huobi/README.md)
+* [Crypto.com](partners/cryptocom/README.md)
+  * [Account setup](partners/cryptocom/setup.md)
+* [Huobi](partners/huobi/README.md)
   * [Account setup](partners/huobi/setup.md)
 * [Phemex](partners/phemex/README.md)
   * [Account setup](partners/phemex/setup.md)
@@ -22,6 +26,9 @@
   * [Account setup](partners/okcoin/setup.md)
 * [HollaEx](partners/hollaex/README.md)
   * [Account setup](partners/hollaex/setup.md)
+  * [HollaEx-powered exchanges](partners/hollaex/hollaex_powered_exchanges.md)
+* [MEXC](partners/mexc/README.md)
+  * [Account setup](partners/mexc/setup.md)
 * [GateIO](partners/gateio/README.md)
   * [Account setup](partners/gateio/setup.md)
 * [Ascendex](partners/ascendex/README.md)
@@ -30,7 +37,6 @@
 ## Officially supported <a id="officially_supported"></a>
 
 * [Coinbase](officially_supported/coinbase.md)
-* [Kucoin](officially_supported/kucoin.md)
 
 ## Community tested <a id="community_tested"></a>
 
