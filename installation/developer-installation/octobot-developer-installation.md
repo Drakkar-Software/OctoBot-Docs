@@ -109,7 +109,7 @@ We recommend using [PyCharm](https://www.jetbrains.com/pycharm/) to navigate thr
 pip install -r OctoBot/requirements.txt
 pip install -r OctoBot-Backtesting/requirements.txt
 pip install -r OctoBot-Commons/requirements.txt
-pip install -r OctoBot-evaluators/requirements.txt
+pip install -r OctoBot-Evaluators/requirements.txt
 pip install -r OctoBot-Services/requirements.txt
 pip install -r OctoBot-Tentacles-Manager/requirements.txt
 pip install -r OctoBot-Trading/requirements.txt
@@ -118,7 +118,7 @@ pip install -r trading-backend/requirements.txt
 
 pip install -r OctoBot-Backtesting/dev_requirements.txt
 pip install -r OctoBot-Commons/dev_requirements.txt
-pip install -r OctoBot-evaluators/dev_requirements.txt
+pip install -r OctoBot-Evaluators/dev_requirements.txt
 pip install -r OctoBot-Services/dev_requirements.txt
 pip install -r OctoBot-Tentacles-Manager/dev_requirements.txt
 pip install -r OctoBot-Trading/dev_requirements.txt
@@ -253,7 +253,7 @@ The VS Code launch config is located in project-folder/.vscode/launch.json
             "type": "python",
             "request": "launch",
             "env": {
-                "PYTHONPATH": "${workspaceFolder}/Async-Channel;${workspaceFolder}/OctoBot-Tentacles-Manager;${workspaceFolder}/OctoBot-Commons;${workspaceFolder}/OctoBot-Trading;${workspaceFolder}/OctoBot-Backtesting;${workspaceFolder}/OctoBot-evaluators;${workspaceFolder}/OctoBot-Services"
+                "PYTHONPATH": "${workspaceFolder}/Async-Channel;${workspaceFolder}/OctoBot-Tentacles-Manager;${workspaceFolder}/OctoBot-Commons;${workspaceFolder}/OctoBot-Trading;${workspaceFolder}/OctoBot-Backtesting;${workspaceFolder}/OctoBot-Evaluators;${workspaceFolder}/OctoBot-Services"
             },
             "program": "start.py",
             "console": "integratedTerminal",
@@ -280,7 +280,7 @@ The VS Code settings.json is located in project-folder/.vscode/settings.json
         "./OctoBot-Backtesting",
         "./OctoBot-Commons",
         "./OctoBot-Services",
-        "./OctoBot-evaluators",
+        "./OctoBot-Evaluators",
         "./OctoBot-Trading",
         "./OctoBot-Tentacles-Manager",
     ]
@@ -296,7 +296,7 @@ The VS Code settings.json is located in project-folder/.vscode/settings.json
 pip install -r OctoBot/requirements.txt
 pip install -r OctoBot-Backtesting/requirements.txt
 pip install -r OctoBot-Commons/requirements.txt
-pip install -r OctoBot-evaluators/requirements.txt
+pip install -r OctoBot-Evaluators/requirements.txt
 pip install -r OctoBot-Services/requirements.txt
 pip install -r OctoBot-Tentacles-Manager/requirements.txt
 pip install -r OctoBot-Trading/requirements.txt
@@ -304,7 +304,7 @@ pip install -r Async-Channel/requirements.txt
 
 pip install -r OctoBot-Backtesting/dev_requirements.txt
 pip install -r OctoBot-Commons/dev_requirements.txt
-pip install -r OctoBot-evaluators/dev_requirements.txt
+pip install -r OctoBot-Evaluators/dev_requirements.txt
 pip install -r OctoBot-Services/dev_requirements.txt
 pip install -r OctoBot-Tentacles-Manager/dev_requirements.txt
 pip install -r OctoBot-Trading/dev_requirements.txt
