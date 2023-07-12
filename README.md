@@ -4,7 +4,7 @@
 
 * [Binance](partners/binance/)
 * [OKX](partners/okx/)
-* [Kucoin](partners/kucoin.md)
+* [Kucoin](partners/kucoin)
 * [Bybit](partners/bybit/)
 * [Crypto.com](partners/cryptocom/)
 * [Huobi](partners/huobi/)
