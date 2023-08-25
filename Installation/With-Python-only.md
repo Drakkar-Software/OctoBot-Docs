@@ -9,7 +9,7 @@ Requirements
 Installation
 ------------
 
-**First, make sure you have python3.10 and python3.10-dev and python3.10-pip installed on your computer.** Python 3.9 installations also work but are slower and not recommended.
+**First, make sure you have python3.10 and python3.10-dev and python3.10-pip installed on your computer.**
 
 ### Using the current stable version (master branch)
 

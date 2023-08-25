@@ -4,7 +4,7 @@ With Python index package (pip)
 Requirements
 ------------
 
--   Python 3.10 (recommended), 3.9 is also compatible ([download](https://www.python.org/downloads/))
+-   Python 3.10 ([download](https://www.python.org/downloads/))
 -   Add python to your PATH ([tutorial windows](https://superuser.com/questions/143119/how-do-i-add-python-to-the-windows-path))
 
 Installation
