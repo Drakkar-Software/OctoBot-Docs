@@ -15,29 +15,24 @@ This feedback can be used to help improve the final version of the feature being
 
 The goal of this program is to test those new features as well as experimenting with improvements on existing ones.
 
-By joining the OctoBot Beta Tester, you will have:
-- Early access to new features and improvements on [OctoBot](https://www.octobot.online/) and [OctoBot Cloud](https://www.octobot.cloud/)
-- A direct channel to discuss with the OctoBot Team and share your ideas on how to improve new functionalities before their release
+By joining the OctoBot Beta Tester, you will have early access to new features and improvements on OctoBot cloud by using [app-beta.octobot.cloud](https://app-beta.octobot.cloud/?utm_source=octobot.info&utm_medium=dk&utm_campaign=beta_program&utm_content=why_joining_the_beta)
 
 ## Who can join
 
-Registrations are currently open. We are looking for different types of user  with different background. No need to be a developer or an advanced trader. 
+Registrations are currently open. We are looking for different types of user with different background. No need to be a developer or an advanced trader. 
 
 If you are interested in helping OctoBot project to get better and are willing to try out our new features, we will be glad to have you in the program !
 
 ## Joining the Beta Tester program
 
 {% hint style="info" %}
-The Beta Tester program requires an account on [beta.octobot.cloud](https://beta.octobot.cloud/). This is a separate account from the one you might have on [octobot.cloud](https://octobot.cloud/).
+The Beta Tester program requires an account on [app-beta.octobot.cloud](https://app-beta.octobot.cloud/?utm_source=octobot.info&utm_medium=dk&utm_campaign=beta_program&utm_content=joining_the_beta). This is a separate account from the one you might have on [app.octobot.cloud](https://app.octobot.cloud/).
 {% endhint %}
 
-1. Fill in [this form](https://octobot.click/docs-join-beta).
-2. The OctoBot team will invite you to the dedicated Telegram/Discord channel and initialize your account on [beta.octobot.cloud](https://beta.octobot.cloud/).
-3. Go to [beta.octobot.cloud](https://beta.octobot.cloud/) and click on `Login`. You don't yet have a password, click on `Forgot password?` and enter the email address you set in the form from 1.
-4. You will receive a reset-password link via email (please check your spams if you are not receiving any email). Use it to set your password.  
-5. Activate `Connect to the beta environment` in your OctoBot `About` tab and restart your OctoBot.
-6. You can now login using your [beta.octobot.cloud](https://beta.octobot.cloud/) account in your OctoBot's `Community` tab. 
+1. Create an OctoBot cloud [beta account](https://app-beta.octobot.cloud/?utm_source=octobot.info&utm_medium=dk&utm_campaign=beta_program&utm_content=joining_the_beta).
+2. Activate `Connect to the beta environment` in your OctoBot `About` tab and restart your OctoBot.
+3. You can now login using your [app-beta.octobot.cloud](https://app-beta.octobot.cloud/?utm_source=octobot.info&utm_medium=dk&utm_campaign=beta_program&utm_content=joining_the_beta) account in your OctoBot's `Community` tab. 
 
 {% hint style="info" %}
-Please note that for as long as `Connect to the beta environment` is enabled, your OctoBot will only be able to interact with the beta ecosystem. Therefore if you want to use features or your account from the public [octobot.cloud](https://octobot.cloud/), you will have to disable `Connect to the beta environment` from the `About` tab.
+Please note that for as long as `Connect to the beta environment` is enabled, your OctoBot will only be able to interact with the beta ecosystem. Therefore if you want to use features or your account from the public [octobot.cloud](https://app.octobot.cloud/), you will have to disable `Connect to the beta environment` from the `About` tab.
 {% endhint %}

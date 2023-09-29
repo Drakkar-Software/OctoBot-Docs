@@ -1,39 +1,6 @@
 Troubleshoot
 ============
 
-Cannot connect to host tentacles.octobot.online:443
--------------------------------------------------------
-
-[![tentacles url error](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/troubleshoot-tentacles-url-error.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/troubleshoot-tentacles-url-error.png)
-
-``` bash
-octobot_tentacles_manager.api.util.tentacles_management Exception during InstallWorker processing: Cannot connect to host tentacles.octobot.online:443 ssl:default [No address associated with hostname] (ClientConnectorError)
-```
-
-The tentacles server URL has changed, "tentacles" is replaced by "static". Starting from 0.4.0b17, OctoBot uses the latest URL. To use OctoBot previous versions, please first set this environment variable before downloading tentacles:
-
-On Unix systems
-
-``` bash
-export TENTACLES_URL="https://static.octobot.online/repository/tentacles/officials/packages/full/base/0.4.3/any_platform.zip"
-python3 start.py tentacles --install --all
-```
-
-On Windows systems
-
-``` bash
-SET TENTACLES_URL=https://static.octobot.online/repository/tentacles/officials/packages/full/base/0.4.3/any_platform.zip
-python3 start.py tentacles --install --all
-```
-
-Using Docker
-
-``` bash
-docker run -itd --name OctoBot -p 80:5001 -e TENTACLES_URL="https://static.octobot.online/repository/tentacles/officials/packages/full/base/0.4.3/any_platform.zip" -v $(pwd)/user:/octobot/user -v $(pwd)/tentacles:/octobot/tentacles -v $(pwd)/logs:/octobot/logs drakkarsoftware/octobot:stable
-```
-
-Where 0.4.3 is your OctoBot version.
-
 Windows
 -------
 
