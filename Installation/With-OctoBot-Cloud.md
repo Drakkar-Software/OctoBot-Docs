@@ -17,7 +17,7 @@ Getting started
 Go to [OctoBot cloud](https://www.octobot.cloud/?utm_source=octobot.info&utm_medium=dk&utm_campaign=install_with_octobot_cloud&utm_content=installation) and choose the plan you want.
 
 
-[![](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/illustration.png)](https://www.octobot.cloud/?utm_source=octobot.info&utm_medium=dk&utm_campaign=install_with_octobot_cloud&utm_content=getting_started)
+[![octobot cloud illustration](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/illustration_light.png)](https://www.octobot.cloud/?utm_source=octobot.info&utm_medium=dk&utm_campaign=install_with_octobot_cloud&utm_content=getting_started)
 
 Find out more on the OctoBot plans on directly on [OctoBot cloud](https://www.octobot.cloud/?utm_source=octobot.info&utm_medium=dk&utm_campaign=install_with_octobot_cloud&utm_content=getting_started). You can also find the story behind those plans on [our dedicated article](https://blog.octobot.online/introducing-the-new-octobot-cloud).
 
@@ -32,7 +32,6 @@ Once your OctoBot is running on OctoBot cloud, you can easily follow it from you
 
 Each of your running OctoBot will be summarized on your account. It will be running and available from anywhere for as long as you want to.
 
-[![cloud-octobot](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/cloud/cloud-octobot.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/cloud/cloud-octobot.png)
 [![cloud-octobot-details](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/cloud/cloud-octobot-details.png)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/cloud/cloud-octobot-details.png)
 
 
