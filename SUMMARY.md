@@ -6,7 +6,7 @@
 
 ## Installation
 
-* [With OctoBot Cloud](Installation/With-OctoBot-Cloud.md)
+* [With OctoBot cloud](Installation/With-OctoBot-Cloud.md)
 * [Local installation](Installation/Local-Installation.md)
 * [With Executable](Installation/With-Binary.md)
 * [With Docker](Installation/With-Docker.md)
