@@ -1,6 +1,6 @@
 # OctoBot-Docs
 
-[OctoBot cloud](https://www.octobot.cloud/?utm_source=octobot.info&utm_medium=dk&utm_campaign=readme&utm_content=main_illustration)
+[![octobot cloud illustration](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/illustration_light.png)](https://www.octobot.cloud/?utm_source=octobot.info&utm_medium=dk&utm_campaign=readme&utm_content=main_illustration)
 
 ## Setting up your OctoBot
 There are many ways to setup your OctoBot. You can:
@@ -31,8 +31,6 @@ Do something entirely different based on your ideas:
 You can remotly command your OctoBot by connecting it to [Telegram](https://telegram.org/). You can verify what is your robot doing, watch its portfolio, its profits, trigger an emergency exit ... Access your OctoBot from wherever you want, whenever you want thanks to its Telegram interface.
 
 {% embed url="https://www.youtube.com/watch?v=AKkT3xZCBac" %}
-
-[![telegram-interface](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/telegram-interface.webp)](https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/wiki_resources/telegram-interface.webp)
 
 See the [Telegram interface configuration](Interfaces/Telegram-interface.md) for more details on the OctoBot Telegram interface.
 
