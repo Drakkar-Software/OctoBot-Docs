@@ -237,7 +237,7 @@ source venv/bin/activate
 
 ### Create VSCode launch.json
 
-![](../../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image (30).png)
 
 {% hint style="info" %}
 The VS Code launch config is located in project-folder/.vscode/launch.json
